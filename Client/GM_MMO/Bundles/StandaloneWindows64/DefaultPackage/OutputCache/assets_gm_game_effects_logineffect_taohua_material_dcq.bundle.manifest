@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 3396243891
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 438e16beb8019d68c04bc018b001bfe8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b30fce1a9ad74efb72be6c308c56e365
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 438e16beb8019d68c04bc018b001bfe8
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GM_Game/Effects/LoginEffect/taohua/Material/dcq/0_1003_dcq010.mat
+Dependencies:
+- F:/Unity/MMO/Client/GM_MMO/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_gm_game_effects_logineffect_taohua_textures_g16_b4.bundle
+- F:/Unity/MMO/Client/GM_MMO/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_gm_game_textures.bundle
+- F:/Unity/MMO/Client/GM_MMO/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/unityshaders.bundle

@@ -1,0 +1,114 @@
+ManifestFileVersion: 0
+CRC: 644518567
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a124821572f42e3bd7ae9f0c09f7b91f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 87b0e3ff1b69ef0cc6fdb4957c84960a
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: a124821572f42e3bd7ae9f0c09f7b91f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 28caa76fd4eb91c47bf3a43f87a6cdee, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fff9d940e514c864191e8e73d690680e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c091a5dc5b8c52f4596077d5d1dba3ef, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: eb4e09da44cbd694eaf847df58813afd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9f0e375eb9b31ed4cb0f2887ac77ef90, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 470c7dc6280603c40a10d16c60d74b9a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8b214fdf84159df4cbb06fd0cad4e5d9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 46defd23d9f63c14e81096b83c0434f1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 868acdc30dcba964d948e8cad05319ab, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1679c2b072562a341b4de45c18281bf6, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 196
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GM_Game/Scenes/Scene_Login.unity
+Dependencies:
+- F:/Unity/MMO/Client/GM_MMO/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_gm_game_effects_logineffect.bundle
+- F:/Unity/MMO/Client/GM_MMO/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_gm_game_effects_uieffect_fx_item_2.bundle
+- F:/Unity/MMO/Client/GM_MMO/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_gm_game_prefabs_uiprefabs.bundle
+- F:/Unity/MMO/Client/GM_MMO/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_gm_game_prefabs_uiprefabs_widgetprefabs.bundle
+- F:/Unity/MMO/Client/GM_MMO/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_gm_game_uisprites_bg.bundle
+- F:/Unity/MMO/Client/GM_MMO/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_gm_game_uisprites_btn.bundle
+- F:/Unity/MMO/Client/GM_MMO/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_gm_game_uisprites_font.bundle
+- F:/Unity/MMO/Client/GM_MMO/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_gm_game_uisprites_icon.bundle

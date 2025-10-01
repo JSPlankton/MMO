@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 3872992257
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ff58ebfc5263ad6b10886f6f79cc5c13
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: ff58ebfc5263ad6b10886f6f79cc5c13
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GM_Game/Effects/UIEffect/FX_Item_42/Texture/Select_FX5_FireAndIce_Sheet.png
+- Assets/GM_Game/Effects/UIEffect/FX_Item_42/Texture/Spark_Blue.png
+Dependencies: []

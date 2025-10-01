@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 2445888852
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b48ee0e55d4af67a6079cb7fa2b544c3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: b48ee0e55d4af67a6079cb7fa2b544c3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GM_Game/UISprites/progress/prgs_grey.png
+- Assets/GM_Game/UISprites/progress/prgs_green.png
+Dependencies: []

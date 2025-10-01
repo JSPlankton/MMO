@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 3010637414
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cb29c7a2bf2ae6bbdfd78eea5d1b9142
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: cb29c7a2bf2ae6bbdfd78eea5d1b9142
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GM_Game/UISprites/Icon/Toggle_Check_On.png
+- Assets/GM_Game/UISprites/Icon/icon01.png
+Dependencies: []

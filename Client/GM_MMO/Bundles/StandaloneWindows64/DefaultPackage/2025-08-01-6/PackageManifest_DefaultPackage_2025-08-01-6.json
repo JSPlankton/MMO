@@ -1,0 +1,968 @@
+{
+    "FileVersion": "1.5.2",
+    "EnableAddressable": false,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 1,
+    "PackageName": "DefaultPackage",
+    "PackageVersion": "2025-08-01-6",
+    "AssetList": [
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/LoginEffect/Effect_UIEffect01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0,
+            "DependIDs": [
+                18,
+                10,
+                16,
+                5,
+                12,
+                19,
+                3,
+                2,
+                1,
+                4
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/LoginEffect/taohua/Fbx/Plane001.FBX",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/LoginEffect/taohua/Material/dcq/0_1003_dcq010.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependIDs": [
+                16,
+                5,
+                19
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/LoginEffect/taohua/Material/ljf_mat/ljf_Cj_huaban_02.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3,
+            "DependIDs": [
+                10,
+                16
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/LoginEffect/taohua/Material/particl_wuqi_01.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 4,
+            "DependIDs": [
+                18,
+                12,
+                16,
+                19
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/LoginEffect/taohua/Textures/G16_B4/0_Q_yanwu_01.tga",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Item_FX_2.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6,
+            "DependIDs": [
+                8,
+                7,
+                10,
+                9
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Mat/Circle1_Blue.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependIDs": [
+                8
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Mat/Light_White.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependIDs": [
+                8
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Texture/Circle1_Blue.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Texture/Light_White.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/UIEffect/FX_Item_42/Mat/Spark_Blue.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependIDs": [
+                10
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/UIEffect/FX_Item_42/Texture/Select_FX5_FireAndIce_Sheet.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/UIEffect/FX_Item_42/Texture/Spark_Blue.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Materials/UIMaterilas/Mat_Flare01.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 11,
+            "DependIDs": [
+                20,
+                16
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Materials/UIMaterilas/Mat_Flare02.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 11,
+            "DependIDs": [
+                20,
+                16
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Materials/UIMaterilas/Mat_Flare03.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 11,
+            "DependIDs": [
+                20,
+                16
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Materials/UIMaterilas/Mat_Flare04.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 11,
+            "DependIDs": [
+                20,
+                16
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/ZhuCheng_Models/Effects/Textures/Ljf_tex/Noise_Wave_001.tga",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Prefabs/UIPrefabs/ServerListItemWidget.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 13,
+            "DependIDs": [
+                21,
+                16,
+                23,
+                27
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Prefabs/UIPrefabs/UITitleWidget.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 13,
+            "DependIDs": [
+                16,
+                23,
+                11,
+                21,
+                22,
+                20,
+                27
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Prefabs/UIPrefabs/WidgetPrefabs/Btn_Style01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 14,
+            "DependIDs": [
+                20,
+                16,
+                23,
+                11,
+                22,
+                27
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Prefabs/UIPrefabs/WidgetPrefabs/Ipt_Style01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 14,
+            "DependIDs": [
+                20,
+                16,
+                23,
+                22,
+                27,
+                11
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/Scene_Login.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 15,
+            "DependIDs": [
+                24,
+                22,
+                21,
+                8,
+                16,
+                20,
+                18,
+                10,
+                23,
+                11,
+                19,
+                27,
+                6,
+                5,
+                2,
+                1,
+                4,
+                12,
+                7,
+                14,
+                13,
+                3,
+                0,
+                9
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/Effect_Shader/Add_CenterGlow.shader",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 16,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/Effect_Shader/Shader_UIEffect.shader",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 16,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/MyShaderVariants.shadervariants",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 16,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/UIShaders/GradientMask.shader",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 16,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/UIShaders/LaserCenter.shader",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 16,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/UIShaders/LaserCenterType2.shader",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 16,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/MyShaderVariants.json",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 17,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/ShaderVariantCollectorSetting.asset",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 17,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Textures/Login/cg/Textures/wenli/fs_m_wenli_14.tga",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 18,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Textures/Smoke27.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 19,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Textures/UITextures/Fantasy.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 20,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Textures/UITextures/Flare 2.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 20,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Textures/UITextures/Flare RPG.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 20,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Textures/UITextures/Flare.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 20,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Textures/UITextures/Mask 8.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 20,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Textures/UITextures/Mask.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 20,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/bg/bg.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 21,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/bg/bg2.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 21,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/bg/bg3.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 21,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/bg/bg4.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 21,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/bg/bg5.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 21,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/bg/bg6.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 21,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/btn/btn_close01.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 22,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/btn/btn_icon01.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 22,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/btn/btn_icon02.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 22,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/btn/btn_icon03.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 22,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/btn/Btn_MenuButton_Square01_s.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 22,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/Font/FeiHuaSongTi-2 SDF.asset",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 23,
+            "DependIDs": [
+                16,
+                27
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/Font/FeiHuaSongTi-2.ttf",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 23,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/Icon/icon01.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 24,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/Icon/Toggle_Check_On.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 24,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/progress/prgs_green.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 25,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/progress/prgs_grey.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 25,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Dlls/GM_Game.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 26,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Dlls/mscorlib.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 26,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Dlls/System.Core.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 26,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Dlls/System.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 26,
+            "DependIDs": []
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "assets_gm_game_effects_logineffect.bundle",
+            "UnityCRC": 3126295293,
+            "FileHash": "a5970f26452b9b0b293010f7f27bad70",
+            "FileCRC": "5925005b",
+            "FileSize": 61364,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                15
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_effects_logineffect_taohua_fbx.bundle",
+            "UnityCRC": 2773572455,
+            "FileHash": "e10cd76b6d4cb99a8b281ed1e05e26e6",
+            "FileCRC": "e742df6e",
+            "FileSize": 54967,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                0
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_effects_logineffect_taohua_material_dcq.bundle",
+            "UnityCRC": 3396243891,
+            "FileHash": "b8e0aa8c9a8f9a48a1262c88144bf2f9",
+            "FileCRC": "13747b13",
+            "FileSize": 2989,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                0
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_effects_logineffect_taohua_material_ljf_mat.bundle",
+            "UnityCRC": 1494507539,
+            "FileHash": "cd6f4f3ca47e83d6ba7949f7c05a24c3",
+            "FileCRC": "317626f0",
+            "FileSize": 433391,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                0
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_effects_logineffect_taohua_material.bundle",
+            "UnityCRC": 2306952921,
+            "FileHash": "1746cb80259c50ec5774d45860240f56",
+            "FileCRC": "8cd5806e",
+            "FileSize": 3451,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                0
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_effects_logineffect_taohua_textures_g16_b4.bundle",
+            "UnityCRC": 2418682427,
+            "FileHash": "d4bc775d92265feec389dcd4318a4745",
+            "FileCRC": "d6fa53ea",
+            "FileSize": 12645,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                2
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_effects_uieffect_fx_item_2.bundle",
+            "UnityCRC": 2454892150,
+            "FileHash": "212b7393e3625b353946aa7cf675e21f",
+            "FileCRC": "f28e91c4",
+            "FileSize": 60712,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                15
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_effects_uieffect_fx_item_2_mat.bundle",
+            "UnityCRC": 2860164853,
+            "FileHash": "bde1b77bac79caa60de906c134beeb0e",
+            "FileCRC": "d00d6c15",
+            "FileSize": 88576,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                6
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_effects_uieffect_fx_item_2_texture.bundle",
+            "UnityCRC": 1785495883,
+            "FileHash": "c470841c30c0066475f9a74f0e95b8b4",
+            "FileCRC": "8c7b6328",
+            "FileSize": 74901,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                7
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_effects_uieffect_fx_item_42_mat.bundle",
+            "UnityCRC": 2734976123,
+            "FileHash": "206560a971ac681554e51ff06543b425",
+            "FileCRC": "136dd5de",
+            "FileSize": 59007,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                6
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_effects_uieffect_fx_item_42_texture.bundle",
+            "UnityCRC": 3872992257,
+            "FileHash": "cab28d022aec037407b45ebf50f2e736",
+            "FileCRC": "9aca10a4",
+            "FileSize": 479299,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                3,
+                9
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_materials_uimaterilas.bundle",
+            "UnityCRC": 2189406209,
+            "FileHash": "695ec15c9d1bd2b4a15e1430720e2fe1",
+            "FileCRC": "3cb450ff",
+            "FileSize": 3379,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                13,
+                14
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_models_zhucheng_models_effects_textures_ljf_tex.bundle",
+            "UnityCRC": 381881775,
+            "FileHash": "89fe0c1dc195595a2beaa75956d21341",
+            "FileCRC": "f9d12760",
+            "FileSize": 17873,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                4
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_prefabs_uiprefabs.bundle",
+            "UnityCRC": 2911314587,
+            "FileHash": "8edfa4d2dfdb006bf31a4d37bc4ad520",
+            "FileCRC": "f44d03a0",
+            "FileSize": 6555,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                15
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_prefabs_uiprefabs_widgetprefabs.bundle",
+            "UnityCRC": 2572632716,
+            "FileHash": "66a4acf2d3294693ced8379b5fd0dad9",
+            "FileCRC": "2df016d6",
+            "FileSize": 11444,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                15
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_scenes.bundle",
+            "UnityCRC": 644518567,
+            "FileHash": "9074a8438766810341d3b927a66eccdb",
+            "FileCRC": "3baef6b7",
+            "FileSize": 178941,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "unityshaders.bundle",
+            "UnityCRC": 3805741582,
+            "FileHash": "2b27c1837220a980deaf770307290621",
+            "FileCRC": "0089f661",
+            "FileSize": 51471,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                2,
+                3,
+                4,
+                11,
+                23
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_shaders.bundle",
+            "UnityCRC": 4183668133,
+            "FileHash": "fa5fbf22efee21b080468375f145d2c7",
+            "FileCRC": "7fffb539",
+            "FileSize": 1926,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_textures_login_cg_textures_wenli.bundle",
+            "UnityCRC": 2523075895,
+            "FileHash": "df2c9136a110e1aac5336470c16140ce",
+            "FileCRC": "5f401ac1",
+            "FileSize": 57938,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                4
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_textures.bundle",
+            "UnityCRC": 1422751762,
+            "FileHash": "a02902a833b0d421f72894e271825a6f",
+            "FileCRC": "c4474ce8",
+            "FileSize": 147072,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                2,
+                4
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_textures_uitextures.bundle",
+            "UnityCRC": 682701322,
+            "FileHash": "42fabe61bc255f34ef1423db2051c651",
+            "FileCRC": "44c0f39f",
+            "FileSize": 306446,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                11
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_uisprites_bg.bundle",
+            "UnityCRC": 187373402,
+            "FileHash": "0a47457a4c3b468571fa92cf03092dd0",
+            "FileCRC": "56107a85",
+            "FileSize": 2092112,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                13,
+                15
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_uisprites_btn.bundle",
+            "UnityCRC": 2110297735,
+            "FileHash": "fa2327727d31521d95909b5cd3074268",
+            "FileCRC": "608d5c7e",
+            "FileSize": 324555,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                13,
+                14,
+                15
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_uisprites_font.bundle",
+            "UnityCRC": 704660817,
+            "FileHash": "f6109be9d28b3d3bcba268b698beb961",
+            "FileCRC": "0f5c9764",
+            "FileSize": 5060502,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                13,
+                14,
+                15
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_uisprites_icon.bundle",
+            "UnityCRC": 3010637414,
+            "FileHash": "0a5a7a45a239f8016285b6eef244384f",
+            "FileCRC": "29774824",
+            "FileSize": 50454,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                15
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_uisprites_progress.bundle",
+            "UnityCRC": 2445888852,
+            "FileHash": "08a8442117bbba62adefc5fc92f64d08",
+            "FileCRC": "f5e82667",
+            "FileSize": 4631,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_dlls.bundle",
+            "UnityCRC": 3072580904,
+            "FileHash": "7201d727dc46afbce60c976976c2b6be",
+            "FileCRC": "836ca457",
+            "FileSize": 1109019,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "share_packages_com_unity_textmeshpro_editor resources_gizmos.bundle",
+            "UnityCRC": 2899345716,
+            "FileHash": "4e7b6f9b7568dad20c4840a1b90b8af3",
+            "FileCRC": "86c89c6e",
+            "FileSize": 1275,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        }
+    ]
+}

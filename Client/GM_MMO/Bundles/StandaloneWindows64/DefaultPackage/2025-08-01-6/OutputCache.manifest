@@ -1,0 +1,123 @@
+ManifestFileVersion: 0
+CRC: 3802218632
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: assets_gm_game_effects_logineffect.bundle
+      Dependencies:
+        Dependency_0: assets_gm_game_effects_logineffect_taohua_fbx.bundle
+        Dependency_1: assets_gm_game_effects_logineffect_taohua_material_dcq.bundle
+        Dependency_2: assets_gm_game_effects_logineffect_taohua_material_ljf_mat.bundle
+        Dependency_3: assets_gm_game_effects_logineffect_taohua_material.bundle
+    Info_1:
+      Name: assets_gm_game_effects_logineffect_taohua_fbx.bundle
+      Dependencies: {}
+    Info_2:
+      Name: assets_gm_game_effects_logineffect_taohua_material_dcq.bundle
+      Dependencies:
+        Dependency_0: assets_gm_game_effects_logineffect_taohua_textures_g16_b4.bundle
+        Dependency_1: unityshaders.bundle
+        Dependency_2: assets_gm_game_textures.bundle
+    Info_3:
+      Name: assets_gm_game_effects_logineffect_taohua_material_ljf_mat.bundle
+      Dependencies:
+        Dependency_0: assets_gm_game_effects_uieffect_fx_item_42_texture.bundle
+        Dependency_1: unityshaders.bundle
+    Info_4:
+      Name: assets_gm_game_effects_logineffect_taohua_material.bundle
+      Dependencies:
+        Dependency_0: assets_gm_game_models_zhucheng_models_effects_textures_ljf_tex.bundle
+        Dependency_1: unityshaders.bundle
+        Dependency_2: assets_gm_game_textures_login_cg_textures_wenli.bundle
+        Dependency_3: assets_gm_game_textures.bundle
+    Info_5:
+      Name: assets_gm_game_effects_logineffect_taohua_textures_g16_b4.bundle
+      Dependencies: {}
+    Info_6:
+      Name: assets_gm_game_effects_uieffect_fx_item_2.bundle
+      Dependencies:
+        Dependency_0: assets_gm_game_effects_uieffect_fx_item_2_mat.bundle
+        Dependency_1: assets_gm_game_effects_uieffect_fx_item_42_mat.bundle
+    Info_7:
+      Name: assets_gm_game_effects_uieffect_fx_item_2_mat.bundle
+      Dependencies:
+        Dependency_0: assets_gm_game_effects_uieffect_fx_item_2_texture.bundle
+    Info_8:
+      Name: assets_gm_game_effects_uieffect_fx_item_2_texture.bundle
+      Dependencies: {}
+    Info_9:
+      Name: assets_gm_game_effects_uieffect_fx_item_42_mat.bundle
+      Dependencies:
+        Dependency_0: assets_gm_game_effects_uieffect_fx_item_42_texture.bundle
+    Info_10:
+      Name: assets_gm_game_effects_uieffect_fx_item_42_texture.bundle
+      Dependencies: {}
+    Info_11:
+      Name: assets_gm_game_materials_uimaterilas.bundle
+      Dependencies:
+        Dependency_0: unityshaders.bundle
+        Dependency_1: assets_gm_game_textures_uitextures.bundle
+    Info_12:
+      Name: assets_gm_game_models_zhucheng_models_effects_textures_ljf_tex.bundle
+      Dependencies: {}
+    Info_13:
+      Name: assets_gm_game_prefabs_uiprefabs.bundle
+      Dependencies:
+        Dependency_0: assets_gm_game_materials_uimaterilas.bundle
+        Dependency_1: assets_gm_game_uisprites_bg.bundle
+        Dependency_2: assets_gm_game_uisprites_btn.bundle
+        Dependency_3: assets_gm_game_uisprites_font.bundle
+    Info_14:
+      Name: assets_gm_game_prefabs_uiprefabs_widgetprefabs.bundle
+      Dependencies:
+        Dependency_0: assets_gm_game_materials_uimaterilas.bundle
+        Dependency_1: assets_gm_game_uisprites_btn.bundle
+        Dependency_2: assets_gm_game_uisprites_font.bundle
+    Info_15:
+      Name: assets_gm_game_scenes.bundle
+      Dependencies:
+        Dependency_0: assets_gm_game_effects_logineffect.bundle
+        Dependency_1: assets_gm_game_effects_uieffect_fx_item_2.bundle
+        Dependency_2: assets_gm_game_prefabs_uiprefabs.bundle
+        Dependency_3: assets_gm_game_prefabs_uiprefabs_widgetprefabs.bundle
+        Dependency_4: assets_gm_game_uisprites_bg.bundle
+        Dependency_5: assets_gm_game_uisprites_btn.bundle
+        Dependency_6: assets_gm_game_uisprites_font.bundle
+        Dependency_7: assets_gm_game_uisprites_icon.bundle
+    Info_16:
+      Name: unityshaders.bundle
+      Dependencies: {}
+    Info_17:
+      Name: assets_gm_game_shaders.bundle
+      Dependencies: {}
+    Info_18:
+      Name: assets_gm_game_textures_login_cg_textures_wenli.bundle
+      Dependencies: {}
+    Info_19:
+      Name: assets_gm_game_textures.bundle
+      Dependencies: {}
+    Info_20:
+      Name: assets_gm_game_textures_uitextures.bundle
+      Dependencies: {}
+    Info_21:
+      Name: assets_gm_game_uisprites_bg.bundle
+      Dependencies: {}
+    Info_22:
+      Name: assets_gm_game_uisprites_btn.bundle
+      Dependencies: {}
+    Info_23:
+      Name: assets_gm_game_uisprites_font.bundle
+      Dependencies:
+        Dependency_0: unityshaders.bundle
+    Info_24:
+      Name: assets_gm_game_uisprites_icon.bundle
+      Dependencies: {}
+    Info_25:
+      Name: assets_gm_game_uisprites_progress.bundle
+      Dependencies: {}
+    Info_26:
+      Name: assets_gm_game_dlls.bundle
+      Dependencies: {}
+    Info_27:
+      Name: share_packages_com_unity_textmeshpro_editor resources_gizmos.bundle
+      Dependencies: {}

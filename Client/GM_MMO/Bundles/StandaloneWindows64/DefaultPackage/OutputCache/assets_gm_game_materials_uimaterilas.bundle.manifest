@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 2189406209
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6accd701e990544953ff8a6d30d827de
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b30fce1a9ad74efb72be6c308c56e365
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 6accd701e990544953ff8a6d30d827de
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GM_Game/Materials/UIMaterilas/Mat_Flare01.mat
+- Assets/GM_Game/Materials/UIMaterilas/Mat_Flare02.mat
+- Assets/GM_Game/Materials/UIMaterilas/Mat_Flare03.mat
+- Assets/GM_Game/Materials/UIMaterilas/Mat_Flare04.mat
+Dependencies:
+- F:/Unity/MMO/Client/GM_MMO/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_gm_game_textures_uitextures.bundle
+- F:/Unity/MMO/Client/GM_MMO/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/unityshaders.bundle

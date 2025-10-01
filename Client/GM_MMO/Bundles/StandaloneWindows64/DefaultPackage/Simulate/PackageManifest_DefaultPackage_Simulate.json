@@ -1,0 +1,3638 @@
+{
+    "FileVersion": "1.5.2",
+    "EnableAddressable": false,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 1,
+    "PackageName": "DefaultPackage",
+    "PackageVersion": "Simulate",
+    "AssetList": [
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Attack01/Mat/DistortionSmoke18.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Attack01/Mat/Glow1cg.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Attack01/Texture/Glow1.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Attack01/Texture/NormalMap8.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill03/Mat/MaskPoint1.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill03/Texure/MaskForShader.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Effect_Skill4.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 4,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Fbx/Cell.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Fbx/HOVLCrystalPiese.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Fbx/MagicSword.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Fbx/QuadCV.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Fbx/Stone1.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Mat/Crack11bcg.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Mat/EmberExpl2.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Mat/Fresnel2.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Mat/Ice4.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Mat/Mask50dn.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Mat/Motion3bcg.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Mat/Smoke21bcg.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Mat/SparkTrail1.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Mat/Stone1bcg.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Mat/Stone3bcg.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Mat/Trail71cg.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Texture/Crack11.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Texture/EmberExpl2.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Texture/Flare20.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Texture/Ice4.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Texture/Mask50.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Texture/Motion3.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Texture/Noise34.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Texture/Smoke21.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Texture/SparkTrail1.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Texture/SparkTrail1Motion.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Texture/SparkTrail1Normal.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Texture/Stone1.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Texture/Stone3.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Attack/Skill04/Texture/Trail71.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/LoginEffect/Effect_UIEffect01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/LoginEffect/taohua/Fbx/Plane001.FBX",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/LoginEffect/taohua/Material/dcq/0_1003_dcq010.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/LoginEffect/taohua/Material/ljf_mat/ljf_Cj_huaban_02.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 11,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/LoginEffect/taohua/Material/particl_wuqi_01.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/LoginEffect/taohua/Textures/G16_B4/0_Q_yanwu_01.tga",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 13,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Item_FX_2.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 14,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Mat/Circle1_Blue.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 15,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Mat/Light_White.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 15,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Texture/Circle1_Blue.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 16,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Texture/Light_White.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 16,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/UIEffect/FX_Item_42/Mat/Spark_Blue.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 17,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/UIEffect/FX_Item_42/Texture/Select_FX5_FireAndIce_Sheet.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 18,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/UIEffect/FX_Item_42/Texture/Spark_Blue.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 18,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Weapon/Mat/AFBDistortionAndDissolve.shadergraph",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 19,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Weapon/Mat/AFBTrailShader.shadergraph",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 19,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/Role_JX/Shaders/LegacyToon.shader",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 19,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/Sword/Sword_Saber/Shader_Mat_Texture/Double-sided.shader",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 19,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Aquarius Max Character, Scripts/Leaves_Gradient_Windy.shader",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 19,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Aquarius Max Character, Scripts/Top_Planar_Shader_A1.shadergraph",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 19,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/MainCity_Res/FBX/Water Mats, Shaders/Advanced_Material_A.shadergraph",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 19,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/MainCity_Res/FBX/Water Mats, Shaders/Leaves Foliage.shadergraph",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 19,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/MainCity_Res/FBX/Water Mats, Shaders/Water Shader.shadergraph",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 19,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/Effect_Shader/Add_CenterGlow.shader",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 19,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/Effect_Shader/Add_Fresnel.shader",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 19,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/Effect_Shader/Blend_CenterGlow.shader",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 19,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/Effect_Shader/DissolveNoise.shader",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 19,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/Effect_Shader/Distortion.shader",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 19,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/Effect_Shader/Explosion.shader",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 19,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/Effect_Shader/HS_Blend_CG.shadergraph",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 19,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/Effect_Shader/HS_Ice.shadergraph",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 19,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/Effect_Shader/Shader_UIEffect.shader",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 19,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/MyShaderVariants.shadervariants",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 19,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/UIShaders/GradientMask.shader",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 19,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/UIShaders/LaserCenter.shader",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 19,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/UIShaders/LaserCenterType2.shader",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 19,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Weapon/Mat/Blue Flame.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 20,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Weapon/Mat/Smoke.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 20,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Weapon/Mat/Spark.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 20,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Weapon/Swrod_QGJ_Effect.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 21,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Weapon/Swrod_Saber_Effect.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 21,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Weapon/Texture/DefaultOrb.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 22,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Weapon/Texture/Flare.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 22,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Weapon/Texture/GlowOrb.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 22,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Weapon/Texture/Smoke.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 22,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/Weapon/Texture/Trail.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 22,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Materials/UIMaterilas/Mat_Flare01.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 23,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Materials/UIMaterilas/Mat_Flare02.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 23,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Materials/UIMaterilas/Mat_Flare03.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 23,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Materials/UIMaterilas/Mat_Flare04.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 23,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/Model_Avatar/Modle_Avatar01.FBX",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 24,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/Role_JX/materials/P03_Brows.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 25,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/Role_JX/materials/P03_Cheek.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 25,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/Role_JX/materials/P03_Cloth_A.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 25,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/Role_JX/materials/P03_eye.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 25,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/Role_JX/materials/P03_hair_A.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 25,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/Role_JX/materials/P03_Metal_A.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 25,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/Role_JX/materials/P03_skin.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 25,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/Role_JX/materials/textures/P03_Cloth_A.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 26,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/Role_JX/materials/textures/P03_cloth_A_normal.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 26,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/Role_JX/materials/textures/P03_Cloth_A_SpecMask_02.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 26,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/Role_JX/materials/textures/P03_Hair_A_gt.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 26,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/Role_JX/materials/textures/P03_Skin_gt.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 26,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/Role_JX/materials/textures/P03_Skin_LineMask.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 26,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/Role_JX/materials/textures/P03_Skin_MatMask.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 26,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/Role_JX/materials/textures/P03_Skin_Normal.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 26,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/Role_JX/Role_JX_fbx_1.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 27,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/Sword/Sword_QingGang/Mat_Texture/Equip_Sword_Rockkiller_01_Tex_Diffuse.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 28,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/Sword/Sword_QingGang/Mat_Texture/mat_sm_sword2.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 28,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/Sword/Sword_QingGang/Sword_QGJ.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 29,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/Sword/Sword_Saber/Shader_Mat_Texture/mat_sm_sword.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 30,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/Sword/Sword_Saber/Shader_Mat_Texture/T_Void_Sword_BaseColor.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 30,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/Sword/Sword_Saber/Shader_Mat_Texture/T_Void_Sword_Emissive.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 30,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/Sword/Sword_Saber/Shader_Mat_Texture/T_Void_Sword_Normal.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 30,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/Sword/Sword_Saber/Shader_Mat_Texture/T_Void_Sword_OcclusionRoughnessMetallic.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 30,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/Sword/Sword_Saber/Sword_Saber.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 31,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/ZhuCheng_Models/Effects/Textures/Ljf_tex/Noise_Wave_001.tga",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 32,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Prefabs/ScenePrefabs/CreateRole_Models.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 33,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Prefabs/UIPrefabs/ServerListItemWidget.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 34,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Prefabs/UIPrefabs/SystemTips.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 34,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Prefabs/UIPrefabs/UITitleWidget.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 34,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Prefabs/UIPrefabs/WidgetPrefabs/Btn_Style01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 35,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Prefabs/UIPrefabs/WidgetPrefabs/Ipt_Style01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 35,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Enchanted Forest/Enchanted_Ter.asset",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 36,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Fae Lanterns A LOW.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 37,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Fairy Sprites A.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 37,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Ground_Plants_1A1.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 37,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/High Poly Plane A.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 37,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Hollowed_Homes_A1.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 37,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Massive_Canopy_Trees_1A1.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 37,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Massive_Grouped_Trees_A1.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 37,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Mini_Trees_A1.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 37,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Mushrooms_Large_A1.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 37,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Particle Orb A.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 37,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Plants_2A1.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 37,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Rocks_Group_A1.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 37,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/taizi.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 37,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Tall_Bushes_A1.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 37,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Materials/Fae_Lanterns_A.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 38,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Materials/Fae_Leaves_A.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 38,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Materials/Ivy Hanging.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 38,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Materials/Leaves 1.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 38,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Materials/Leaves 3.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 38,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Materials/Mossy Rocks A.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 38,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Materials/Mushroom_Flats_A.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 38,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Materials/Mushrooms_Fantasy_A1.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 38,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Materials/Mushrooms_Fantasy_A2.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 38,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Materials/Plants_B1.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 38,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Materials/Plants_B2.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 38,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Materials/Redwood.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 38,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Materials/Tree Bark C.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 38,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Materials/Tree Bark Covered.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 38,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Materials/Tree Bark D.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 38,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Materials/Tree_Bark_Ends_A.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 38,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Materials/Tree_Planks_1A1.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 38,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Nature/Bushes/Mini_Tree_1A1.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 39,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Nature/Bushes/Mini_Tree_1A2.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 39,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Nature/Bushes/Mini_Tree_1A3.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 39,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Nature/Bushes/Mini_Tree_1A4.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 39,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Nature/Bushes/Mini_Tree_1A5.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 39,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Nature/Bushes/Tall_Bush_A4.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 39,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Nature/Mushrooms/Mushroom_Large_A1.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 40,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Nature/Mushrooms/Mushroom_Large_A3.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 40,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Nature/Mushrooms/Mushroom_Medium_A1.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 40,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Nature/Mushrooms/Mushroom_Small_A2.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 40,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Nature/Mushrooms/Mushroom_Small_A3.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 40,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Nature/Mushrooms/Mushroom_Small_A4.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 40,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Nature/Plants, Flowers/Dandelion_1A1.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 41,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Nature/Plants, Flowers/Flower_Group_1B1.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 41,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Nature/Plants, Flowers/Flower_Group_1C2.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 41,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Nature/Plants, Flowers/Flower_Group_2A5.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 41,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Nature/Plants, Flowers/Ground_Plants_1A3.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 41,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Nature/Plants, Flowers/Plant_1A2.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 41,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Nature/Plants, Flowers/Plant_1A3.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 41,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Nature/Plants, Flowers/Plants_1A4.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 41,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Nature/Rocks/Rocks_Group_A1.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 42,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Nature/Rocks/Rocks_Group_A2.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 42,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Nature/Rocks/Rocks_Group_A3.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 42,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Nature/Rocks/Rocks_Group_A4.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 42,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Nature/Rocks/Rocks_Group_A5.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 42,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Nature/Rocks/Rocks_Group_A6.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 42,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Nature/Rocks/Rocks_Group_A7.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 42,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Nature/Rocks/Rocks_Group_A8.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 42,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Nature/Trees/Canopy Trees/Canopy_Tree_1A5.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 43,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Nature/Trees/Stumps, Scenery/Platform_Tree_A2.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 44,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Props/Lighting, Effects/Fae_Lantern_A1.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 45,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Props/Lighting, Effects/Fairy Sprites A.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 45,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Props/Lighting, Effects/Fireflies_Lanterns_A1.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 45,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Props/Lighting, Effects/Mushroom_Large_A3 (Lit).prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 45,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Prefabs/Structure/Houses/Ground Level/Hollowed_Home_A2.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 46,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Bark_Stripes_1A1.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Dirt 1 Normal.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Dirt 1.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/dirty path.terrainlayer",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Fae Lanterns A LOW_Fae_Lanterns_2A1_AlbedoTransparency_sRGB.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Fae Lanterns A LOW_Fae_Lanterns_2A1_Emission_sRGB.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Fae Lanterns A LOW_Fae_Lanterns_2A1_MetallicSmoothness_Raw.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Fae Lanterns A LOW_Fae_Lanterns_2A1_Normal_Raw.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Grass Mossy 3.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Grass Plane Maker A_Bark_2A2.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Grass Plane Maker A_Grass_Plane_Maker_AlbedoTransparency.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Grass Plane Maker A_Grass_Plane_Maker_MetallicSmoothness.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Grass Plane Maker A_Grass_Plane_Maker_Normal.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Grass Plane Maker A_Tree_Bark_1C1_AlbedoTransparency.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Grass Plane Maker A_Tree_Bark_1C1_Light_A.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Grass Plane Maker A_Tree_Bark_1C1_MetallicSmoothness.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Grass Plane Maker A_Tree_Bark_1C1_Normal.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Grass Plane Maker A_Tree_Bark_End_1A1_AlbedoTransparency.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Grass Plane Maker A_Tree_Planks_2A1_BW_A.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Grass Plane Maker A_Tree_Planks_2A1_Light_A.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Grass Plane Maker A_Tree_Planks_2A1_MetallicSmoothness.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Grass Plane Maker A_Tree_Planks_2A1_Normal.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Grass_A_Dry_2.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/mountain table low_Mountain_Tabletop_1A1_AlbedoTransparency_sRGB.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/mountain table low_Mountain_Tabletop_1A1_Normal_Raw.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Mushroom Flats A Low_Mushrooms_Flats_1A1_Normal_Raw.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Mushroom Flats A Low_Mushrooms_Flats_2A1_AlbedoTransparency_sRGB.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Mushroom Flats A Low_Mushrooms_Flats_2A1_MetallicSmoothness_Raw.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Mushroom Flats A Low_Mushrooms_Flats_2A1_Normal_Raw.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Mushrooms_Fantasy_A_Low_Mushrooms_Fantasy_A1_AlbedoTransparency_sRGB.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Mushrooms_Fantasy_A_Low_Mushrooms_Fantasy_A1_MetallicSmoothness_Raw.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Mushrooms_Fantasy_A_Low_Mushrooms_Fantasy_A1_Normal_Raw.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Mushrooms_Fantasy_A_Low_Mushrooms_Fantasy_B1_AlbedoTransparency_sRGB.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Mushrooms_Fantasy_A_Low_Mushrooms_Fantasy_B1_Emission_sRGB.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Mushrooms_Fantasy_A_Low_Mushrooms_Fantasy_B1_MetallicSmoothness_Raw.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Mushrooms_Fantasy_A_Low_Mushrooms_Fantasy_B1_Normal_Raw.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/NewLayer 1.terrainlayer",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/NewLayer.terrainlayer",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Plants_Map_1A1 Normal.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Plants_Map_1A1.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Plants_Map_1B1.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Rocks A low_Mossy_Rocks_1A1_MetallicSmoothness_Raw.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Rocks A low_Mossy_Rocks_1A1_Normal_Raw.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Rocks A low_Mossy_Rocks_1A2.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Tile-able Plane A_Tree_Bark_1B1_AO.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/FBX/Textures/Water_1.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 47,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Blue_Plants_1A1.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Blue_Plants_1A2.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Curled_Roots_1A3.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Grass_A 1.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Grass_Cluster_1A3.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Grass_Cluster_1A6.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Grass_Large_Cluster_1A5.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Grass_Large_Cluster_1A6 1.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Green_Plants_1A1.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Green_Plants_1A2.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Green_Plants_1A3.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Green_Plants_1A4.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Green_Plants_1A5.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Leafy_Bush_2A2.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Leafy_Bush_2A3.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Leafy_Bush_2A4.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Leafy_Cover_2A1.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Leafy_Cover_2A2.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Log_Bridge_1A1.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Log_Bridge_1A2.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Log_Fencing_1A1.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Log_Fencing_1C2.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Mystical_Flowered_Plant_Large_1A1.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Mystical_Flowered_Plant_Large_1A2.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Mystical_Flowered_Plant_Large_1A3.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Mystical_Flowered_Plant_Large_1A4.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Mystical_Flowered_Plant_Large_1A5.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Mystical_Flowered_Plant_Large_1A6.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Mystical_Tree_1A1.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Mystical_Tree_1A2.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Mystical_Tree_1A3.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Mystical_Tree_1A4.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Mystical_Tree_1A5.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Mystical_Tree_1A6.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Purple_Plants_1A1.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Water_1A4.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Yellow_Plants_1A1.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Yellow_Plants_1A2.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 48,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/FBX/Curled_Roots_1A.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 49,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/FBX/Leafy_Bushes_2A.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 49,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/FBX/Log_Fencing_1A.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 49,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/FBX/Mystical_Flowered_Plants_A.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 49,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/FBX/Mystical_Trees_A.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 49,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Mats/Bushes 1.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 50,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Mats/Fae Leaves 1.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 50,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Mats/Fae Leaves 2.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 50,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Mats/Fae Leaves 3.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 50,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Mats/Fae Leaves 4.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 50,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Mats/Mat_Taizi.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 50,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Mats/Mystical_Grass.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 50,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Mats/Mystical_Plants_1A1.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 50,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Mats/Tree_Branches_1A1.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 50,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Mats/Tree_Roots_1A1.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 50,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Mats/Tree_Stump_1A1.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 50,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Mats/Wood_Pieces_2A1.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 50,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Textures/Grass Mossy.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 51,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Textures/Mystical_Plants_1A1_Mystical_Plant_1A1_AlbedoTransparency_sRGB.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 51,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Textures/Mystical_Plants_1A1_Mystical_Plant_1A1_Emission_sRGB.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 51,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Textures/Mystical_Plants_1A1_Mystical_Plant_1A1_MetallicSmoothness_Raw.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 51,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Textures/Mystical_Plants_1A1_Mystical_Plant_1A1_Normal_Raw.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 51,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Textures/Mystical_Plants_1B1.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 51,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Textures/Mystical_Plants_1B1_Mystical_Plants_1B1_AlbedoTransparency_sRGB.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 51,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Textures/Mystical_Plants_1B1_Mystical_Plants_1B1_Emission_sRGB.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 51,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Textures/Mystical_Plants_1B1_Mystical_Plants_1B1_MetallicSmoothness_Raw.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 51,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Textures/Mystical_Plants_1B1_Mystical_Plants_1B1_Normal_Raw.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 51,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Textures/Texture_Taizi.tga",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 51,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Textures/Tree_Branches_1A1_Tree_Branches_1A1_AlbedoTransparency_sRGB.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 51,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Textures/Tree_Branches_1A1_Tree_Branches_1A1_MetallicSmoothness_Raw.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 51,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Textures/Tree_Branches_1A1_Tree_Branches_1A1_Normal_Raw.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 51,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Textures/Tree_Roots_1A1_Tree_Roots_1A1_AlbedoTransparency_sRGB.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 51,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Textures/Tree_Roots_1A1_Tree_Roots_1A1_MetallicSmoothness_Raw.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 51,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Textures/Tree_Roots_1A1_Tree_Roots_1A1_Normal_Raw.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 51,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Textures/Tree_Stump_1A1_Tree_Stump_1A1_AlbedoTransparency_2.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 51,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Textures/Tree_Stump_1A1_Tree_Stump_1A1_AlbedoTransparency_sRGB.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 51,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Textures/Tree_Stump_1A1_Tree_Stump_1A1_MetallicSmoothness_Raw.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 51,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Textures/Tree_Stump_1A1_Tree_Stump_1A1_Normal_Raw.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 51,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Textures/Water_Normals_A.tif",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 51,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Textures/Wood_Pieces_2A1_Wood_Pieces_2A1_AlbedoTransparency_sRGB.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 51,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Textures/Wood_Pieces_2A1_Wood_Pieces_2A1_MetallicSmoothness_Raw.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 51,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/AquariusFantasy/Aquarius Fantasy - Fae Pack/Mystical/Textures/Wood_Pieces_2A1_Wood_Pieces_2A1_Normal_Raw.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 51,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/MainCity_Res/Data/POST Profile Elven.asset",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 52,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/MainCity_Res/FBX/Water Mats, Shaders/Snowy_Top_1A1.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 53,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/MainCity_Res/FBX/Water Mats, Shaders/Water_Normals_A.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 53,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/MainCity_Res/FBX/Water Mats, Shaders/Water_Normals_B.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 53,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/MainCity_Res/Textures/Dirt 1 Normal.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 54,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/MainCity_Res/Textures/Dirt 1.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 54,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/MainCity_Res/Textures/Grass Plane Maker A_Grass_Plane_Maker_AlbedoTransparency.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 54,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/MainCity_Res/Textures/Sea Foam 2.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 54,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/MainCity_Res/Textures/Sea Foam.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 54,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/MainCity_Res/Textures/Water_Normals_A.tif",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 54,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/Scene_CreateRole.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 55,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/Scene_Login.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 55,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/MyShaderVariants.json",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 56,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/ShaderVariantCollectorSetting.asset",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 56,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Textures/Login/cg/Textures/G16_B1/0_11.tga",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 57,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Textures/Login/cg/Textures/wenli/fs_m_wenli_14.tga",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 58,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Textures/Smoke27.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 59,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Textures/UITextures/Fantasy.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 60,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Textures/UITextures/Flare 2.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 60,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Textures/UITextures/Flare RPG.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 60,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Textures/UITextures/Flare.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 60,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Textures/UITextures/Mask 8.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 60,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Textures/UITextures/Mask.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 60,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/bg/bg.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 61,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/bg/bg2.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 61,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/bg/bg3.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 61,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/bg/bg4.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 61,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/bg/bg5.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 61,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/bg/bg6.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 61,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/bg/bg7.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 61,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/bg/bg_avatar.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 61,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/bg/bg_tips.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 61,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/btn/btn_close01.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 62,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/btn/btn_icon01.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 62,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/btn/btn_icon02.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 62,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/btn/btn_icon03.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 62,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/btn/Btn_MenuButton_Square01_s.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 62,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/Font/FeiHuaSongTi-2 SDF.asset",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 63,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/Font/FeiHuaSongTi-2.ttf",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 63,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/Icon/icon01.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 64,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/Icon/icon_head.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 64,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/Icon/Toggle_Check_On.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 64,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/progress/prgs_green.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 65,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/progress/prgs_grey.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 65,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Dlls/GM_Game.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 66,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Dlls/mscorlib.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 66,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Dlls/System.Core.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 66,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Dlls/System.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 66,
+            "DependIDs": []
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "assets_gm_game_effects_attack_attack01_mat.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_effects_attack_attack01_texture.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_effects_attack_skill03_mat.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_effects_attack_skill03_texure.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_effects_attack_skill04.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_effects_attack_skill04_fbx.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_effects_attack_skill04_mat.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_effects_attack_skill04_texture.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_effects_logineffect.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_effects_logineffect_taohua_fbx.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_effects_logineffect_taohua_material_dcq.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_effects_logineffect_taohua_material_ljf_mat.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_effects_logineffect_taohua_material.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_effects_logineffect_taohua_textures_g16_b4.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_effects_uieffect_fx_item_2.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_effects_uieffect_fx_item_2_mat.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_effects_uieffect_fx_item_2_texture.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_effects_uieffect_fx_item_42_mat.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_effects_uieffect_fx_item_42_texture.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "unityshaders.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_effects_weapon_mat.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_effects_weapon.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_effects_weapon_texture.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_materials_uimaterilas.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_models_model_avatar.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_models_role_jx_materials.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_models_role_jx_materials_textures.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_models_role_jx.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_models_sword_sword_qinggang_mat_texture.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_models_sword_sword_qinggang.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_models_sword_sword_saber_shader_mat_texture.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_models_sword_sword_saber.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_models_zhucheng_models_effects_textures_ljf_tex.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_prefabs_sceneprefabs.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_prefabs_uiprefabs.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_prefabs_uiprefabs_widgetprefabs.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_scenes_aquariusfantasy_aquarius fantasy - fae pack_enchanted forest.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_scenes_aquariusfantasy_aquarius fantasy - fae pack_fbx.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_scenes_aquariusfantasy_aquarius fantasy - fae pack_fbx_materials.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_scenes_aquariusfantasy_aquarius fantasy - fae pack_fbx_prefabs_nature_bushes.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_scenes_aquariusfantasy_aquarius fantasy - fae pack_fbx_prefabs_nature_mushrooms.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_scenes_aquariusfantasy_aquarius fantasy - fae pack_fbx_prefabs_nature_plants, flowers.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_scenes_aquariusfantasy_aquarius fantasy - fae pack_fbx_prefabs_nature_rocks.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_scenes_aquariusfantasy_aquarius fantasy - fae pack_fbx_prefabs_nature_trees_canopy trees.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_scenes_aquariusfantasy_aquarius fantasy - fae pack_fbx_prefabs_nature_trees_stumps, scenery.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_scenes_aquariusfantasy_aquarius fantasy - fae pack_fbx_prefabs_props_lighting, effects.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_scenes_aquariusfantasy_aquarius fantasy - fae pack_fbx_prefabs_structure_houses_ground level.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_scenes_aquariusfantasy_aquarius fantasy - fae pack_fbx_textures.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_scenes_aquariusfantasy_aquarius fantasy - fae pack_mystical.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_scenes_aquariusfantasy_aquarius fantasy - fae pack_mystical_fbx.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_scenes_aquariusfantasy_aquarius fantasy - fae pack_mystical_mats.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_scenes_aquariusfantasy_aquarius fantasy - fae pack_mystical_textures.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_scenes_maincity_res_data.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_scenes_maincity_res_fbx_water mats, shaders.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_scenes_maincity_res_textures.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_scenes.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_shaders.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_textures_login_cg_textures_g16_b1.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_textures_login_cg_textures_wenli.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_textures.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_textures_uitextures.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_uisprites_bg.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_uisprites_btn.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_uisprites_font.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_uisprites_icon.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_uisprites_progress.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gm_game_dlls.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        }
+    ]
+}

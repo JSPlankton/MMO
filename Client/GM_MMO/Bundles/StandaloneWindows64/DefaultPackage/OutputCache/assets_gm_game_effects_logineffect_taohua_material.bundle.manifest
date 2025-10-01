@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 2306952921
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f9cbded334ebd573c83434f6e6296827
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b30fce1a9ad74efb72be6c308c56e365
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: f9cbded334ebd573c83434f6e6296827
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GM_Game/Effects/LoginEffect/taohua/Material/particl_wuqi_01.mat
+Dependencies:
+- F:/Unity/MMO/Client/GM_MMO/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_gm_game_models_zhucheng_models_effects_textures_ljf_tex.bundle
+- F:/Unity/MMO/Client/GM_MMO/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_gm_game_textures.bundle
+- F:/Unity/MMO/Client/GM_MMO/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_gm_game_textures_login_cg_textures_wenli.bundle
+- F:/Unity/MMO/Client/GM_MMO/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/unityshaders.bundle

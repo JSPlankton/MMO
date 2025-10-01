@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 1785495883
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bef65ea9d7c86c60637b7e1648e5c6f7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: bef65ea9d7c86c60637b7e1648e5c6f7
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GM_Game/Effects/UIEffect/FX_Item_2/Texture/Circle1_Blue.png
+- Assets/GM_Game/Effects/UIEffect/FX_Item_2/Texture/Light_White.png
+Dependencies: []

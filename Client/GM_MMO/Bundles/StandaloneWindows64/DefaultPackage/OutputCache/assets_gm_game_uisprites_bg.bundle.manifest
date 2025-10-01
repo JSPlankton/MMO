@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 187373402
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 031ffe6e08b447b35a5e01814110b6f3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 031ffe6e08b447b35a5e01814110b6f3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GM_Game/UISprites/bg/bg3.png
+- Assets/GM_Game/UISprites/bg/bg6.png
+- Assets/GM_Game/UISprites/bg/bg4.png
+- Assets/GM_Game/UISprites/bg/bg5.png
+- Assets/GM_Game/UISprites/bg/bg2.png
+- Assets/GM_Game/UISprites/bg/bg.png
+Dependencies: []

@@ -1,0 +1,59 @@
+syntax = "proto3"; //指定proto使用proto3语法，不指定默认是使用proto2
+
+
+enum CmdCode{
+	Succeed = 0;//请求成功
+	AcctExist = 1;//账号已存在
+	ServerError=2;//服务端错误
+	AcctNotExist = 3;//账号不存在
+	PasswordError= 4;//密码错误
+	AcctDisable = 5;//账号禁用
+	ReqParamError= 6;//请求参数错误
+	NicknameExist = 7;//昵称已存在
+	UserNameIllegal = 8;//用户名不合法
+	PhoneNumIllegal= 9 ;//手机号不合法
+	PasswordIllegal=10;//密码不合法
+	UserOftenLogin=11;//用户频繁登录
+}
+
+
+message ErrMsg{
+	CmdCode cmd_code = 1;//错误码
+}
+
+message RegistRet{
+	CmdCode cmd_code = 1;//表示注册是否成功
+}
+
+message LoginRet{
+	CmdCode cmd_code = 1;//表示登录是否成功
+	GameServer game_server=2;//表示最后登录的服务器
+	int32 account_id = 3;//用户id
+}
+
+message GameServer{
+	int32 server_id = 1;//服务器id，
+	string server_name=2;//名称
+	int32 run_state = 3;//运行状态
+	int32 is_new = 4;//是否是新服
+	string ip_host=5;//ip
+	int32 prot = 6;//端口
+}
+
+message GetServerListRet{
+	CmdCode cmd_code = 1;//表示请求是否成功
+	repeated GameServer game_servers=2;//服务器列表
+}
+
+message LoginGameServerRet{
+	CmdCode cmd_code = 1;//表示请求是否成功
+	CreateRoleRet create_role_info = 2;//已创建的角色
+}
+
+message CreateRoleRet{
+	CmdCode cmd_code = 1;//表示创建角色是否成功
+	int32 role_id= 2;//角色ID
+	string nickname= 3;//昵称
+	int32 job_id = 4;
+	int32 level = 5;
+}

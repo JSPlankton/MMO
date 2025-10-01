@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 2523075895
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6565fa4a3767b8bcf7477866290f6f87
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 6565fa4a3767b8bcf7477866290f6f87
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GM_Game/Textures/Login/cg/Textures/wenli/fs_m_wenli_14.tga
+Dependencies: []

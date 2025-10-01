@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1422751762
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 76d41243378e57573041efcf5bd28b80
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 76d41243378e57573041efcf5bd28b80
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GM_Game/Textures/Smoke27.png
+Dependencies: []

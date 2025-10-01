@@ -1,0 +1,1398 @@
+{
+    "Summary": {
+        "YooVersion": "1.5.7",
+        "UnityVersion": "2022.3.17f1c1",
+        "BuildDate": "2025/8/1 0:06:23",
+        "BuildSeconds": 4,
+        "BuildTarget": 19,
+        "BuildPipeline": 0,
+        "BuildMode": 0,
+        "BuildPackageName": "DefaultPackage",
+        "BuildPackageVersion": "2025-08-01-6",
+        "EnableAddressable": false,
+        "LocationToLower": false,
+        "IncludeAssetGUID": false,
+        "UniqueBundleName": false,
+        "SharedPackRuleClassName": "YooAsset.Editor.ZeroRedundancySharedPackRule",
+        "EncryptionServicesClassName": "YooAsset.Editor.EncryptionNone",
+        "OutputNameStyle": 1,
+        "CompressOption": 2,
+        "DisableWriteTypeTree": false,
+        "IgnoreTypeTreeChanges": true,
+        "AssetFileTotalCount": 65,
+        "MainAssetTotalCount": 61,
+        "AllBundleTotalCount": 28,
+        "AllBundleTotalSize": 10756895,
+        "EncryptedBundleTotalCount": 0,
+        "EncryptedBundleTotalSize": 0,
+        "RawBundleTotalCount": 0,
+        "RawBundleTotalSize": 0
+    },
+    "AssetInfos": [
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/LoginEffect/Effect_UIEffect01.prefab",
+            "AssetGUID": "54baee9cf4f9b8942abe1ad1de4a5db1",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_effects_logineffect.bundle",
+            "MainBundleSize": 61364,
+            "DependBundles": [
+                "assets_gm_game_textures_login_cg_textures_wenli.bundle",
+                "assets_gm_game_effects_uieffect_fx_item_42_texture.bundle",
+                "unityshaders.bundle",
+                "assets_gm_game_effects_logineffect_taohua_textures_g16_b4.bundle",
+                "assets_gm_game_models_zhucheng_models_effects_textures_ljf_tex.bundle",
+                "assets_gm_game_textures.bundle",
+                "assets_gm_game_effects_logineffect_taohua_material_ljf_mat.bundle",
+                "assets_gm_game_effects_logineffect_taohua_material_dcq.bundle",
+                "assets_gm_game_effects_logineffect_taohua_fbx.bundle",
+                "assets_gm_game_effects_logineffect_taohua_material.bundle"
+            ],
+            "DependAssets": [
+                "Assets/GM_Game/Textures/Login/cg/Textures/wenli/fs_m_wenli_14.tga",
+                "Assets/GM_Game/Effects/UIEffect/FX_Item_42/Texture/Select_FX5_FireAndIce_Sheet.png",
+                "Assets/GM_Game/Shaders/Effect_Shader/Add_CenterGlow.shader",
+                "Assets/GM_Game/Effects/LoginEffect/taohua/Textures/G16_B4/0_Q_yanwu_01.tga",
+                "Assets/GM_Game/Models/ZhuCheng_Models/Effects/Textures/Ljf_tex/Noise_Wave_001.tga",
+                "Assets/GM_Game/Shaders/Effect_Shader/Shader_UIEffect.shader",
+                "Assets/GM_Game/Textures/Smoke27.png",
+                "Assets/GM_Game/Effects/LoginEffect/taohua/Material/ljf_mat/ljf_Cj_huaban_02.mat",
+                "Assets/GM_Game/Effects/LoginEffect/taohua/Material/dcq/0_1003_dcq010.mat",
+                "Assets/GM_Game/Effects/LoginEffect/taohua/Fbx/Plane001.FBX",
+                "Assets/GM_Game/Effects/LoginEffect/taohua/Material/particl_wuqi_01.mat"
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/LoginEffect/taohua/Fbx/Plane001.FBX",
+            "AssetGUID": "4d16d33f39a6bbb4ca6453bbfcbc2be1",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_effects_logineffect_taohua_fbx.bundle",
+            "MainBundleSize": 54967,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/LoginEffect/taohua/Material/dcq/0_1003_dcq010.mat",
+            "AssetGUID": "32615c7c37adb8143ae94771834af63e",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_effects_logineffect_taohua_material_dcq.bundle",
+            "MainBundleSize": 2989,
+            "DependBundles": [
+                "unityshaders.bundle",
+                "assets_gm_game_effects_logineffect_taohua_textures_g16_b4.bundle",
+                "assets_gm_game_textures.bundle"
+            ],
+            "DependAssets": [
+                "Assets/GM_Game/Shaders/Effect_Shader/Add_CenterGlow.shader",
+                "Assets/GM_Game/Effects/LoginEffect/taohua/Textures/G16_B4/0_Q_yanwu_01.tga",
+                "Assets/GM_Game/Textures/Smoke27.png"
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/LoginEffect/taohua/Material/ljf_mat/ljf_Cj_huaban_02.mat",
+            "AssetGUID": "04bf6d80cfb78ec44847a2c9cfeb6278",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_effects_logineffect_taohua_material_ljf_mat.bundle",
+            "MainBundleSize": 433391,
+            "DependBundles": [
+                "assets_gm_game_effects_uieffect_fx_item_42_texture.bundle",
+                "unityshaders.bundle"
+            ],
+            "DependAssets": [
+                "Assets/GM_Game/Effects/UIEffect/FX_Item_42/Texture/Select_FX5_FireAndIce_Sheet.png",
+                "Assets/GM_Game/Shaders/Effect_Shader/Add_CenterGlow.shader"
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/LoginEffect/taohua/Material/particl_wuqi_01.mat",
+            "AssetGUID": "0852a76893289fc4b93807b356706df8",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_effects_logineffect_taohua_material.bundle",
+            "MainBundleSize": 3451,
+            "DependBundles": [
+                "assets_gm_game_textures_login_cg_textures_wenli.bundle",
+                "assets_gm_game_models_zhucheng_models_effects_textures_ljf_tex.bundle",
+                "unityshaders.bundle",
+                "assets_gm_game_textures.bundle"
+            ],
+            "DependAssets": [
+                "Assets/GM_Game/Textures/Login/cg/Textures/wenli/fs_m_wenli_14.tga",
+                "Assets/GM_Game/Models/ZhuCheng_Models/Effects/Textures/Ljf_tex/Noise_Wave_001.tga",
+                "Assets/GM_Game/Shaders/Effect_Shader/Shader_UIEffect.shader",
+                "Assets/GM_Game/Textures/Smoke27.png"
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/LoginEffect/taohua/Textures/G16_B4/0_Q_yanwu_01.tga",
+            "AssetGUID": "80d61f312750f5c489d02668e321d9bd",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_effects_logineffect_taohua_textures_g16_b4.bundle",
+            "MainBundleSize": 12645,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Item_FX_2.prefab",
+            "AssetGUID": "14a8df478b8799a4385ad20fe89525c8",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_effects_uieffect_fx_item_2.bundle",
+            "MainBundleSize": 60712,
+            "DependBundles": [
+                "assets_gm_game_effects_uieffect_fx_item_2_texture.bundle",
+                "assets_gm_game_effects_uieffect_fx_item_2_mat.bundle",
+                "assets_gm_game_effects_uieffect_fx_item_42_texture.bundle",
+                "assets_gm_game_effects_uieffect_fx_item_42_mat.bundle"
+            ],
+            "DependAssets": [
+                "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Texture/Circle1_Blue.png",
+                "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Mat/Light_White.mat",
+                "Assets/GM_Game/Effects/UIEffect/FX_Item_42/Texture/Spark_Blue.png",
+                "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Texture/Light_White.png",
+                "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Mat/Circle1_Blue.mat",
+                "Assets/GM_Game/Effects/UIEffect/FX_Item_42/Mat/Spark_Blue.mat"
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Mat/Circle1_Blue.mat",
+            "AssetGUID": "6c25fe6cc1c802b48bfdee1e5f9d0e4e",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_effects_uieffect_fx_item_2_mat.bundle",
+            "MainBundleSize": 88576,
+            "DependBundles": [
+                "assets_gm_game_effects_uieffect_fx_item_2_texture.bundle"
+            ],
+            "DependAssets": [
+                "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Texture/Circle1_Blue.png"
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Mat/Light_White.mat",
+            "AssetGUID": "547e4fcffa7b70b42ac9324544af3e11",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_effects_uieffect_fx_item_2_mat.bundle",
+            "MainBundleSize": 88576,
+            "DependBundles": [
+                "assets_gm_game_effects_uieffect_fx_item_2_texture.bundle"
+            ],
+            "DependAssets": [
+                "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Texture/Light_White.png"
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Texture/Circle1_Blue.png",
+            "AssetGUID": "0828674659cdf9349a5e0cf716588fc4",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_effects_uieffect_fx_item_2_texture.bundle",
+            "MainBundleSize": 74901,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Texture/Light_White.png",
+            "AssetGUID": "a064ea8a476b79844aac465227dc3e42",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_effects_uieffect_fx_item_2_texture.bundle",
+            "MainBundleSize": 74901,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/UIEffect/FX_Item_42/Mat/Spark_Blue.mat",
+            "AssetGUID": "0f2e2b63bbd1e3c4383cae415daf5134",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_effects_uieffect_fx_item_42_mat.bundle",
+            "MainBundleSize": 59007,
+            "DependBundles": [
+                "assets_gm_game_effects_uieffect_fx_item_42_texture.bundle"
+            ],
+            "DependAssets": [
+                "Assets/GM_Game/Effects/UIEffect/FX_Item_42/Texture/Spark_Blue.png"
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/UIEffect/FX_Item_42/Texture/Select_FX5_FireAndIce_Sheet.png",
+            "AssetGUID": "f46b95226466c8c45ab7201e59983925",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_effects_uieffect_fx_item_42_texture.bundle",
+            "MainBundleSize": 479299,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Effects/UIEffect/FX_Item_42/Texture/Spark_Blue.png",
+            "AssetGUID": "6db17730e37f3f046b0abf98f5a62061",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_effects_uieffect_fx_item_42_texture.bundle",
+            "MainBundleSize": 479299,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Materials/UIMaterilas/Mat_Flare01.mat",
+            "AssetGUID": "6eb97debc0ab94d488e860cbcc70caab",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_materials_uimaterilas.bundle",
+            "MainBundleSize": 3379,
+            "DependBundles": [
+                "assets_gm_game_textures_uitextures.bundle",
+                "unityshaders.bundle"
+            ],
+            "DependAssets": [
+                "Assets/GM_Game/Textures/UITextures/Mask 8.png",
+                "Assets/GM_Game/Shaders/UIShaders/GradientMask.shader",
+                "Assets/GM_Game/Textures/UITextures/Flare RPG.png"
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Materials/UIMaterilas/Mat_Flare02.mat",
+            "AssetGUID": "faadcf1b0478a2d419756b145794426a",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_materials_uimaterilas.bundle",
+            "MainBundleSize": 3379,
+            "DependBundles": [
+                "assets_gm_game_textures_uitextures.bundle",
+                "unityshaders.bundle"
+            ],
+            "DependAssets": [
+                "Assets/GM_Game/Textures/UITextures/Mask.png",
+                "Assets/GM_Game/Shaders/UIShaders/LaserCenterType2.shader",
+                "Assets/GM_Game/Textures/UITextures/Flare 2.png"
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Materials/UIMaterilas/Mat_Flare03.mat",
+            "AssetGUID": "125ba5f275d672247bb2a65212e6e42c",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_materials_uimaterilas.bundle",
+            "MainBundleSize": 3379,
+            "DependBundles": [
+                "assets_gm_game_textures_uitextures.bundle",
+                "unityshaders.bundle"
+            ],
+            "DependAssets": [
+                "Assets/GM_Game/Textures/UITextures/Mask.png",
+                "Assets/GM_Game/Shaders/UIShaders/LaserCenter.shader",
+                "Assets/GM_Game/Textures/UITextures/Flare.png"
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Materials/UIMaterilas/Mat_Flare04.mat",
+            "AssetGUID": "7bf8af4fd6358a342b15c1843f951edd",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_materials_uimaterilas.bundle",
+            "MainBundleSize": 3379,
+            "DependBundles": [
+                "assets_gm_game_textures_uitextures.bundle",
+                "unityshaders.bundle"
+            ],
+            "DependAssets": [
+                "Assets/GM_Game/Textures/UITextures/Mask.png",
+                "Assets/GM_Game/Shaders/UIShaders/LaserCenter.shader",
+                "Assets/GM_Game/Textures/UITextures/Fantasy.png"
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Models/ZhuCheng_Models/Effects/Textures/Ljf_tex/Noise_Wave_001.tga",
+            "AssetGUID": "c5fe4fd3c8e4d97418dbeeea8adc20a9",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_models_zhucheng_models_effects_textures_ljf_tex.bundle",
+            "MainBundleSize": 17873,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Prefabs/UIPrefabs/ServerListItemWidget.prefab",
+            "AssetGUID": "5b9073aba303b6944b3b83cdd2fcac11",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_prefabs_uiprefabs.bundle",
+            "MainBundleSize": 6555,
+            "DependBundles": [
+                "assets_gm_game_uisprites_bg.bundle",
+                "unityshaders.bundle",
+                "assets_gm_game_uisprites_font.bundle",
+                "share_packages_com_unity_textmeshpro_editor resources_gizmos.bundle"
+            ],
+            "DependAssets": [
+                "Assets/GM_Game/UISprites/bg/bg3.png",
+                "Assets/TextMesh Pro/Shaders/TMP_SDF.shader",
+                "Assets/GM_Game/UISprites/Font/FeiHuaSongTi-2 SDF.asset",
+                "Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd",
+                "Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component Icon.psd",
+                "Assets/GM_Game/UISprites/Font/FeiHuaSongTi-2.ttf"
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Prefabs/UIPrefabs/UITitleWidget.prefab",
+            "AssetGUID": "86b930f04341add4fb6d36c0821f6809",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_prefabs_uiprefabs.bundle",
+            "MainBundleSize": 6555,
+            "DependBundles": [
+                "unityshaders.bundle",
+                "assets_gm_game_uisprites_font.bundle",
+                "assets_gm_game_materials_uimaterilas.bundle",
+                "assets_gm_game_uisprites_bg.bundle",
+                "assets_gm_game_uisprites_btn.bundle",
+                "assets_gm_game_textures_uitextures.bundle",
+                "share_packages_com_unity_textmeshpro_editor resources_gizmos.bundle"
+            ],
+            "DependAssets": [
+                "Assets/TextMesh Pro/Shaders/TMP_SDF.shader",
+                "Assets/GM_Game/UISprites/Font/FeiHuaSongTi-2 SDF.asset",
+                "Assets/GM_Game/Materials/UIMaterilas/Mat_Flare01.mat",
+                "Assets/GM_Game/UISprites/bg/bg4.png",
+                "Assets/GM_Game/UISprites/btn/btn_icon01.png",
+                "Assets/GM_Game/Textures/UITextures/Mask 8.png",
+                "Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd",
+                "Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component Icon.psd",
+                "Assets/GM_Game/Shaders/UIShaders/GradientMask.shader",
+                "Assets/GM_Game/UISprites/Font/FeiHuaSongTi-2.ttf",
+                "Assets/GM_Game/Textures/UITextures/Flare RPG.png"
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Prefabs/UIPrefabs/WidgetPrefabs/Btn_Style01.prefab",
+            "AssetGUID": "4bc631658775bdc41829d241adb5149c",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_prefabs_uiprefabs_widgetprefabs.bundle",
+            "MainBundleSize": 11444,
+            "DependBundles": [
+                "assets_gm_game_textures_uitextures.bundle",
+                "unityshaders.bundle",
+                "assets_gm_game_uisprites_font.bundle",
+                "assets_gm_game_materials_uimaterilas.bundle",
+                "assets_gm_game_uisprites_btn.bundle",
+                "share_packages_com_unity_textmeshpro_editor resources_gizmos.bundle"
+            ],
+            "DependAssets": [
+                "Assets/GM_Game/Textures/UITextures/Mask.png",
+                "Assets/TextMesh Pro/Shaders/TMP_SDF.shader",
+                "Assets/GM_Game/UISprites/Font/FeiHuaSongTi-2 SDF.asset",
+                "Assets/GM_Game/Shaders/UIShaders/LaserCenter.shader",
+                "Assets/GM_Game/Materials/UIMaterilas/Mat_Flare01.mat",
+                "Assets/GM_Game/UISprites/btn/btn_icon01.png",
+                "Assets/GM_Game/Textures/UITextures/Mask 8.png",
+                "Assets/GM_Game/Shaders/UIShaders/LaserCenterType2.shader",
+                "Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd",
+                "Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component Icon.psd",
+                "Assets/GM_Game/Materials/UIMaterilas/Mat_Flare02.mat",
+                "Assets/GM_Game/Shaders/UIShaders/GradientMask.shader",
+                "Assets/GM_Game/UISprites/Font/FeiHuaSongTi-2.ttf",
+                "Assets/GM_Game/Textures/UITextures/Fantasy.png",
+                "Assets/GM_Game/Materials/UIMaterilas/Mat_Flare04.mat",
+                "Assets/GM_Game/Textures/UITextures/Flare RPG.png",
+                "Assets/GM_Game/Textures/UITextures/Flare 2.png"
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Prefabs/UIPrefabs/WidgetPrefabs/Ipt_Style01.prefab",
+            "AssetGUID": "ea82ae0a927868546b5c67447206a333",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_prefabs_uiprefabs_widgetprefabs.bundle",
+            "MainBundleSize": 11444,
+            "DependBundles": [
+                "assets_gm_game_textures_uitextures.bundle",
+                "unityshaders.bundle",
+                "assets_gm_game_uisprites_font.bundle",
+                "assets_gm_game_uisprites_btn.bundle",
+                "share_packages_com_unity_textmeshpro_editor resources_gizmos.bundle",
+                "assets_gm_game_materials_uimaterilas.bundle"
+            ],
+            "DependAssets": [
+                "Assets/GM_Game/Textures/UITextures/Mask.png",
+                "Assets/TextMesh Pro/Shaders/TMP_SDF.shader",
+                "Assets/GM_Game/UISprites/Font/FeiHuaSongTi-2 SDF.asset",
+                "Assets/GM_Game/Shaders/UIShaders/LaserCenter.shader",
+                "Assets/GM_Game/UISprites/btn/btn_icon01.png",
+                "Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Input Field Icon.psd",
+                "Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd",
+                "Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component Icon.psd",
+                "Assets/GM_Game/Textures/UITextures/Flare.png",
+                "Assets/GM_Game/Materials/UIMaterilas/Mat_Flare03.mat",
+                "Assets/GM_Game/UISprites/Font/FeiHuaSongTi-2.ttf"
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Scenes/Scene_Login.unity",
+            "AssetGUID": "9d4a56bbf2fcf4d45a537750ec18a532",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_scenes.bundle",
+            "MainBundleSize": 178941,
+            "DependBundles": [
+                "assets_gm_game_uisprites_icon.bundle",
+                "assets_gm_game_uisprites_btn.bundle",
+                "assets_gm_game_uisprites_bg.bundle",
+                "assets_gm_game_effects_uieffect_fx_item_2_texture.bundle",
+                "unityshaders.bundle",
+                "assets_gm_game_textures_uitextures.bundle",
+                "assets_gm_game_textures_login_cg_textures_wenli.bundle",
+                "assets_gm_game_effects_uieffect_fx_item_42_texture.bundle",
+                "assets_gm_game_uisprites_font.bundle",
+                "assets_gm_game_materials_uimaterilas.bundle",
+                "assets_gm_game_textures.bundle",
+                "share_packages_com_unity_textmeshpro_editor resources_gizmos.bundle",
+                "assets_gm_game_effects_uieffect_fx_item_2.bundle",
+                "assets_gm_game_effects_logineffect_taohua_textures_g16_b4.bundle",
+                "assets_gm_game_effects_logineffect_taohua_material_dcq.bundle",
+                "assets_gm_game_effects_logineffect_taohua_fbx.bundle",
+                "assets_gm_game_effects_logineffect_taohua_material.bundle",
+                "assets_gm_game_models_zhucheng_models_effects_textures_ljf_tex.bundle",
+                "assets_gm_game_effects_uieffect_fx_item_2_mat.bundle",
+                "assets_gm_game_prefabs_uiprefabs_widgetprefabs.bundle",
+                "assets_gm_game_prefabs_uiprefabs.bundle",
+                "assets_gm_game_effects_logineffect_taohua_material_ljf_mat.bundle",
+                "assets_gm_game_effects_logineffect.bundle",
+                "assets_gm_game_effects_uieffect_fx_item_42_mat.bundle"
+            ],
+            "DependAssets": [
+                "Assets/GM_Game/UISprites/Icon/Toggle_Check_On.png",
+                "Assets/GM_Game/UISprites/btn/btn_close01.png",
+                "Assets/GM_Game/UISprites/bg/bg3.png",
+                "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Texture/Circle1_Blue.png",
+                "Assets/TextMesh Pro/Shaders/TMP_SDF.shader",
+                "Assets/GM_Game/Textures/UITextures/Mask.png",
+                "Assets/GM_Game/Textures/Login/cg/Textures/wenli/fs_m_wenli_14.tga",
+                "Assets/GM_Game/Effects/UIEffect/FX_Item_42/Texture/Select_FX5_FireAndIce_Sheet.png",
+                "Assets/GM_Game/UISprites/Font/FeiHuaSongTi-2 SDF.asset",
+                "Assets/GM_Game/UISprites/bg/bg6.png",
+                "Assets/GM_Game/Shaders/Effect_Shader/Add_CenterGlow.shader",
+                "Assets/GM_Game/Materials/UIMaterilas/Mat_Flare01.mat",
+                "Assets/GM_Game/Textures/Smoke27.png",
+                "Assets/GM_Game/UISprites/btn/btn_icon01.png",
+                "Assets/GM_Game/Shaders/UIShaders/LaserCenter.shader",
+                "Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Input Field Icon.psd",
+                "Assets/GM_Game/Shaders/UIShaders/LaserCenterType2.shader",
+                "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Item_FX_2.prefab",
+                "Assets/GM_Game/Effects/LoginEffect/taohua/Textures/G16_B4/0_Q_yanwu_01.tga",
+                "Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component Icon.psd",
+                "Assets/GM_Game/Effects/LoginEffect/taohua/Material/dcq/0_1003_dcq010.mat",
+                "Assets/GM_Game/Textures/UITextures/Flare.png",
+                "Assets/GM_Game/Effects/LoginEffect/taohua/Fbx/Plane001.FBX",
+                "Assets/GM_Game/Effects/LoginEffect/taohua/Material/particl_wuqi_01.mat",
+                "Assets/GM_Game/Models/ZhuCheng_Models/Effects/Textures/Ljf_tex/Noise_Wave_001.tga",
+                "Assets/GM_Game/UISprites/btn/Btn_MenuButton_Square01_s.png",
+                "Assets/GM_Game/Textures/UITextures/Flare 2.png",
+                "Assets/GM_Game/UISprites/btn/btn_icon03.png",
+                "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Mat/Circle1_Blue.mat",
+                "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Mat/Light_White.mat",
+                "Assets/GM_Game/Prefabs/UIPrefabs/WidgetPrefabs/Btn_Style01.prefab",
+                "Assets/GM_Game/Prefabs/UIPrefabs/UITitleWidget.prefab",
+                "Assets/GM_Game/UISprites/bg/bg4.png",
+                "Assets/GM_Game/Shaders/Effect_Shader/Shader_UIEffect.shader",
+                "Assets/GM_Game/Textures/UITextures/Mask 8.png",
+                "Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd",
+                "Assets/GM_Game/Effects/UIEffect/FX_Item_42/Texture/Spark_Blue.png",
+                "Assets/GM_Game/Effects/LoginEffect/taohua/Material/ljf_mat/ljf_Cj_huaban_02.mat",
+                "Assets/GM_Game/Prefabs/UIPrefabs/WidgetPrefabs/Ipt_Style01.prefab",
+                "Assets/GM_Game/Materials/UIMaterilas/Mat_Flare02.mat",
+                "Assets/GM_Game/Shaders/UIShaders/GradientMask.shader",
+                "Assets/GM_Game/Materials/UIMaterilas/Mat_Flare03.mat",
+                "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Texture/Light_White.png",
+                "Assets/GM_Game/UISprites/bg/bg2.png",
+                "Assets/GM_Game/UISprites/Font/FeiHuaSongTi-2.ttf",
+                "Assets/GM_Game/Textures/UITextures/Fantasy.png",
+                "Assets/GM_Game/UISprites/btn/btn_icon02.png",
+                "Assets/GM_Game/Materials/UIMaterilas/Mat_Flare04.mat",
+                "Assets/GM_Game/Textures/UITextures/Flare RPG.png",
+                "Assets/GM_Game/Effects/LoginEffect/Effect_UIEffect01.prefab",
+                "Assets/GM_Game/Effects/UIEffect/FX_Item_42/Mat/Spark_Blue.mat"
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/Effect_Shader/Add_CenterGlow.shader",
+            "AssetGUID": "bd6af5d577c618947b73aa60db554e51",
+            "AssetTags": [],
+            "MainBundleName": "unityshaders.bundle",
+            "MainBundleSize": 51471,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/Effect_Shader/Shader_UIEffect.shader",
+            "AssetGUID": "39e8f6c102c13be47b740080b506f3c5",
+            "AssetTags": [],
+            "MainBundleName": "unityshaders.bundle",
+            "MainBundleSize": 51471,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/MyShaderVariants.shadervariants",
+            "AssetGUID": "946de61dc22dbe845a364185f31c46cb",
+            "AssetTags": [],
+            "MainBundleName": "unityshaders.bundle",
+            "MainBundleSize": 51471,
+            "DependBundles": [],
+            "DependAssets": [
+                "Assets/GM_Game/Shaders/UIShaders/LaserCenter.shader",
+                "Assets/GM_Game/Shaders/Effect_Shader/Add_CenterGlow.shader",
+                "Assets/GM_Game/Shaders/Effect_Shader/Shader_UIEffect.shader",
+                "Assets/GM_Game/Shaders/UIShaders/LaserCenterType2.shader",
+                "Assets/GM_Game/Shaders/UIShaders/GradientMask.shader"
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/UIShaders/GradientMask.shader",
+            "AssetGUID": "7e6369f96058ed84892604d368e357fe",
+            "AssetTags": [],
+            "MainBundleName": "unityshaders.bundle",
+            "MainBundleSize": 51471,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/UIShaders/LaserCenter.shader",
+            "AssetGUID": "5f1925e6d55e34a42967433aa5e7684c",
+            "AssetTags": [],
+            "MainBundleName": "unityshaders.bundle",
+            "MainBundleSize": 51471,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/UIShaders/LaserCenterType2.shader",
+            "AssetGUID": "5f63115a7b81b84469158f3b5ae4ad25",
+            "AssetTags": [],
+            "MainBundleName": "unityshaders.bundle",
+            "MainBundleSize": 51471,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/MyShaderVariants.json",
+            "AssetGUID": "3ccdb11a2626a4f4cbfb315e8ef06274",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_shaders.bundle",
+            "MainBundleSize": 1926,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Shaders/ShaderVariantCollectorSetting.asset",
+            "AssetGUID": "a0b4342e9739b3b4e95edbba861874e4",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_shaders.bundle",
+            "MainBundleSize": 1926,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Textures/Login/cg/Textures/wenli/fs_m_wenli_14.tga",
+            "AssetGUID": "31b88e3d85ec3f24fbe03f6b0f2f69d4",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_textures_login_cg_textures_wenli.bundle",
+            "MainBundleSize": 57938,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Textures/Smoke27.png",
+            "AssetGUID": "807b66e23ff88474db79f678aec746fd",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_textures.bundle",
+            "MainBundleSize": 147072,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Textures/UITextures/Fantasy.png",
+            "AssetGUID": "f1e2be13d0e581d44b2b772ca56a1962",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_textures_uitextures.bundle",
+            "MainBundleSize": 306446,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Textures/UITextures/Flare 2.png",
+            "AssetGUID": "68d82918635794045b52ab4107694bcd",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_textures_uitextures.bundle",
+            "MainBundleSize": 306446,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Textures/UITextures/Flare RPG.png",
+            "AssetGUID": "1b8b882073cdb95439c36de32fe48d29",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_textures_uitextures.bundle",
+            "MainBundleSize": 306446,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Textures/UITextures/Flare.png",
+            "AssetGUID": "aa7ef60734500f342a4d9171110ecea4",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_textures_uitextures.bundle",
+            "MainBundleSize": 306446,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Textures/UITextures/Mask 8.png",
+            "AssetGUID": "6182370cb5c78a54c988b1a976d91871",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_textures_uitextures.bundle",
+            "MainBundleSize": 306446,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Textures/UITextures/Mask.png",
+            "AssetGUID": "e6423d9567afff74c88c42cfe5a4f5ea",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_textures_uitextures.bundle",
+            "MainBundleSize": 306446,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/bg/bg.png",
+            "AssetGUID": "a4e98597631731e48a61b8f54f284c0d",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_uisprites_bg.bundle",
+            "MainBundleSize": 2092112,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/bg/bg2.png",
+            "AssetGUID": "3a9345b532db0b542a9dbcbe75d3373f",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_uisprites_bg.bundle",
+            "MainBundleSize": 2092112,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/bg/bg3.png",
+            "AssetGUID": "2040da7e559532344a34b0c37ce7a602",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_uisprites_bg.bundle",
+            "MainBundleSize": 2092112,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/bg/bg4.png",
+            "AssetGUID": "a06b2ea52e82ca7478579dc4e97d61b0",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_uisprites_bg.bundle",
+            "MainBundleSize": 2092112,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/bg/bg5.png",
+            "AssetGUID": "2d1d13e9bbb2cf94aa45e80c22c47d29",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_uisprites_bg.bundle",
+            "MainBundleSize": 2092112,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/bg/bg6.png",
+            "AssetGUID": "7656b248ef8926846915ee653d857a9b",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_uisprites_bg.bundle",
+            "MainBundleSize": 2092112,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/btn/btn_close01.png",
+            "AssetGUID": "f2473e1b04eaeb540b6b3376c1b5e364",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_uisprites_btn.bundle",
+            "MainBundleSize": 324555,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/btn/btn_icon01.png",
+            "AssetGUID": "ab3647d889b9e3148a49512a2a4e7dc2",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_uisprites_btn.bundle",
+            "MainBundleSize": 324555,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/btn/btn_icon02.png",
+            "AssetGUID": "018c219c740a1cd47a5c256ef2eb00cc",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_uisprites_btn.bundle",
+            "MainBundleSize": 324555,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/btn/btn_icon03.png",
+            "AssetGUID": "512de4d73458646479200dcb5c517bed",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_uisprites_btn.bundle",
+            "MainBundleSize": 324555,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/btn/Btn_MenuButton_Square01_s.png",
+            "AssetGUID": "fe59d877b3213d1468b8cca0fb78ea72",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_uisprites_btn.bundle",
+            "MainBundleSize": 324555,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/Font/FeiHuaSongTi-2 SDF.asset",
+            "AssetGUID": "c568ab7d897c85d4ba5c56b4d75c83eb",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_uisprites_font.bundle",
+            "MainBundleSize": 5060502,
+            "DependBundles": [
+                "unityshaders.bundle",
+                "share_packages_com_unity_textmeshpro_editor resources_gizmos.bundle"
+            ],
+            "DependAssets": [
+                "Assets/TextMesh Pro/Shaders/TMP_SDF.shader",
+                "Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd",
+                "Assets/GM_Game/UISprites/Font/FeiHuaSongTi-2.ttf"
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/Font/FeiHuaSongTi-2.ttf",
+            "AssetGUID": "76676223fac2f914091545fcb2c40b47",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_uisprites_font.bundle",
+            "MainBundleSize": 5060502,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/Icon/icon01.png",
+            "AssetGUID": "3343580cf8aea2e49b51665cd9a37170",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_uisprites_icon.bundle",
+            "MainBundleSize": 50454,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/Icon/Toggle_Check_On.png",
+            "AssetGUID": "d74dad2126913164d80a6fbd521590c6",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_uisprites_icon.bundle",
+            "MainBundleSize": 50454,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/progress/prgs_green.png",
+            "AssetGUID": "9c3b6082be9bfee4e91926294df0d31d",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_uisprites_progress.bundle",
+            "MainBundleSize": 4631,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/progress/prgs_grey.png",
+            "AssetGUID": "8925faae883238d44b4c2ac0b7364e93",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_uisprites_progress.bundle",
+            "MainBundleSize": 4631,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Dlls/GM_Game.dll.bytes",
+            "AssetGUID": "1ce61929a548bfc488ed161bf4ee3b85",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_dlls.bundle",
+            "MainBundleSize": 1109019,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Dlls/mscorlib.dll.bytes",
+            "AssetGUID": "a9c5ec80e43b7c94e81ecc8e55a7b0ec",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_dlls.bundle",
+            "MainBundleSize": 1109019,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Dlls/System.Core.dll.bytes",
+            "AssetGUID": "fccea30f2f8b32e4286416f2a521f731",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_dlls.bundle",
+            "MainBundleSize": 1109019,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/Dlls/System.dll.bytes",
+            "AssetGUID": "3ddabe8c48e1f4d41965f3c0a9255c55",
+            "AssetTags": [],
+            "MainBundleName": "assets_gm_game_dlls.bundle",
+            "MainBundleSize": 1109019,
+            "DependBundles": [],
+            "DependAssets": []
+        }
+    ],
+    "BundleInfos": [
+        {
+            "BundleName": "assets_gm_game_effects_logineffect.bundle",
+            "FileName": "a5970f26452b9b0b293010f7f27bad70.bundle",
+            "FileHash": "a5970f26452b9b0b293010f7f27bad70",
+            "FileCRC": "5925005b",
+            "FileSize": 61364,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                15
+            ],
+            "AllBuiltinAssets": [
+                "Assets/GM_Game/Effects/LoginEffect/Effect_UIEffect01.prefab"
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_effects_logineffect_taohua_fbx.bundle",
+            "FileName": "e10cd76b6d4cb99a8b281ed1e05e26e6.bundle",
+            "FileHash": "e10cd76b6d4cb99a8b281ed1e05e26e6",
+            "FileCRC": "e742df6e",
+            "FileSize": 54967,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                0
+            ],
+            "AllBuiltinAssets": [
+                "Assets/GM_Game/Effects/LoginEffect/taohua/Fbx/Plane001.FBX"
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_effects_logineffect_taohua_material_dcq.bundle",
+            "FileName": "b8e0aa8c9a8f9a48a1262c88144bf2f9.bundle",
+            "FileHash": "b8e0aa8c9a8f9a48a1262c88144bf2f9",
+            "FileCRC": "13747b13",
+            "FileSize": 2989,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                0
+            ],
+            "AllBuiltinAssets": [
+                "Assets/GM_Game/Effects/LoginEffect/taohua/Material/dcq/0_1003_dcq010.mat"
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_effects_logineffect_taohua_material_ljf_mat.bundle",
+            "FileName": "cd6f4f3ca47e83d6ba7949f7c05a24c3.bundle",
+            "FileHash": "cd6f4f3ca47e83d6ba7949f7c05a24c3",
+            "FileCRC": "317626f0",
+            "FileSize": 433391,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                0
+            ],
+            "AllBuiltinAssets": [
+                "Assets/GM_Game/Effects/LoginEffect/taohua/Material/ljf_mat/ljf_Cj_huaban_02.mat"
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_effects_logineffect_taohua_material.bundle",
+            "FileName": "1746cb80259c50ec5774d45860240f56.bundle",
+            "FileHash": "1746cb80259c50ec5774d45860240f56",
+            "FileCRC": "8cd5806e",
+            "FileSize": 3451,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                0
+            ],
+            "AllBuiltinAssets": [
+                "Assets/GM_Game/Effects/LoginEffect/taohua/Material/particl_wuqi_01.mat"
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_effects_logineffect_taohua_textures_g16_b4.bundle",
+            "FileName": "d4bc775d92265feec389dcd4318a4745.bundle",
+            "FileHash": "d4bc775d92265feec389dcd4318a4745",
+            "FileCRC": "d6fa53ea",
+            "FileSize": 12645,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                2
+            ],
+            "AllBuiltinAssets": [
+                "Assets/GM_Game/Effects/LoginEffect/taohua/Textures/G16_B4/0_Q_yanwu_01.tga"
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_effects_uieffect_fx_item_2.bundle",
+            "FileName": "212b7393e3625b353946aa7cf675e21f.bundle",
+            "FileHash": "212b7393e3625b353946aa7cf675e21f",
+            "FileCRC": "f28e91c4",
+            "FileSize": 60712,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                15
+            ],
+            "AllBuiltinAssets": [
+                "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Item_FX_2.prefab"
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_effects_uieffect_fx_item_2_mat.bundle",
+            "FileName": "bde1b77bac79caa60de906c134beeb0e.bundle",
+            "FileHash": "bde1b77bac79caa60de906c134beeb0e",
+            "FileCRC": "d00d6c15",
+            "FileSize": 88576,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                6
+            ],
+            "AllBuiltinAssets": [
+                "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Mat/Circle1_Blue.mat",
+                "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Mat/Light_White.mat"
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_effects_uieffect_fx_item_2_texture.bundle",
+            "FileName": "c470841c30c0066475f9a74f0e95b8b4.bundle",
+            "FileHash": "c470841c30c0066475f9a74f0e95b8b4",
+            "FileCRC": "8c7b6328",
+            "FileSize": 74901,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                7
+            ],
+            "AllBuiltinAssets": [
+                "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Texture/Circle1_Blue.png",
+                "Assets/GM_Game/Effects/UIEffect/FX_Item_2/Texture/Light_White.png"
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_effects_uieffect_fx_item_42_mat.bundle",
+            "FileName": "206560a971ac681554e51ff06543b425.bundle",
+            "FileHash": "206560a971ac681554e51ff06543b425",
+            "FileCRC": "136dd5de",
+            "FileSize": 59007,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                6
+            ],
+            "AllBuiltinAssets": [
+                "Assets/GM_Game/Effects/UIEffect/FX_Item_42/Mat/Spark_Blue.mat"
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_effects_uieffect_fx_item_42_texture.bundle",
+            "FileName": "cab28d022aec037407b45ebf50f2e736.bundle",
+            "FileHash": "cab28d022aec037407b45ebf50f2e736",
+            "FileCRC": "9aca10a4",
+            "FileSize": 479299,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                3,
+                9
+            ],
+            "AllBuiltinAssets": [
+                "Assets/GM_Game/Effects/UIEffect/FX_Item_42/Texture/Select_FX5_FireAndIce_Sheet.png",
+                "Assets/GM_Game/Effects/UIEffect/FX_Item_42/Texture/Spark_Blue.png"
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_materials_uimaterilas.bundle",
+            "FileName": "695ec15c9d1bd2b4a15e1430720e2fe1.bundle",
+            "FileHash": "695ec15c9d1bd2b4a15e1430720e2fe1",
+            "FileCRC": "3cb450ff",
+            "FileSize": 3379,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                13,
+                14
+            ],
+            "AllBuiltinAssets": [
+                "Assets/GM_Game/Materials/UIMaterilas/Mat_Flare01.mat",
+                "Assets/GM_Game/Materials/UIMaterilas/Mat_Flare02.mat",
+                "Assets/GM_Game/Materials/UIMaterilas/Mat_Flare03.mat",
+                "Assets/GM_Game/Materials/UIMaterilas/Mat_Flare04.mat"
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_models_zhucheng_models_effects_textures_ljf_tex.bundle",
+            "FileName": "89fe0c1dc195595a2beaa75956d21341.bundle",
+            "FileHash": "89fe0c1dc195595a2beaa75956d21341",
+            "FileCRC": "f9d12760",
+            "FileSize": 17873,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                4
+            ],
+            "AllBuiltinAssets": [
+                "Assets/GM_Game/Models/ZhuCheng_Models/Effects/Textures/Ljf_tex/Noise_Wave_001.tga"
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_prefabs_uiprefabs.bundle",
+            "FileName": "8edfa4d2dfdb006bf31a4d37bc4ad520.bundle",
+            "FileHash": "8edfa4d2dfdb006bf31a4d37bc4ad520",
+            "FileCRC": "f44d03a0",
+            "FileSize": 6555,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                15
+            ],
+            "AllBuiltinAssets": [
+                "Assets/GM_Game/Prefabs/UIPrefabs/ServerListItemWidget.prefab",
+                "Assets/GM_Game/Prefabs/UIPrefabs/UITitleWidget.prefab"
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_prefabs_uiprefabs_widgetprefabs.bundle",
+            "FileName": "66a4acf2d3294693ced8379b5fd0dad9.bundle",
+            "FileHash": "66a4acf2d3294693ced8379b5fd0dad9",
+            "FileCRC": "2df016d6",
+            "FileSize": 11444,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                15
+            ],
+            "AllBuiltinAssets": [
+                "Assets/GM_Game/Prefabs/UIPrefabs/WidgetPrefabs/Btn_Style01.prefab",
+                "Assets/GM_Game/Prefabs/UIPrefabs/WidgetPrefabs/Ipt_Style01.prefab"
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_scenes.bundle",
+            "FileName": "9074a8438766810341d3b927a66eccdb.bundle",
+            "FileHash": "9074a8438766810341d3b927a66eccdb",
+            "FileCRC": "3baef6b7",
+            "FileSize": 178941,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [],
+            "AllBuiltinAssets": [
+                "Assets/GM_Game/Scenes/Scene_Login.unity"
+            ]
+        },
+        {
+            "BundleName": "unityshaders.bundle",
+            "FileName": "2b27c1837220a980deaf770307290621.bundle",
+            "FileHash": "2b27c1837220a980deaf770307290621",
+            "FileCRC": "0089f661",
+            "FileSize": 51471,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                2,
+                3,
+                4,
+                11,
+                23
+            ],
+            "AllBuiltinAssets": [
+                "Assets/GM_Game/Shaders/Effect_Shader/Add_CenterGlow.shader",
+                "Assets/GM_Game/Shaders/Effect_Shader/Shader_UIEffect.shader",
+                "Assets/GM_Game/Shaders/MyShaderVariants.shadervariants",
+                "Assets/GM_Game/Shaders/UIShaders/GradientMask.shader",
+                "Assets/GM_Game/Shaders/UIShaders/LaserCenter.shader",
+                "Assets/GM_Game/Shaders/UIShaders/LaserCenterType2.shader",
+                "Assets/TextMesh Pro/Shaders/TMP_SDF.shader"
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_shaders.bundle",
+            "FileName": "fa5fbf22efee21b080468375f145d2c7.bundle",
+            "FileHash": "fa5fbf22efee21b080468375f145d2c7",
+            "FileCRC": "7fffb539",
+            "FileSize": 1926,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [],
+            "AllBuiltinAssets": [
+                "Assets/GM_Game/Shaders/MyShaderVariants.json",
+                "Assets/GM_Game/Shaders/ShaderVariantCollectorSetting.asset"
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_textures_login_cg_textures_wenli.bundle",
+            "FileName": "df2c9136a110e1aac5336470c16140ce.bundle",
+            "FileHash": "df2c9136a110e1aac5336470c16140ce",
+            "FileCRC": "5f401ac1",
+            "FileSize": 57938,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                4
+            ],
+            "AllBuiltinAssets": [
+                "Assets/GM_Game/Textures/Login/cg/Textures/wenli/fs_m_wenli_14.tga"
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_textures.bundle",
+            "FileName": "a02902a833b0d421f72894e271825a6f.bundle",
+            "FileHash": "a02902a833b0d421f72894e271825a6f",
+            "FileCRC": "c4474ce8",
+            "FileSize": 147072,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                2,
+                4
+            ],
+            "AllBuiltinAssets": [
+                "Assets/GM_Game/Textures/Smoke27.png"
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_textures_uitextures.bundle",
+            "FileName": "42fabe61bc255f34ef1423db2051c651.bundle",
+            "FileHash": "42fabe61bc255f34ef1423db2051c651",
+            "FileCRC": "44c0f39f",
+            "FileSize": 306446,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                11
+            ],
+            "AllBuiltinAssets": [
+                "Assets/GM_Game/Textures/UITextures/Fantasy.png",
+                "Assets/GM_Game/Textures/UITextures/Flare 2.png",
+                "Assets/GM_Game/Textures/UITextures/Flare RPG.png",
+                "Assets/GM_Game/Textures/UITextures/Flare.png",
+                "Assets/GM_Game/Textures/UITextures/Mask 8.png",
+                "Assets/GM_Game/Textures/UITextures/Mask.png"
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_uisprites_bg.bundle",
+            "FileName": "0a47457a4c3b468571fa92cf03092dd0.bundle",
+            "FileHash": "0a47457a4c3b468571fa92cf03092dd0",
+            "FileCRC": "56107a85",
+            "FileSize": 2092112,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                13,
+                15
+            ],
+            "AllBuiltinAssets": [
+                "Assets/GM_Game/UISprites/bg/bg.png",
+                "Assets/GM_Game/UISprites/bg/bg2.png",
+                "Assets/GM_Game/UISprites/bg/bg3.png",
+                "Assets/GM_Game/UISprites/bg/bg4.png",
+                "Assets/GM_Game/UISprites/bg/bg5.png",
+                "Assets/GM_Game/UISprites/bg/bg6.png"
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_uisprites_btn.bundle",
+            "FileName": "fa2327727d31521d95909b5cd3074268.bundle",
+            "FileHash": "fa2327727d31521d95909b5cd3074268",
+            "FileCRC": "608d5c7e",
+            "FileSize": 324555,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                13,
+                14,
+                15
+            ],
+            "AllBuiltinAssets": [
+                "Assets/GM_Game/UISprites/btn/btn_close01.png",
+                "Assets/GM_Game/UISprites/btn/btn_icon01.png",
+                "Assets/GM_Game/UISprites/btn/btn_icon02.png",
+                "Assets/GM_Game/UISprites/btn/btn_icon03.png",
+                "Assets/GM_Game/UISprites/btn/Btn_MenuButton_Square01_s.png"
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_uisprites_font.bundle",
+            "FileName": "f6109be9d28b3d3bcba268b698beb961.bundle",
+            "FileHash": "f6109be9d28b3d3bcba268b698beb961",
+            "FileCRC": "0f5c9764",
+            "FileSize": 5060502,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                13,
+                14,
+                15
+            ],
+            "AllBuiltinAssets": [
+                "Assets/GM_Game/UISprites/Font/FeiHuaSongTi-2 SDF.asset",
+                "Assets/GM_Game/UISprites/Font/FeiHuaSongTi-2.ttf"
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_uisprites_icon.bundle",
+            "FileName": "0a5a7a45a239f8016285b6eef244384f.bundle",
+            "FileHash": "0a5a7a45a239f8016285b6eef244384f",
+            "FileCRC": "29774824",
+            "FileSize": 50454,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                15
+            ],
+            "AllBuiltinAssets": [
+                "Assets/GM_Game/UISprites/Icon/icon01.png",
+                "Assets/GM_Game/UISprites/Icon/Toggle_Check_On.png"
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_uisprites_progress.bundle",
+            "FileName": "08a8442117bbba62adefc5fc92f64d08.bundle",
+            "FileHash": "08a8442117bbba62adefc5fc92f64d08",
+            "FileCRC": "f5e82667",
+            "FileSize": 4631,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [],
+            "AllBuiltinAssets": [
+                "Assets/GM_Game/UISprites/progress/prgs_green.png",
+                "Assets/GM_Game/UISprites/progress/prgs_grey.png"
+            ]
+        },
+        {
+            "BundleName": "assets_gm_game_dlls.bundle",
+            "FileName": "7201d727dc46afbce60c976976c2b6be.bundle",
+            "FileHash": "7201d727dc46afbce60c976976c2b6be",
+            "FileCRC": "836ca457",
+            "FileSize": 1109019,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [],
+            "AllBuiltinAssets": [
+                "Assets/GM_Game/Dlls/GM_Game.dll.bytes",
+                "Assets/GM_Game/Dlls/mscorlib.dll.bytes",
+                "Assets/GM_Game/Dlls/System.Core.dll.bytes",
+                "Assets/GM_Game/Dlls/System.dll.bytes"
+            ]
+        },
+        {
+            "BundleName": "share_packages_com_unity_textmeshpro_editor resources_gizmos.bundle",
+            "FileName": "4e7b6f9b7568dad20c4840a1b90b8af3.bundle",
+            "FileHash": "4e7b6f9b7568dad20c4840a1b90b8af3",
+            "FileCRC": "86c89c6e",
+            "FileSize": 1275,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [],
+            "AllBuiltinAssets": [
+                "Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd",
+                "Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component Icon.psd",
+                "Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Input Field Icon.psd"
+            ]
+        }
+    ],
+    "RedundancyInfos": []
+}

@@ -1,0 +1,31 @@
+using System;
+using UnityEngine;
+
+/**
+ * Title:创建角色和选择角色
+ * Description:
+ */
+
+
+public class CreateRoleView : UIBase
+{
+
+    [SerializeField, Header("创建角色Window")] private CreateRoleWindow _createRoleWindow;
+    [SerializeField, Header("选择角色Window")] private SelectRoleWindow _selectRoleWindow;
+
+    public override void InitView()
+    {
+        base.InitView();
+
+        windowDic.Add(WindowType.CreateRoleWindow, _createRoleWindow);
+        windowDic.Add(WindowType.SelectRoleWindow, _selectRoleWindow);
+
+    }
+
+    public void RegistCreateRoleBtnClicked(Action<string> action)
+    {
+        _createRoleWindow.CreateRoleBtnClickAction = action;
+    }
+
+
+}
