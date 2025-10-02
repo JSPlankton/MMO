@@ -6,10 +6,12 @@ using UnityEngine;
  */
 
 
-public class ConstDefine {
+public class ConstDefine
+{
 
 
     public const string BasePath = "Assets/GM_Game/";
     public const string PrefabPath = BasePath + "Prefabs/";
+    public const string EffectPath = BasePath + "Effects/";
 
 }

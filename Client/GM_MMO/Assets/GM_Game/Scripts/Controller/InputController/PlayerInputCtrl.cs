@@ -12,9 +12,12 @@ public class PlayerInputCtrl : MonoBehaviour
 {
 
     private PlayerInput _input;
-
+    //Shift相关事件
     public Action<bool> ShiftKeyIsPressEvent;
-
+    //跳跃相关事件
+    public Action Jumping;
+    //技能相关的按键按下
+    public Action<string> SkillKeyEvent;
 
     public Vector2 Movement
     {
@@ -48,6 +51,28 @@ public class PlayerInputCtrl : MonoBehaviour
             ShiftKeyIsPressEvent?.Invoke(false);
         };
 
+        _input.Player.Jump.started += ctx =>
+        {
+            Jumping?.Invoke();
+        };
+
+
+        //当键盘的某一个键按下的时候，
+        Keyboard.current.onTextInput += c =>
+        {
+
+            string key = c.ToString().ToUpper();
+            switch (key)
+            {
+                case "Q":
+                case "E":
+                case "R":
+                case "F":
+                    SkillKeyEvent?.Invoke(key);
+                    break;
+            }
+
+        };
 
     }
 
