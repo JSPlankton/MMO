@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 /**
@@ -11,17 +12,47 @@ public class MianRoleCtrl : RoleCtrlBase
 
 
     private PlayerInputCtrl _inputCtrl;
+    //角色移动速度
     private float _moveSpeed = 10;
     private float _rotationSpeed = 1000;
 
     protected override void OnAwake()
     {
         _inputCtrl = GetComponent<PlayerInputCtrl>();
+
+        _inputCtrl.ShiftKeyIsPressEvent += ShiftKeyIsPress;
+    }
+
+    /// <summary>
+    /// Shift按键是否按下， 如果按下，角色就要可以快速跑
+    /// </summary>
+    /// <param name="obj"></param>
+    private void ShiftKeyIsPress(bool ispress)
+    {
+        if (ispress)
+        {
+            _moveSpeed = 18;
+        }
+        else
+        {
+            _moveSpeed = 10;
+        }
     }
 
     private void Update()
     {
 
+        PlayerMovement();
+
+
+
+    }
+
+    /// <summary>
+    /// 角色移动
+    /// </summary>
+    private void PlayerMovement()
+    {
         //W A S D键是否按下
         if (_inputCtrl.Movement != Vector2.zero)
         {
@@ -29,7 +60,16 @@ public class MianRoleCtrl : RoleCtrlBase
             Vector3 target = new Vector3(_inputCtrl.Movement.x, 0, _inputCtrl.Movement.y);
             target = target * Time.deltaTime * _moveSpeed;
 
-            _animator.SetFloat("Movement", 2);
+            if (_moveSpeed == 10)
+            {
+                _animator.SetFloat("Movement", 2);
+            }
+            else if (_moveSpeed == 18)
+            {
+                _animator.SetFloat("Movement", 3);
+            }
+
+
 
             //从本地空间，转换成世界空间，
             target = Camera.main.transform.TransformDirection(target);
@@ -47,8 +87,5 @@ public class MianRoleCtrl : RoleCtrlBase
         {
             _animator.SetFloat("Movement", 0);
         }
-
     }
-
-
 }

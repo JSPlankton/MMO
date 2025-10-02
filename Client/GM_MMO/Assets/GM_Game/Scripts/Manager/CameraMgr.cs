@@ -34,7 +34,7 @@ public class CameraMgr : MonoBehaviour
         //1.获取到鼠标滚轮事件
         if (_mouse.scroll.y.ReadValue() != 0)
         {
-            SetOrbites(_cinemachine.m_Orbits[0].m_Height - _mouse.scroll.y.ReadValue() * Time.deltaTime);
+            SetOrbites(_cinemachine.m_Orbits[0].m_Height - _mouse.scroll.y.ReadValue() * 2 * Time.deltaTime);
         }
 
 
