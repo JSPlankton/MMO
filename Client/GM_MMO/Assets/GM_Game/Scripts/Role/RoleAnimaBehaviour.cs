@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 /**
@@ -30,56 +31,68 @@ public class RoleAnimaBehaviour : MonoBehaviour
     }
 
 
-    private void PlayEffect(string tag)
+    private void DoAttackConfig(AtkConfigEntity entity)
     {
-        //暂时
-        switch (tag)
+        if (entity._effect != null && entity._effect._fx)
         {
-            case "atk01":
 
-                ResourceMgr.Instance.LoadEffectbAsync("Attack/Attack01/Effect_Attack01", (GameObject go) =>
-                {
-                    go.transform.SetParent(_effectPos);
-                    go.transform.localPosition = new Vector3(-0.18f, -0.58f, -0.58f);
-                    go.transform.localEulerAngles = new Vector3(40.97f, 83.41f, 216.81f);
-                    go.transform.localScale = Vector3.one;
-                });
+            //实例化特效
+            ParticleSystem fx = Instantiate(entity._effect._fx);
+            if (fx != null)
+            {
+                if (!string.IsNullOrEmpty(entity._effect._parentName))
+                {   //设置父组件
+                    Transform parent = _roleCtrl.transform.Find(entity._effect._parentName);
+                    fx.transform.SetParent(parent);
+                }
+                fx.transform.localPosition = entity._effect._pos;
+                fx.transform.localEulerAngles = entity._effect._eulerAngle;
+                fx.transform.localScale = Vector3.one;
+            }
 
-                break;
-            case "atk02":
-
-                ResourceMgr.Instance.LoadEffectbAsync("Attack/Attack01/Effect_Attack01", (GameObject go) =>
-                {
-                    go.transform.SetParent(_effectPos);
-                    go.transform.localPosition = new Vector3(0.09f, -0.2f, -0.17f);
-                    go.transform.localEulerAngles = new Vector3(270f, 35.54f, 0);
-                    go.transform.localScale = Vector3.one;
-                });
-
-                break;
-            case "atk03_1":
-
-                ResourceMgr.Instance.LoadEffectbAsync("Attack/Attack01/Effect_Attack01", (GameObject go) =>
-                {
-                    go.transform.SetParent(_effectPos);
-                    go.transform.localPosition = new Vector3(-0.33f, 0.5f, -0.45f);
-                    go.transform.localEulerAngles = new Vector3(51.62f, 262.38f, 99.87f);
-                    go.transform.localScale = Vector3.one;
-                });
-
-                break;
-            case "atk03_2":
-
-                ResourceMgr.Instance.LoadEffectbAsync("Attack/Attack01/Effect_Attack01", (GameObject go) =>
-                {
-                    go.transform.SetParent(_effectPos);
-                    go.transform.localPosition = new Vector3(0.92f, 0.36f, 0.07f);
-                    go.transform.localEulerAngles = new Vector3(298.69f, 254.45f, 98.72f);
-                    go.transform.localScale = Vector3.one;
-                });
-
-                break;
         }
+
     }
+
+    private void PlayEffect(AnimationEvent animEvent)
+    {
+
+        RoleAtkConfig config = animEvent.objectReferenceParameter as RoleAtkConfig;
+
+        int index = animEvent.intParameter;
+
+        if (config != null)
+        {
+            AtkConfigEntity entity = config.atkConfigEntities[index];
+
+            if (!string.IsNullOrEmpty(animEvent.stringParameter))
+            {
+
+                switch (animEvent.stringParameter)
+                {
+                    case "skill03_2":
+                        entity._effect._pos = _roleCtrl.transform.localPosition + _roleCtrl.transform.forward * 6;
+                        entity._effect._eulerAngle = new Vector3(-90, _roleCtrl.transform.localEulerAngles.y,
+                                                            _roleCtrl.transform.localEulerAngles.z);
+                        break;
+                    case "skill04_2":
+                        entity._effect._pos = _roleCtrl.transform.localPosition + _roleCtrl.transform.forward * 10;
+                        break;
+                }
+            }
+
+            DoAttackConfig(entity);
+
+        }
+
+        if (_roleCtrl._targetRole != null)
+        {
+            _roleCtrl._targetRole.ChangeState(RoleState.Hit);
+            _roleCtrl.HitFx(_roleCtrl._targetRole.transform);
+        }
+
+
+    }
+
 
 }

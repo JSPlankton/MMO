@@ -46,9 +46,10 @@ public class Test : MonoBehaviour
         EditorSimulateModeParameters editorParameters = new EditorSimulateModeParameters();
         editorParameters.SimulateManifestFilePath = EditorSimulateModeHelper.SimulateBuild("DefaultPackage");
         InitializationOperation operation = _package.InitializeAsync(editorParameters);
+        yield return operation;
 
         gameObject.AddComponent<Global>();
-
+        UIRoot.Instance.InitMainCtrl();
 
         yield break;
     }

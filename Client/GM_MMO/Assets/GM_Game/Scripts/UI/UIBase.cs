@@ -49,6 +49,29 @@ public class UIBase : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// 根据WindowType显示Window
+    /// </summary>
+    /// <param name="windowType"></param>
+    public void ShowMainWindow(WindowType windowType, object obj = null)
+    {
+
+        if (windowDic == null || windowDic.Count <= 0) { return; }
+
+        if (windowDic.ContainsKey(windowType))
+        {
+            if (windowDic[windowType].gameObject.activeSelf)//如果当前的window是显示的，就隐藏它
+            {
+                windowDic[windowType].Show(false);
+            }
+            else
+            {
+                windowDic[windowType].Show();
+            }
+        }
+
+    }
+
 
 
 }

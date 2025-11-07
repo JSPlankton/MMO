@@ -1,10 +1,11 @@
+using HighlightPlus;
 using System;
 using System.Drawing;
 using UniRx;
 using UnityEngine;
 
 /**
- * Title: Role CtrlåŸºç±»
+ * Title: Role Ctrl»ùÀà
  * Description:
  */
 
@@ -15,21 +16,29 @@ public class RoleCtrlBase : MonoBehaviour
 
     protected Animator _animator;
     protected CharacterController _characterController;
-    //è§’è‰²å½“å‰çŠ¶æ€
+    //½ÇÉ«µ±Ç°×´Ì¬
     public RoleState _roleState;
 
     public int _actionId = Animator.StringToHash("Action");
-    //è·Ÿè¿åŠ¨åŠ¨ç”» ä½ç§»é€Ÿåº¦
+    //¸úÔË¶¯¶¯»­ Î»ÒÆËÙ¶È
     private float _rootMotionSpeed;
-    //è§’è‰²æœ‰é™çŠ¶æ€æœº
+    //½ÇÉ«ÓĞÏŞ×´Ì¬»ú
     protected RoleFSM _fsm;
+
+    //µ±Ç°½ÇÉ« Ñ¡ÖĞµÄ¶ÔÏó
+    public RoleCtrlBase _targetRole;
+
+    //µ±Ç°½ÇÉ«µÄÀàĞÍ
+    public RoleType _roleType;
+
+    protected HighlightManager _highlightManager;
 
 
     private void Awake()
     {
         _animator = GetComponent<Animator>();
         _characterController = GetComponent<CharacterController>();
-
+        _highlightManager = GetComponent<HighlightManager>();
 
         _fsm = new RoleFSM(this, _animator);
         OnAwake();
@@ -44,9 +53,21 @@ public class RoleCtrlBase : MonoBehaviour
 
     private void OnAnimatorMove()
     {
-        if (_roleState == RoleState.Slider)
+        if (_roleState == RoleState.Slider)//Ôö¼ÓSlider¼¼ÄÜ  ¸úÔË¶¯ ÔË¶¯Á¿
         {
             _rootMotionSpeed = 5;
+        }
+        else if (_roleState == RoleState.Attck)
+        {
+            AttackState attackState = _fsm.GetRoleFSMState(RoleState.Attck) as AttackState;
+            if (attackState._atkIndex == 35)
+            { //Skill02
+                _rootMotionSpeed = 3;
+            }
+            if (attackState._atkIndex == 36)
+            { //Skill03
+                _rootMotionSpeed = 2;
+            }
         }
         else
         {
@@ -64,80 +85,53 @@ public class RoleCtrlBase : MonoBehaviour
     private void Update()
     {
 
-        //æ£€æµ‹æ˜¯å¦åœ¨åœ°é¢
+        //¼ì²âÊÇ·ñÔÚµØÃæ
         IsGorund();
 
         OnUpdate();
     }
 
 
-
     public void ChangeState(RoleState state)
     {
         _fsm.ChangeState(state);
-
-        //_roleState = state;
-        //switch (_roleState)
-        //{
-        //    case RoleState.Idle:
-        //        _animator.SetInteger(_actionId, 1);
-        //        break;
-        //    case RoleState.Jump:
-        //        _animator.SetInteger(_actionId, 21);
-        //        break;
-        //    case RoleState.Slider:
-        //        _animator.SetInteger(_actionId, 41);
-        //        break;
-        //    case RoleState.Attck:
-
-        //        _atkIndex++;
-
-        //        if (_obs != null) { _obs.Dispose(); }
-
-        //        _obs = Observable.Timer(TimeSpan.FromMilliseconds(500)).Subscribe(_ =>
-        //        {
-        //            _atkIndex = 30;
-        //        });
-
-
-        //        _animator.SetInteger(_actionId, _atkIndex);
-
-        //        if (_atkIndex >= 33)
-        //        {
-        //            _atkIndex = 30;
-        //        }
-
-        //        break;
-        //    default:
-        //        break;
-        //}
     }
 
 
-    //ä¸Šå‡æˆ–åˆ™ä¸‹é™çš„é€Ÿåº¦
+    public void HitFx(Transform target)
+    {
+
+        if (_highlightManager != null)
+        {
+            _highlightManager.HitFX(target);
+        }
+    }
+
+
+    //ÉÏÉı»òÔòÏÂ½µµÄËÙ¶È
     protected float _verticalSpeed;
-    //éœ€è¦åˆ°è¾¾çš„é«˜åº¦
+    //ĞèÒªµ½´ïµÄ¸ß¶È
     protected float _verticalHeiht;
 
     /// <summary>
-    /// æ£€æµ‹æ˜¯å¦åœ¨åœ°é¢
+    /// ¼ì²âÊÇ·ñÔÚµØÃæ
     /// </summary>
     /// <exception cref="NotImplementedException"></exception>
     private void IsGorund()
     {
-        //éœ€è¦åˆ°è¾¾çš„é«˜åº¦ï¼Œ å¤§äº è§’è‰²å½“å‰çš„é«˜åº¦ï¼Œ è§’è‰²éœ€è¦ä¸Šå‡
+        //ĞèÒªµ½´ïµÄ¸ß¶È£¬ ´óÓÚ ½ÇÉ«µ±Ç°µÄ¸ß¶È£¬ ½ÇÉ«ĞèÒªÉÏÉı
         if (_verticalHeiht > transform.localPosition.y && CheckShereGround())
         {
             _verticalSpeed = 20;
         }
-        else if (_verticalHeiht < transform.localPosition.y && _verticalHeiht != -1000)//è§’è‰²å½“å‰çš„é«˜åº¦ å¤§äºäº† éœ€è¦åˆ°è¾¾çš„é«˜åº¦åï¼Œè§’è‰²å°±å¼€å§‹ä¸‹é™
+        else if (_verticalHeiht < transform.localPosition.y && _verticalHeiht != -1000)//½ÇÉ«µ±Ç°µÄ¸ß¶È ´óÓÚÁË ĞèÒªµ½´ïµÄ¸ß¶Èºó£¬½ÇÉ«¾Í¿ªÊ¼ÏÂ½µ
         {
             _verticalHeiht = -1000;
             _verticalSpeed = -20;
         }
 
 
-        //è¿‡æ¸¡çš„å€¼
+        //¹ı¶ÉµÄÖµ
         _verticalSpeed -= Mathf.Abs(_verticalSpeed) * Time.deltaTime * 1.5f;
 
         //if (_verticalSpeed > -50)
@@ -148,7 +142,7 @@ public class RoleCtrlBase : MonoBehaviour
         _characterController.Move(transform.up * Time.deltaTime * _verticalSpeed);
 
 
-        //æ£€æµ‹æ˜¯å¦åœ¨åœ°é¢
+        //¼ì²âÊÇ·ñÔÚµØÃæ
         if (CheckShereGround())
         {
 
@@ -160,12 +154,12 @@ public class RoleCtrlBase : MonoBehaviour
     }
 
     /// <summary>
-    /// æ£€æµ‹æ˜¯å¦åœ¨åœ°é¢
+    /// ¼ì²âÊÇ·ñÔÚµØÃæ
     /// </summary>
     /// <returns></returns>
     public bool CheckShereGround()
     {
-        //ç”¨äºæ£€æµ‹å½“å‰ä½ç½®å‘¨å›´åŠå¾„èŒƒå›´å†…æ‰€æœ‰çš„ç¢°æ’ä½“ï¼Œå¦‚æœæœ‰ç¢°æ’åˆ™è¿”å›true
+        //ÓÃÓÚ¼ì²âµ±Ç°Î»ÖÃÖÜÎ§°ë¾¶·¶Î§ÄÚËùÓĞµÄÅö×²Ìå£¬Èç¹ûÓĞÅö×²Ôò·µ»Øtrue
         Vector3 pos = transform.position + new Vector3(0, 0.1f, 0);
         return Physics.CheckSphere(pos, 0.2f, 1 << LayerMask.NameToLayer("Geometry"));
     }

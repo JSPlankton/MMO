@@ -29,6 +29,7 @@ public class RoleFSM
         _stateDic[RoleState.Jump] = new JumpState(roleCtrl, animator);
         _stateDic[RoleState.Slider] = new SliderState(roleCtrl, animator);
         _stateDic[RoleState.Attck] = new AttackState(roleCtrl, animator);
+        _stateDic[RoleState.Hit] = new HitState(roleCtrl, animator);
         //....
     }
 
@@ -63,6 +64,11 @@ public class RoleFSM
             return;
         }
 
+        //如果是主角，并且已经打开了角色属性window ， 就恢复视角
+        if (_roleCtrl._roleType == RoleType.MainRole && CameraMgr.Intance._isOpenRoleAttrWindow)
+        {
+            CameraMgr.Intance.RecoverAngle();
+        }
 
         //退出当前状态
         _stateDic[_roleCtrl._roleState].OnExit();

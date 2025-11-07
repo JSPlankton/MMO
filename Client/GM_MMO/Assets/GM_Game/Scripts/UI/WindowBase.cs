@@ -9,6 +9,8 @@ using UnityEngine;
 public class WindowBase : MonoBehaviour
 {
 
+    public virtual void InitWindow() { }
+
     public virtual void Show(bool isShow = true, object obj = null)
     {
         gameObject.Show(isShow);
@@ -22,6 +24,12 @@ public class WindowBase : MonoBehaviour
     public virtual void RefreshUI(object obj)
     {
 
+    }
+
+
+    public virtual void CloseWindow()
+    {
+        gameObject.Show(false);
     }
 
 

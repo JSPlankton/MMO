@@ -11,6 +11,9 @@ using UnityEngine.InputSystem;
 public class PlayerInputCtrl : MonoBehaviour
 {
 
+    public static PlayerInputCtrl Instance;
+
+
     private PlayerInput _input;
     //Shift相关事件
     public Action<bool> ShiftKeyIsPressEvent;
@@ -18,6 +21,9 @@ public class PlayerInputCtrl : MonoBehaviour
     public Action Jumping;
     //技能相关的按键按下
     public Action<string> SkillKeyEvent;
+
+    //主城UI相关的按键按下
+    public Action<string> MainUIKeyEvent;
 
     public Vector2 Movement
     {
@@ -27,7 +33,7 @@ public class PlayerInputCtrl : MonoBehaviour
 
     private void Awake()
     {
-
+        Instance = this;
         _input = new PlayerInput();
 
         RegistInputEvent();
@@ -61,6 +67,8 @@ public class PlayerInputCtrl : MonoBehaviour
         Keyboard.current.onTextInput += c =>
         {
 
+            if (!_input.asset.enabled) { return; }
+
             string key = c.ToString().ToUpper();
             switch (key)
             {
@@ -68,20 +76,32 @@ public class PlayerInputCtrl : MonoBehaviour
                 case "E":
                 case "R":
                 case "F":
+                case "1":
+                case "2":
+                case "3":
+                case "4":
+                case "5":
                     SkillKeyEvent?.Invoke(key);
                     break;
+
+                case "L":
+                case "B":
+                case "C":
+                    MainUIKeyEvent?.Invoke(key);
+                    break;
+
             }
 
         };
 
     }
 
-    private void OnEnable()
+    public void OnEnable()
     {
         _input.asset.Enable();
     }
 
-    private void OnDisable()
+    public void OnDisable()
     {
         _input.asset.Disable();
     }

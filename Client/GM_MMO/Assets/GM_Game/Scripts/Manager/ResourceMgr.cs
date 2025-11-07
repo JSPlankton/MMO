@@ -15,7 +15,7 @@ public class ResourceMgr : Singleton<ResourceMgr>
 
     private Dictionary<string, AssetOperationHandle> _prefabDic = new Dictionary<string, AssetOperationHandle>();
     private Dictionary<string, AssetOperationHandle> _effectDic = new Dictionary<string, AssetOperationHandle>();
-
+    private Dictionary<string, Sprite> _spriteDic = new Dictionary<string, Sprite>();
 
 
     /// <summary>
@@ -72,6 +72,35 @@ public class ResourceMgr : Singleton<ResourceMgr>
                    }
 
                    callback?.Invoke(go);
+               };
+        }
+    }
+
+    /// <summary>
+    /// º”‘ÿÕº∆¨◊ ‘¥
+    /// </summary>
+    /// <param name="path"></param>
+    /// <param name="callback"></param>
+    public void LoadSpriteAsync(string path, Action<Sprite> callback)
+    {
+
+        if (_spriteDic.ContainsKey(path))
+        {
+            callback?.Invoke(_spriteDic[path]);
+        }
+        else
+        {
+            Global.Instance.YooPackage.LoadAssetAsync<Sprite>($"{ConstDefine.SpritePath}{path}")
+               .Completed += (AssetOperationHandle handle) =>
+               {
+                   Sprite sprite = handle.GetAssetObject<Sprite>();
+
+                   if (!_spriteDic.ContainsKey(path))
+                   {
+                       _spriteDic.Add(path, sprite);
+                   }
+
+                   callback?.Invoke(sprite);
                };
         }
     }

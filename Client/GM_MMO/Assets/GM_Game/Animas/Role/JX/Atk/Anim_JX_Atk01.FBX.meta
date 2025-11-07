@@ -96,8 +96,8 @@ ModelImporter:
         messageOptions: 0
       - time: 0.115671605
         functionName: PlayEffect
-        data: atk01
-        objectReferenceParameter: {instanceID: 0}
+        data: 
+        objectReferenceParameter: {fileID: 11400000, guid: b11ce7977f930ae4cabc91a7673e7622, type: 2}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0

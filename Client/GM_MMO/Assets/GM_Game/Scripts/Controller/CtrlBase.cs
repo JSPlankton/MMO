@@ -40,6 +40,18 @@ public class CtrlBase : IDisposable
 
 
 
+    /// <summary>
+    /// œ‘ æWindow
+    /// </summary>
+    /// <param name="windowType"></param>
+    public virtual void ShowMainWindow(WindowType windowType, object obj = null)
+    {
+
+        if (!_view.gameObject.activeSelf) { _view.Show(); }
+
+        _view.ShowMainWindow(windowType, obj);
+    }
+
 
 
     public void Dispose()
