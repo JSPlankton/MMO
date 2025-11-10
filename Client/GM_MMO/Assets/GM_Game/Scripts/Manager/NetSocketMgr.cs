@@ -29,14 +29,27 @@ public class NetSocketMgr : Singleton<NetSocketMgr>
         NetErrorMsgMgr.Instance.Init();
     }
 
-
-    public void ConnectServer(string host, int port)
+    /// <summary>
+    /// 开始连接服务端
+    /// </summary>
+    /// <param name="host"></param>
+    /// <param name="port"></param>
+    /// <param name="connSucceed"></param>
+    /// <param name="connFailed"></param>
+    public void ConnectServer(string host, int port, Action connSucceed = null, Action connFailed = null)
     {
         Disconnect();
 
         _client = new NetClient(host, port, ClientType.Unity);
         _client.OnReceiveMsg += OnReceiveMsgHandle;
-
+        if (null != connSucceed)
+        {
+            _client.OnConnSucceed = connSucceed;
+        }
+        if (null != connFailed)
+        {
+            _client.OnConnFailed = connFailed;
+        }
         _client.StartConnect();
 
     }

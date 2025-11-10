@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "\u65B0\u5EFA\u914D\u7F6E\u6587\u4EF6",
+    "Projects": [
+      {
+        "Name": "CenterServer\\01_CenterServer.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "LoginServer\\02_LoginServer.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "03_GameServer\\03_GameServer.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "04_GateServer\\04_GateServer.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

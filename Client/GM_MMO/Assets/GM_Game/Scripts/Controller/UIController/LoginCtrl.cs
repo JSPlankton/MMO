@@ -13,6 +13,7 @@ public class LoginCtrl : CtrlBase
 {
 
     private LoginView _loginView;
+    private int _serverId;
 
 
     public LoginCtrl(UIBase view) : base(view)
@@ -39,15 +40,34 @@ public class LoginCtrl : CtrlBase
     }
 
     /// <summary>
-    /// 
+    /// 开始登录游戏服
     /// </summary>
     /// <param name="server"></param>
     private void OnGameServerBtnClicked(GameServer server)
     {
+        _serverId = server.ServerId;
+        //开始连接网关服务器
+        NetSocketMgr.Instance.ConnectServer(server.IpHost, server.Prot, OnConnSucced, OnConnFailed);
+        
+    }
+
+    /// <summary>
+    /// 连接服务端失败
+    /// </summary>
+    private void OnConnFailed()
+    {
+        TipsMgr.Instance.ShowSystemTips("连接服务器失败");
+    }
+
+    /// <summary>
+    /// 连接服务端成功
+    /// </summary>
+    private void OnConnSucced()
+    {
         LoginGameServerReq req = new LoginGameServerReq()
         {
             AccountId = Global.Instance.LoginInfo.AccountId,
-            GameServerId = server.ServerId,
+            GameServerId = _serverId,
         };
 
         NetSocketMgr.Client.SendData(NetDefine.CMD_LoginGameServerCode, req.ToByteString());

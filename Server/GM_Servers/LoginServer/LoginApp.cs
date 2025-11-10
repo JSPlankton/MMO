@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace LoginServer
 {
-    internal class Program
+    internal class LoginApp
     {
         static void Main(string[] args)
         {

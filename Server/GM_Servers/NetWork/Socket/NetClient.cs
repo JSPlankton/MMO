@@ -17,6 +17,11 @@ namespace NetWork.Socket
         //是否需要重连
         public bool _isNeedReconn = true;
 
+        //连接服务端成功回调
+        public Action OnConnSucceed;
+        //连接服务端失败回调
+        public Action OnConnFailed;
+
         public NetClient(string ip, int port, ClientType clientType)
         {
             _host = ip;
@@ -60,7 +65,7 @@ namespace NetWork.Socket
             {
                 _socket.EndConnect(ar);
                 _connState = ConnState.Connected;
-
+                OnConnSucceed?.Invoke();
                 LogMsg.Info($"连接服务端成功:{_socket.RemoteEndPoint}");
                 //开始接收服务端发来的数据
                 BeginReceive();
@@ -108,6 +113,7 @@ namespace NetWork.Socket
         /// </summary>
         public override void Disconnect()
         {
+            OnConnFailed?.Invoke();
             SetReconnectTimer();
             base.Disconnect();
         }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CenterServer
 {
-    internal class Program
+    internal class CenterApp
     {
         static void Main(string[] args)
         {

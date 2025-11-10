@@ -43,3 +43,32 @@ Client/GM_MMO/Assembly-CSharp-Editor-firstpass.csproj
 Client/GM_MMO/nameTranslation.txt
 *.csproj
 Client/Assets/Scripts/Utils/xmlParser/ConfigGenerate*
+
+# 构建缓存文件
+*.cache
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Visual Studio 内容索引文件 (包含 .vsidx)
+*.vsidx

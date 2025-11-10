@@ -2,7 +2,8 @@ syntax = "proto3"; //指定proto使用proto3语法，不指定默认是使用proto2
 
 message BasePackage{
 	int32 proto_code = 1;//协议码
-	int32 unity_session_id=2;//unity端的sessionID.
+	int32 unity_session_id=2;//unity端的sessionID
+	int32 gate_session_id=3;//网关服务器与游戏服务器连接的sessionID
 	bytes data = 10;//数据
 }
 

@@ -45,9 +45,13 @@ public class Session : ServerBase
 
         if (_client != null)
         {
-            if (_client._clientType == ClientType.LoginServer)
+            if (_client._clientType == ClientType.LoginServer || _client._clientType == ClientType.GateServer)
             {
                 basePackage.UnitySessionId = SessionId;
+            }
+            else if (_client._clientType == ClientType.GameServer)
+            {
+                basePackage.GateSessionId = SessionId;
             }
         }
 

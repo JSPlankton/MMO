@@ -10,7 +10,8 @@ public class NetDefine
     public const string IPHost = "127.0.0.1";//本机IP
     public const int CenterServerPort = 10110;//中心服务器端口号
     public const int LoginServerPort = 10120;//登录服务器的端口号
-    public const int GateServerPort = 10120;//网关服务器的端口号
+    public const int GameServerPort = 10130;//游戏服务器的端口号
+    public const int GateServerPort = 10140;//网关服务器的端口号
 
     public const ushort CMD_ErrCode = 10001;//错误码，
 
@@ -46,4 +47,6 @@ public enum ClientType
 {
     Unity,
     LoginServer,
+    GameServer,
+    GateServer,
 }

@@ -22,20 +22,20 @@ public static partial class RequestEntityReflection {
   static RequestEntityReflection() {
     byte[] descriptorData = global::System.Convert.FromBase64String(
         string.Concat(
-          "ChNSZXF1ZXN0RW50aXR5LnByb3RvIkkKC0Jhc2VQYWNrYWdlEhIKCnByb3Rv",
-          "X2NvZGUYASABKAUSGAoQdW5pdHlfc2Vzc2lvbl9pZBgCIAEoBRIMCgRkYXRh",
-          "GAogASgMIkMKCVJlZ2lzdFJlcRIRCgl1c2VyX25hbWUYASABKAkSEQoJcGhv",
-          "bmVfbnVtGAIgASgJEhAKCHBhc3N3b3JkGAMgASgJIi8KCExvZ2luUmVxEhEK",
-          "CXVzZXJfbmFtZRgBIAEoCRIQCghwYXNzd29yZBgCIAEoCSIlChBHZXRTZXJ2",
-          "ZXJMaXN0UmVxEhEKCXNlcnZlcl9pZBgBIAEoBSJAChJMb2dpbkdhbWVTZXJ2",
-          "ZXJSZXESEgoKYWNjb3VudF9pZBgBIAEoBRIWCg5nYW1lX3NlcnZlcl9pZBgC",
-          "IAEoBSJdCg1DcmVhdGVSb2xlUmVxEhIKCmFjY291bnRfaWQYASABKAUSFgoO",
-          "Z2FtZV9zZXJ2ZXJfaWQYAiABKAUSEAoIbmlja25hbWUYAyABKAkSDgoGam9i",
-          "X2lkGAQgASgFYgZwcm90bzM="));
+          "ChNSZXF1ZXN0RW50aXR5LnByb3RvImIKC0Jhc2VQYWNrYWdlEhIKCnByb3Rv",
+          "X2NvZGUYASABKAUSGAoQdW5pdHlfc2Vzc2lvbl9pZBgCIAEoBRIXCg9nYXRl",
+          "X3Nlc3Npb25faWQYAyABKAUSDAoEZGF0YRgKIAEoDCJDCglSZWdpc3RSZXES",
+          "EQoJdXNlcl9uYW1lGAEgASgJEhEKCXBob25lX251bRgCIAEoCRIQCghwYXNz",
+          "d29yZBgDIAEoCSIvCghMb2dpblJlcRIRCgl1c2VyX25hbWUYASABKAkSEAoI",
+          "cGFzc3dvcmQYAiABKAkiJQoQR2V0U2VydmVyTGlzdFJlcRIRCglzZXJ2ZXJf",
+          "aWQYASABKAUiQAoSTG9naW5HYW1lU2VydmVyUmVxEhIKCmFjY291bnRfaWQY",
+          "ASABKAUSFgoOZ2FtZV9zZXJ2ZXJfaWQYAiABKAUiXQoNQ3JlYXRlUm9sZVJl",
+          "cRISCgphY2NvdW50X2lkGAEgASgFEhYKDmdhbWVfc2VydmVyX2lkGAIgASgF",
+          "EhAKCG5pY2tuYW1lGAMgASgJEg4KBmpvYl9pZBgEIAEoBWIGcHJvdG8z"));
     descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
         new pbr::FileDescriptor[] { },
         new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-          new pbr::GeneratedClrTypeInfo(typeof(global::BasePackage), global::BasePackage.Parser, new[]{ "ProtoCode", "UnitySessionId", "Data" }, null, null, null, null),
+          new pbr::GeneratedClrTypeInfo(typeof(global::BasePackage), global::BasePackage.Parser, new[]{ "ProtoCode", "UnitySessionId", "GateSessionId", "Data" }, null, null, null, null),
           new pbr::GeneratedClrTypeInfo(typeof(global::RegistReq), global::RegistReq.Parser, new[]{ "UserName", "PhoneNum", "Password" }, null, null, null, null),
           new pbr::GeneratedClrTypeInfo(typeof(global::LoginReq), global::LoginReq.Parser, new[]{ "UserName", "Password" }, null, null, null, null),
           new pbr::GeneratedClrTypeInfo(typeof(global::GetServerListReq), global::GetServerListReq.Parser, new[]{ "ServerId" }, null, null, null, null),
@@ -84,6 +84,7 @@ public sealed partial class BasePackage : pb::IMessage<BasePackage>
   public BasePackage(BasePackage other) : this() {
     protoCode_ = other.protoCode_;
     unitySessionId_ = other.unitySessionId_;
+    gateSessionId_ = other.gateSessionId_;
     data_ = other.data_;
     _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
   }
@@ -113,7 +114,7 @@ public sealed partial class BasePackage : pb::IMessage<BasePackage>
   public const int UnitySessionIdFieldNumber = 2;
   private int unitySessionId_;
   /// <summary>
-  ///unity端的sessionID.
+  ///unity端的sessionID
   /// </summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -121,6 +122,21 @@ public sealed partial class BasePackage : pb::IMessage<BasePackage>
     get { return unitySessionId_; }
     set {
       unitySessionId_ = value;
+    }
+  }
+
+  /// <summary>Field number for the "gate_session_id" field.</summary>
+  public const int GateSessionIdFieldNumber = 3;
+  private int gateSessionId_;
+  /// <summary>
+  ///网关服务器与游戏服务器连接的sessionID
+  /// </summary>
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+  public int GateSessionId {
+    get { return gateSessionId_; }
+    set {
+      gateSessionId_ = value;
     }
   }
 
@@ -156,6 +172,7 @@ public sealed partial class BasePackage : pb::IMessage<BasePackage>
     }
     if (ProtoCode != other.ProtoCode) return false;
     if (UnitySessionId != other.UnitySessionId) return false;
+    if (GateSessionId != other.GateSessionId) return false;
     if (Data != other.Data) return false;
     return Equals(_unknownFields, other._unknownFields);
   }
@@ -166,6 +183,7 @@ public sealed partial class BasePackage : pb::IMessage<BasePackage>
     int hash = 1;
     if (ProtoCode != 0) hash ^= ProtoCode.GetHashCode();
     if (UnitySessionId != 0) hash ^= UnitySessionId.GetHashCode();
+    if (GateSessionId != 0) hash ^= GateSessionId.GetHashCode();
     if (Data.Length != 0) hash ^= Data.GetHashCode();
     if (_unknownFields != null) {
       hash ^= _unknownFields.GetHashCode();
@@ -193,6 +211,10 @@ public sealed partial class BasePackage : pb::IMessage<BasePackage>
       output.WriteRawTag(16);
       output.WriteInt32(UnitySessionId);
     }
+    if (GateSessionId != 0) {
+      output.WriteRawTag(24);
+      output.WriteInt32(GateSessionId);
+    }
     if (Data.Length != 0) {
       output.WriteRawTag(82);
       output.WriteBytes(Data);
@@ -215,6 +237,10 @@ public sealed partial class BasePackage : pb::IMessage<BasePackage>
       output.WriteRawTag(16);
       output.WriteInt32(UnitySessionId);
     }
+    if (GateSessionId != 0) {
+      output.WriteRawTag(24);
+      output.WriteInt32(GateSessionId);
+    }
     if (Data.Length != 0) {
       output.WriteRawTag(82);
       output.WriteBytes(Data);
@@ -234,6 +260,9 @@ public sealed partial class BasePackage : pb::IMessage<BasePackage>
     }
     if (UnitySessionId != 0) {
       size += 1 + pb::CodedOutputStream.ComputeInt32Size(UnitySessionId);
+    }
+    if (GateSessionId != 0) {
+      size += 1 + pb::CodedOutputStream.ComputeInt32Size(GateSessionId);
     }
     if (Data.Length != 0) {
       size += 1 + pb::CodedOutputStream.ComputeBytesSize(Data);
@@ -255,6 +284,9 @@ public sealed partial class BasePackage : pb::IMessage<BasePackage>
     }
     if (other.UnitySessionId != 0) {
       UnitySessionId = other.UnitySessionId;
+    }
+    if (other.GateSessionId != 0) {
+      GateSessionId = other.GateSessionId;
     }
     if (other.Data.Length != 0) {
       Data = other.Data;
@@ -286,6 +318,10 @@ public sealed partial class BasePackage : pb::IMessage<BasePackage>
           UnitySessionId = input.ReadInt32();
           break;
         }
+        case 24: {
+          GateSessionId = input.ReadInt32();
+          break;
+        }
         case 82: {
           Data = input.ReadBytes();
           break;
@@ -315,6 +351,10 @@ public sealed partial class BasePackage : pb::IMessage<BasePackage>
         }
         case 16: {
           UnitySessionId = input.ReadInt32();
+          break;
+        }
+        case 24: {
+          GateSessionId = input.ReadInt32();
           break;
         }
         case 82: {
