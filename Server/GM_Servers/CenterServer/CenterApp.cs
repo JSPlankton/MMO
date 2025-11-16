@@ -1,4 +1,5 @@
-﻿using SqlSugar;
+﻿using MySqlX.XDevAPI;
+using SqlSugar;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +27,7 @@ namespace CenterServer
             server.RegistCommand(NetDefine.CMD_GetServerListCode, loginCtrl);//获取服务器列表接口指令集
             server.RegistCommand(NetDefine.CMD_LoginGameServerCode, loginCtrl);//登录游戏服务器接口指令集
             server.RegistCommand(NetDefine.CMD_CreateRoleCode, loginCtrl);//创建角色接口指令集
+            server.RegistCommand(NetDefine.CMD_StartGameCode, loginCtrl);
 
             while (true)
             {

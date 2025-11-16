@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -24,9 +25,14 @@ public class LoadingView : UIBase
         _slideWidth = slideTrans.rect.width;
     }
 
+    private void OnEnable()
+    {
+        RefreshUI(0, "");
+    }
+
 
     /// <summary>
-    /// 更新热更新UI
+    /// ?????????UI
     /// </summary>
     /// <param name="prgs"></param>
     /// <param name="prgsTex"></param>

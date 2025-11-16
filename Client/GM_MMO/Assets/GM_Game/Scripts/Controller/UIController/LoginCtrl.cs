@@ -85,23 +85,23 @@ public class LoginCtrl : CtrlBase
         if (ret != null && ret.CmdCode == CmdCode.Succeed)
         {
             Debug.Log("登录游戏服务器::" + ret.ToString());
+            
+            SceneMgr.Instance.LoadScene(SceneType.Scene_CreateRole, () =>
+            {
+                UIRoot.Instance.LoginViewCtrl.ShowView(false);
 
-            Global.Instance.YooPackage.LoadSceneAsync("Assets/GM_Game/Scenes/Scene_CreateRole")
-                .Completed += (SceneOperationHandle handle) =>
+                if (ret.CreateRoleInfo != null)
                 {
-                    UIRoot.Instance.LoginViewCtrl.ShowView(false);
-
-                    if (ret.CreateRoleInfo != null)
-                    {
-                        //1.是否已经有角色， 有角色.. 跳转选择角色的UI。
-                        UIRoot.Instance.CreateRoleViewCtrl.ShowWindow(WindowType.SelectRoleWindow, ret.CreateRoleInfo);
-                    }
-                    else
-                    {
-                        //2.如果还未创建角色，那么跳转创建角色UI界面
-                        UIRoot.Instance.CreateRoleViewCtrl.ShowWindow(WindowType.CreateRoleWindow);
-                    }
-                };
+                    //1.是否已经有角色， 有角色.. 跳转选择角色的UI。
+                    UIRoot.Instance.CreateRoleViewCtrl.ShowWindow(WindowType.SelectRoleWindow, ret.CreateRoleInfo);
+                }
+                else
+                {
+                    //2.如果还未创建角色，那么跳转创建角色UI界面
+                    UIRoot.Instance.CreateRoleViewCtrl.ShowWindow(WindowType.CreateRoleWindow);
+                }
+            });
+            
         }
     }
 

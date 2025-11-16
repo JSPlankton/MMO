@@ -24,9 +24,11 @@ namespace _04_GateServer
             //注册指令集
             server.RegistCommand(NetDefine.CMD_LoginGameServerCode, loginCtrl);
             server.RegistCommand(NetDefine.CMD_CreateRoleCode, loginCtrl);
+            server.RegistCommand(NetDefine.CMD_StartGameCode, loginCtrl);
 
+            client.RegistCommand(NetDefine.CMD_StartGameCode, loginCtrl);
             client.RegistCommand(NetDefine.CMD_LoginGameServerCode, loginCtrl);
-            client.RegistCommand(NetDefine.CMD_CreateRoleCode, loginCtrl);
+            client.RegistCommand(NetDefine.CMD_CreateRoleCode, loginCtrl); 
 
             while (true)
             {

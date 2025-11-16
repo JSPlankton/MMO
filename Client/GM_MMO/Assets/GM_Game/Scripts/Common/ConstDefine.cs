@@ -14,5 +14,5 @@ public class ConstDefine
     public const string PrefabPath = BasePath + "Prefabs/";
     public const string EffectPath = BasePath + "Effects/";
     public const string SpritePath = BasePath + "UISprites/";
-
+    public const string ScenePath = BasePath + "Scenes/";
 }

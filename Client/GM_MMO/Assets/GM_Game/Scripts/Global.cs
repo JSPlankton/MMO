@@ -17,6 +17,9 @@ public class Global : MonoBehaviour
 
     //登录信息
     public LoginRet LoginInfo { get; set; }
+    
+    //主角信息
+    public MainRoleInfo MRInfo { get; set; }
 
     private void Awake()
     {

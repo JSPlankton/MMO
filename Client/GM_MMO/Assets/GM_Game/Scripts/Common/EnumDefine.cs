@@ -56,3 +56,13 @@ public enum DragType
     KanpsackSlot,//拖拽的是背包Slot
 
 }
+
+/// <summary>
+/// 场景类型
+/// </summary>
+public enum SceneType
+{
+    Scene_CreateRole,
+    Scene_Login,
+    Scene_MianCity
+}

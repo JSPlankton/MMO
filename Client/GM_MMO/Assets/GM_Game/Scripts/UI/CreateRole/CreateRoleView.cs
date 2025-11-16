@@ -27,5 +27,8 @@ public class CreateRoleView : UIBase
         _createRoleWindow.CreateRoleBtnClickAction = action;
     }
 
-
+    public void RegistStartGameBtnClicked(Action<int> action)
+    {
+        _selectRoleWindow.StartGameBtnClicked = action;
+    }
 }

@@ -23,7 +23,8 @@ public class UIRoot : MonoBehaviour
 
     [SerializeField, Header("主城场景相关View")] private MainView _mainView;
     public MainCtrl MainViewCtrl;
-
+    
+    [SerializeField, Header("加载相关View")] private LoadingView _loadingView;
 
     [SerializeField, Header("点击特效")] private ParticleSystem _clickFX;
 
@@ -41,6 +42,8 @@ public class UIRoot : MonoBehaviour
     private void Start()
     {
         _canvas = GetComponentInChildren<Canvas>();
+        
+        SceneMgr.Instance.Init(_loadingView);
     }
 
     private void Update()
@@ -83,29 +86,31 @@ public class UIRoot : MonoBehaviour
     {
         if (_mainView != null)
         {
-            PlayerInputCtrl.Instance.MainUIKeyEvent += MainUIKey;
             MainViewCtrl = new MainCtrl(_mainView);
+            _mainView.Show();
         }
     }
-
-    private void MainUIKey(string key)
+    
+    public void RegisterMainUIKeyEvent()
     {
-        switch (key)
+        PlayerInputCtrl.Instance.MainUIKeyEvent += (string key) =>
         {
-            case "L":
-                MainViewCtrl.ShowMainWindow(WindowType.SkillInfoWindow);
-                break;
-            case "B":
-                MainViewCtrl.ShowMainWindow(WindowType.KnapsackWindow);
-                CameraMgr.Intance.KnapsackWindowAngle(_mainView.GetWindow(WindowType.KnapsackWindow));
-                break;
-            case "C":
-                MainViewCtrl.ShowMainWindow(WindowType.RoleAttributeWindow);
-                CameraMgr.Intance.RoleAttrWindowAngle(_mainView.GetWindow(WindowType.RoleAttributeWindow));
-                break;
-        }
+            switch (key)
+            {
+                case "L":
+                    MainViewCtrl.ShowMainWindow(WindowType.SkillInfoWindow);
+                    break;
+                case "B":
+                    MainViewCtrl.ShowMainWindow(WindowType.KnapsackWindow);
+                    CameraMgr.Intance.KnapsackWindowAngle(_mainView.GetWindow(WindowType.KnapsackWindow));
+                    break;
+                case "C":
+                    MainViewCtrl.ShowMainWindow(WindowType.RoleAttributeWindow);
+                    CameraMgr.Intance.RoleAttrWindowAngle(_mainView.GetWindow(WindowType.RoleAttributeWindow));
+                    break;
+            }
+        };
     }
-
 
     //把屏幕坐标转为UI坐标，
     public Vector2 ScreenPointToViewPoint(Vector2 screenPos)

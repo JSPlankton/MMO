@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "F:\\Unity\\MMO\\Server\\GM_Servers\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{14E73ED4-C4CF-44E3-83A6-0AD422E296B7}|CenterServer\\01_CenterServer.csproj|f:\\unity\\mmo\\server\\gm_servers\\centerserver\\centerapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E73ED4-C4CF-44E3-83A6-0AD422E296B7}|CenterServer\\01_CenterServer.csproj|solutionrelative:centerserver\\centerapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6426F16-C186-4FE1-ADE5-24AE6D194BFF}|03_GameServer\\03_GameServer.csproj|f:\\unity\\mmo\\server\\gm_servers\\03_gameserver\\gameapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6426F16-C186-4FE1-ADE5-24AE6D194BFF}|03_GameServer\\03_GameServer.csproj|solutionrelative:03_gameserver\\gameapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7273E51C-C6F2-43F2-9E31-5F2186CFDA47}|04_GateServer\\04_GateServer.csproj|f:\\unity\\mmo\\server\\gm_servers\\04_gateserver\\gateapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7273E51C-C6F2-43F2-9E31-5F2186CFDA47}|04_GateServer\\04_GateServer.csproj|solutionrelative:04_gateserver\\gateapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7273E51C-C6F2-43F2-9E31-5F2186CFDA47}|04_GateServer\\04_GateServer.csproj|f:\\unity\\mmo\\server\\gm_servers\\04_gateserver\\ctrl\\gate_loginctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7273E51C-C6F2-43F2-9E31-5F2186CFDA47}|04_GateServer\\04_GateServer.csproj|solutionrelative:04_gateserver\\ctrl\\gate_loginctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,12 +23,28 @@
       "RelativeMoniker": "D:0:0:{F6426F16-C186-4FE1-ADE5-24AE6D194BFF}|03_GameServer\\03_GameServer.csproj|solutionrelative:03_gameserver\\ctrl\\game_loginctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7273E51C-C6F2-43F2-9E31-5F2186CFDA47}|04_GateServer\\04_GateServer.csproj|f:\\unity\\mmo\\server\\gm_servers\\04_gateserver\\gateapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7273E51C-C6F2-43F2-9E31-5F2186CFDA47}|04_GateServer\\04_GateServer.csproj|solutionrelative:04_gateserver\\gateapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6426F16-C186-4FE1-ADE5-24AE6D194BFF}|03_GameServer\\03_GameServer.csproj|f:\\unity\\mmo\\server\\gm_servers\\03_gameserver\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F6426F16-C186-4FE1-ADE5-24AE6D194BFF}|03_GameServer\\03_GameServer.csproj|solutionrelative:03_gameserver\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6426F16-C186-4FE1-ADE5-24AE6D194BFF}|03_GameServer\\03_GameServer.csproj|f:\\unity\\mmo\\server\\gm_servers\\03_gameserver\\gameapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6426F16-C186-4FE1-ADE5-24AE6D194BFF}|03_GameServer\\03_GameServer.csproj|solutionrelative:03_gameserver\\gameapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14E73ED4-C4CF-44E3-83A6-0AD422E296B7}|CenterServer\\01_CenterServer.csproj|f:\\unity\\mmo\\server\\gm_servers\\centerserver\\ctrl\\center_loginctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E73ED4-C4CF-44E3-83A6-0AD422E296B7}|CenterServer\\01_CenterServer.csproj|solutionrelative:centerserver\\ctrl\\center_loginctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E73ED4-C4CF-44E3-83A6-0AD422E296B7}|CenterServer\\01_CenterServer.csproj|f:\\unity\\mmo\\server\\gm_servers\\centerserver\\db\\modle\\loginmodle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E73ED4-C4CF-44E3-83A6-0AD422E296B7}|CenterServer\\01_CenterServer.csproj|solutionrelative:centerserver\\db\\modle\\loginmodle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E73ED4-C4CF-44E3-83A6-0AD422E296B7}|CenterServer\\CenterServer.csproj|F:\\Unity\\MMO\\Server\\GM_Servers\\centerserver\\db\\modle\\loginmodle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E73ED4-C4CF-44E3-83A6-0AD422E296B7}|CenterServer\\CenterServer.csproj|solutionrelative:centerserver\\db\\modle\\loginmodle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E73ED4-C4CF-44E3-83A6-0AD422E296B7}|CenterServer\\CenterServer.csproj|F:\\Unity\\MMO\\Server\\GM_Servers\\centerserver\\ctrl\\center_loginctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E73ED4-C4CF-44E3-83A6-0AD422E296B7}|CenterServer\\CenterServer.csproj|solutionrelative:centerserver\\ctrl\\center_loginctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD4C588C-43FA-4D5F-9FFE-7828B28AE7B1}|NetWork\\NetWork.csproj|F:\\Unity\\MMO\\Server\\GM_Servers\\network\\socket\\com\\netdefine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD4C588C-43FA-4D5F-9FFE-7828B28AE7B1}|NetWork\\NetWork.csproj|solutionrelative:network\\socket\\com\\netdefine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3063699F-AE5B-4AE8-87B5-80A42EDA573F}|LoginServer\\02_LoginServer.csproj|f:\\unity\\mmo\\server\\gm_servers\\loginserver\\loginapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,18 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FD4C588C-43FA-4D5F-9FFE-7828B28AE7B1}|NetWork\\NetWork.csproj|F:\\Unity\\MMO\\Server\\GM_Servers\\network\\socket\\netclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD4C588C-43FA-4D5F-9FFE-7828B28AE7B1}|NetWork\\NetWork.csproj|solutionrelative:network\\socket\\netclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14E73ED4-C4CF-44E3-83A6-0AD422E296B7}|CenterServer\\CenterServer.csproj|F:\\Unity\\MMO\\Server\\GM_Servers\\centerserver\\ctrl\\center_loginctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14E73ED4-C4CF-44E3-83A6-0AD422E296B7}|CenterServer\\CenterServer.csproj|solutionrelative:centerserver\\ctrl\\center_loginctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD4C588C-43FA-4D5F-9FFE-7828B28AE7B1}|NetWork\\NetWork.csproj|F:\\Unity\\MMO\\Server\\GM_Servers\\network\\socket\\com\\netdefine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD4C588C-43FA-4D5F-9FFE-7828B28AE7B1}|NetWork\\NetWork.csproj|solutionrelative:network\\socket\\com\\netdefine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14E73ED4-C4CF-44E3-83A6-0AD422E296B7}|CenterServer\\CenterServer.csproj|F:\\Unity\\MMO\\Server\\GM_Servers\\centerserver\\db\\modle\\loginmodle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14E73ED4-C4CF-44E3-83A6-0AD422E296B7}|CenterServer\\CenterServer.csproj|solutionrelative:centerserver\\db\\modle\\loginmodle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14E73ED4-C4CF-44E3-83A6-0AD422E296B7}|CenterServer\\CenterServer.csproj|F:\\Unity\\MMO\\Server\\GM_Servers\\centerserver\\db\\table\\roletable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -130,7 +146,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -142,20 +158,72 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CenterApp.cs",
+              "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\CenterServer\\CenterApp.cs",
+              "RelativeDocumentMoniker": "CenterServer\\CenterApp.cs",
+              "ToolTip": "F:\\Unity\\MMO\\Server\\GM_Servers\\CenterServer\\CenterApp.cs",
+              "RelativeToolTip": "CenterServer\\CenterApp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvyEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T14:55:44.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginModle.cs",
+              "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\CenterServer\\DB\\Modle\\LoginModle.cs",
+              "RelativeDocumentMoniker": "CenterServer\\DB\\Modle\\LoginModle.cs",
+              "ToolTip": "F:\\Unity\\MMO\\Server\\GM_Servers\\CenterServer\\DB\\Modle\\LoginModle.cs",
+              "RelativeToolTip": "CenterServer\\DB\\Modle\\LoginModle.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAIwDYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T14:42:23.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Center_LoginCtrl.cs",
+              "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\CenterServer\\Ctrl\\Center_LoginCtrl.cs",
+              "RelativeDocumentMoniker": "CenterServer\\Ctrl\\Center_LoginCtrl.cs",
+              "ToolTip": "F:\\Unity\\MMO\\Server\\GM_Servers\\CenterServer\\Ctrl\\Center_LoginCtrl.cs",
+              "RelativeToolTip": "CenterServer\\Ctrl\\Center_LoginCtrl.cs",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAUwJgAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T14:29:13.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.config",
+              "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\03_GameServer\\App.config",
+              "RelativeDocumentMoniker": "03_GameServer\\App.config",
+              "ToolTip": "F:\\Unity\\MMO\\Server\\GM_Servers\\03_GameServer\\App.config",
+              "RelativeToolTip": "03_GameServer\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-13T14:28:15.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "GateApp.cs",
               "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\04_GateServer\\GateApp.cs",
               "RelativeDocumentMoniker": "04_GateServer\\GateApp.cs",
               "ToolTip": "F:\\Unity\\MMO\\Server\\GM_Servers\\04_GateServer\\GateApp.cs",
               "RelativeToolTip": "04_GateServer\\GateApp.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvxwAAABKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-10T14:13:38.064Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "App.config",
               "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\LoginServer\\App.config",
               "RelativeDocumentMoniker": "LoginServer\\App.config",
@@ -168,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "LoginApp.cs",
               "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\LoginServer\\LoginApp.cs",
               "RelativeDocumentMoniker": "LoginServer\\LoginApp.cs",
@@ -181,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "LoginCtrl.cs",
               "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\LoginServer\\Ctrl\\LoginCtrl.cs",
               "RelativeDocumentMoniker": "LoginServer\\Ctrl\\LoginCtrl.cs",
@@ -194,46 +262,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "GameApp.cs",
               "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\03_GameServer\\GameApp.cs",
               "RelativeDocumentMoniker": "03_GameServer\\GameApp.cs",
               "ToolTip": "F:\\Unity\\MMO\\Server\\GM_Servers\\03_GameServer\\GameApp.cs",
               "RelativeToolTip": "03_GameServer\\GameApp.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvxgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxwAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-10T14:02:26.407Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Game_LoginCtrl.cs",
               "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\03_GameServer\\Ctrl\\Game_LoginCtrl.cs",
               "RelativeDocumentMoniker": "03_GameServer\\Ctrl\\Game_LoginCtrl.cs",
               "ToolTip": "F:\\Unity\\MMO\\Server\\GM_Servers\\03_GameServer\\Ctrl\\Game_LoginCtrl.cs",
               "RelativeToolTip": "03_GameServer\\Ctrl\\Game_LoginCtrl.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAJAAAA",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAcwH8AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-10T14:02:23.552Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Gate_LoginCtrl.cs",
               "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\04_GateServer\\Ctrl\\Gate_LoginCtrl.cs",
               "RelativeDocumentMoniker": "04_GateServer\\Ctrl\\Gate_LoginCtrl.cs",
               "ToolTip": "F:\\Unity\\MMO\\Server\\GM_Servers\\04_GateServer\\Ctrl\\Gate_LoginCtrl.cs",
               "RelativeToolTip": "04_GateServer\\Ctrl\\Gate_LoginCtrl.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAWAAAA",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAgwIIAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-10T14:01:26.573Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "DataUtils.cs",
               "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\NetWork\\Common\\DataUtils.cs",
               "RelativeDocumentMoniker": "NetWork\\Common\\DataUtils.cs",
@@ -246,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "RoleTable.cs",
               "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\CenterServer\\DB\\Table\\RoleTable.cs",
               "RelativeDocumentMoniker": "CenterServer\\DB\\Table\\RoleTable.cs",
@@ -258,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "GameServerTable.cs",
               "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\CenterServer\\DB\\Table\\GameServerTable.cs",
               "RelativeDocumentMoniker": "CenterServer\\DB\\Table\\GameServerTable.cs",
@@ -270,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "RequestEntity.cs",
               "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\NetWork\\Proto\\RequestEntity.cs",
               "RelativeDocumentMoniker": "NetWork\\Proto\\RequestEntity.cs",
@@ -282,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "ResultEntity.cs",
               "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\NetWork\\Proto\\ResultEntity.cs",
               "RelativeDocumentMoniker": "NetWork\\Proto\\ResultEntity.cs",
@@ -294,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "SessionMgr.cs",
               "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\NetWork\\Socket\\com\\SessionMgr.cs",
               "RelativeDocumentMoniker": "NetWork\\Socket\\com\\SessionMgr.cs",
@@ -306,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 8,
               "Title": "LoginModle.cs",
               "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\CenterServer\\DB\\Modle\\LoginModle.cs",
               "RelativeDocumentMoniker": "CenterServer\\DB\\Modle\\LoginModle.cs",
@@ -318,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "AccountTable.cs",
               "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\CenterServer\\DB\\Table\\AccountTable.cs",
               "RelativeDocumentMoniker": "CenterServer\\DB\\Table\\AccountTable.cs",
@@ -330,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "DBMgr.cs",
               "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\CenterServer\\DB\\DBMgr.cs",
               "RelativeDocumentMoniker": "CenterServer\\DB\\DBMgr.cs",
@@ -342,7 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "LoginCtrl.cs",
               "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\LoginServer\\Ctrl\\LoginCtrl.cs",
               "RelativeDocumentMoniker": "LoginServer\\Ctrl\\LoginCtrl.cs",
@@ -354,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 9,
               "Title": "Center_LoginCtrl.cs",
               "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\CenterServer\\Ctrl\\Center_LoginCtrl.cs",
               "RelativeDocumentMoniker": "CenterServer\\Ctrl\\Center_LoginCtrl.cs",
@@ -366,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "IContainer.cs",
               "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\NetWork\\Socket\\com\\IContainer.cs",
               "RelativeDocumentMoniker": "NetWork\\Socket\\com\\IContainer.cs",
@@ -378,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\LoginServer\\Program.cs",
               "RelativeDocumentMoniker": "LoginServer\\Program.cs",
@@ -390,7 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\CenterServer\\Program.cs",
               "RelativeDocumentMoniker": "CenterServer\\Program.cs",
@@ -402,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "Document.cs",
               "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\NetWork\\Common\\Document.cs",
               "RelativeDocumentMoniker": "NetWork\\Common\\Document.cs",
@@ -414,7 +482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "LogMsg.cs",
               "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\NetWork\\Common\\LogMsg.cs",
               "RelativeDocumentMoniker": "NetWork\\Common\\LogMsg.cs",
@@ -426,7 +494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "ServerBase.cs",
               "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\NetWork\\Socket\\com\\ServerBase.cs",
               "RelativeDocumentMoniker": "NetWork\\Socket\\com\\ServerBase.cs",
@@ -438,19 +506,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 10,
               "Title": "NetDefine.cs",
               "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\NetWork\\Socket\\com\\NetDefine.cs",
               "RelativeDocumentMoniker": "NetWork\\Socket\\com\\NetDefine.cs",
               "ToolTip": "F:\\Unity\\MMO\\Server\\GM_Servers\\NetWork\\Socket\\com\\NetDefine.cs",
               "RelativeToolTip": "NetWork\\Socket\\com\\NetDefine.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAlwBYAAAAvAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAlwBsAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T08:30:04.493Z"
+              "WhenOpened": "2025-07-30T08:30:04.493Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "NetClient.cs",
               "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\NetWork\\Socket\\NetClient.cs",
               "RelativeDocumentMoniker": "NetWork\\Socket\\NetClient.cs",
@@ -462,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "Singleton.cs",
               "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\NetWork\\Common\\Singleton.cs",
               "RelativeDocumentMoniker": "NetWork\\Common\\Singleton.cs",
@@ -474,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "NetUtils.cs",
               "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\NetWork\\Socket\\com\\NetUtils.cs",
               "RelativeDocumentMoniker": "NetWork\\Socket\\com\\NetUtils.cs",
@@ -486,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "Session.cs",
               "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\NetWork\\Socket\\com\\Session.cs",
               "RelativeDocumentMoniker": "NetWork\\Socket\\com\\Session.cs",
@@ -499,7 +568,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "NetServer.cs",
               "DocumentMoniker": "F:\\Unity\\MMO\\Server\\GM_Servers\\NetWork\\Socket\\NetServer.cs",
               "RelativeDocumentMoniker": "NetWork\\Socket\\NetServer.cs",

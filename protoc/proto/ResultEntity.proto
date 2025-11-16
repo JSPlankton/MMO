@@ -14,6 +14,7 @@ enum CmdCode{
 	PhoneNumIllegal= 9 ;//手机号不合法
 	PasswordIllegal=10;//密码不合法
 	UserOftenLogin=11;//用户频繁登录
+	RoleNotExist=12;//角色不存在
 }
 
 
@@ -56,4 +57,41 @@ message CreateRoleRet{
 	string nickname= 3;//昵称
 	int32 job_id = 4;
 	int32 level = 5;
+}
+
+message StartGameRet{
+	CmdCode cmd_code = 1;//表示请求是否成功
+	//角色属性信息
+	MainRoleInfo main_role_info = 2;
+}
+
+//角色基础信息
+message RoleBaseInfo{
+	int32 role_id= 1;//角色ID
+	string nickname= 2;//昵称
+	int32 level = 3;
+	int32 max_hp =4;
+	int32 curr_hp = 5;
+	int32 max_mp = 6;
+	int32 curr_mp = 7;
+	int32 atk = 8;
+	int32 def = 9;
+	int32 crit = 10;
+	int32 dodge = 11;
+	int32 hit = 12;
+	int32 penet = 13;
+	string pos = 14;
+	int32 map_id = 15;
+}
+
+//主角信息
+message MainRoleInfo{
+	RoleBaseInfo base_info = 1;
+	int32 account_id = 2;
+	int32 money = 3;
+	int32 job_id = 4;
+	int32 exp = 5;
+	int32 skill_up_point = 6;
+	string cam_offset = 7;
+	int32 server_id = 8;
 }

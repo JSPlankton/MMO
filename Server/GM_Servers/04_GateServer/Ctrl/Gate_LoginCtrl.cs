@@ -25,6 +25,9 @@ internal class Gate_LoginCtrl : IContainer
             case NetDefine.CMD_CreateRoleCode:
                 OnCreateRoleResultHandle(session, basePackage);
                 break;
+            case NetDefine.CMD_StartGameCode:
+                OnStartGameResultHandle(session, basePackage);
+                break;      
         }
 
     }
@@ -48,6 +51,9 @@ internal class Gate_LoginCtrl : IContainer
                 break;
             case NetDefine.CMD_CreateRoleCode:
                 OnCreateRoleHandle(serverBase, basePackage);
+                break;
+            case NetDefine.CMD_StartGameCode:
+                OnStartGameHandle(serverBase, basePackage);
                 break;
         }
     }
@@ -108,6 +114,19 @@ internal class Gate_LoginCtrl : IContainer
     }
 
     /// <summary>
+    /// 请求开始游戏 返回数据
+    /// </summary>
+    /// <param name="session"></param>
+    /// <param name="basePackage"></param>
+    private void OnStartGameResultHandle(Session session, BasePackage basePackage)
+    {
+        StartGameRet ret = StartGameRet.Parser.ParseFrom(basePackage.Data);
+        LogMsg.Info("OnStartGameResultHandle::" + ret.ToString());
+        //把数据发送到Unity端。
+        session.SendData(basePackage);
+    }
+
+    /// <summary>
     /// 请求创建角色
     /// </summary>
     /// <param name="serverBase"></param>
@@ -121,5 +140,18 @@ internal class Gate_LoginCtrl : IContainer
         //  req.Nickname 是否合法
         serverBase._client.SendData(basePackage);
         LogMsg.Info("OnCreateRoleHandle::" + req.ToString());
+    }
+
+    /// <summary>
+    /// 请求开始游戏
+    /// </summary>
+    /// <param name="serverBase"></param>
+    /// <param name="basePackage"></param>
+    private void OnStartGameHandle(ServerBase serverBase, BasePackage basePackage)
+    {
+        StartGameReq req = StartGameReq.Parser.ParseFrom(basePackage.Data);
+        //就要把收到的数据发送给游戏逻辑服务器
+        serverBase._client.SendData(basePackage);
+        LogMsg.Info("OnStartGameHandle::" + req.ToString());
     }
 }

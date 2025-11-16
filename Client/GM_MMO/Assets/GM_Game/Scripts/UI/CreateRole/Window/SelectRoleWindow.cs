@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -16,6 +17,9 @@ public class SelectRoleWindow : WindowBase
     [SerializeField, Header("昵称")] private TMP_Text _texNickname;
     [SerializeField, Header("等级和职业")] private TMP_Text _texJobLevel;
 
+    public Action<int> StartGameBtnClicked;
+
+    private int _roleId;
 
     public override void RefreshUI(object obj)
     {
@@ -34,15 +38,18 @@ public class SelectRoleWindow : WindowBase
 
             _texJobLevel.SetText($"职业:{jobStr}    Lv.{createRole.Level}");
 
-
+            _roleId = createRole.RoleId;
         }
     }
 
+    /// <summary>
+    /// 开始游戏按钮
+    /// </summary>
     public void OnStartGameBtnClicked()
     {
 
         //进入主城， 开始真正的游戏. todo
-
+        StartGameBtnClicked.Invoke(_roleId);
     }
 
 

@@ -38,3 +38,8 @@ message CreateRoleReq{
 	string nickname =3;//昵称
 	int32 job_id=4;//职业
 }
+
+//开始游戏请求数据
+message StartGameReq{
+	int32 role_id = 1;//角色id
+}

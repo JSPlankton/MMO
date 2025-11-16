@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /**
- * Title: ½ÇÉ«ÓÐÏÞ×´Ì¬»ú
+ * Title: ï¿½ï¿½É«ï¿½ï¿½ï¿½ï¿½×´Ì¬ï¿½ï¿½
  * Description:
  */
 
@@ -13,7 +13,7 @@ public class RoleFSM
 
     RoleCtrlBase _roleCtrl;
 
-    //ÓÃÓÚ´æ´¢½ÇÉ«ËùÓÐµÄ×´Ì¬£¬Í³Ò»¹ÜÀí
+    //ï¿½ï¿½ï¿½Ú´æ´¢ï¿½ï¿½É«ï¿½ï¿½ï¿½Ðµï¿½×´Ì¬ï¿½ï¿½Í³Ò»ï¿½ï¿½ï¿½ï¿½
     private Dictionary<RoleState, RoleFSMStateBase> _stateDic;
 
     public RoleFSM(RoleCtrlBase roleCtrl, Animator animator)
@@ -34,7 +34,7 @@ public class RoleFSM
     }
 
     /// <summary>
-    /// »ñÈ¡×´Ì¬
+    /// ï¿½ï¿½È¡×´Ì¬
     /// </summary>
     /// <param name="roleState"></param>
     /// <returns></returns>
@@ -48,7 +48,7 @@ public class RoleFSM
     }
 
     /// <summary>
-    /// ¸Ä±ä½ÇÉ«×´Ì¬
+    /// ï¿½Ä±ï¿½ï¿½É«×´Ì¬
     /// </summary>
     /// <param name="newState"></param>
     public void ChangeState(RoleState newState)
@@ -58,25 +58,25 @@ public class RoleFSM
             return;
         }
 
-        //½ÇÉ«Èç¹ûµ±Ç°µÄ×´Ì¬ µÈÓÚÒª¸Ä±äµÄ×´Ì¬ ÄÇÃ´¾Íreturn,  ÌØÊâÇé¿ö
+        //ï¿½ï¿½É«ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½×´Ì¬ ï¿½ï¿½ï¿½ï¿½Òªï¿½Ä±ï¿½ï¿½×´Ì¬ ï¿½ï¿½Ã´ï¿½ï¿½return,  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         if (_roleCtrl._roleState == newState && newState != RoleState.Attck)
         {
             return;
         }
 
-        //Èç¹ûÊÇÖ÷½Ç£¬²¢ÇÒÒÑ¾­´ò¿ªÁË½ÇÉ«ÊôÐÔwindow £¬ ¾Í»Ö¸´ÊÓ½Ç
+        //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½Ë½ï¿½É«ï¿½ï¿½ï¿½ï¿½window ï¿½ï¿½ ï¿½Í»Ö¸ï¿½ï¿½Ó½ï¿½
         if (_roleCtrl._roleType == RoleType.MainRole && CameraMgr.Intance._isOpenRoleAttrWindow)
         {
             CameraMgr.Intance.RecoverAngle();
         }
 
-        //ÍË³öµ±Ç°×´Ì¬
+        //ï¿½Ë³ï¿½ï¿½ï¿½Ç°×´Ì¬
         _stateDic[_roleCtrl._roleState].OnExit();
 
-        //½ÇÉ«×´Ì¬¸³Öµ
+        //ï¿½ï¿½É«×´Ì¬ï¿½ï¿½Öµ
         _roleCtrl._roleState = newState;
 
-        //½øÈëÐÂµÄ×´Ì¬
+        //ï¿½ï¿½ï¿½ï¿½ï¿½Âµï¿½×´Ì¬
         _stateDic[newState].OnEnter();
 
 

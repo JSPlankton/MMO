@@ -33,6 +33,7 @@ public class RoleCtrlBase : MonoBehaviour
 
     protected HighlightManager _highlightManager;
 
+    public Transform _lookAt;
 
     private void Awake()
     {
@@ -170,4 +171,8 @@ public class RoleCtrlBase : MonoBehaviour
 
     protected virtual void OnUpdate() { }
 
+    public void InitCtrl(RoleType roleType, RoleBaseInfo baseInfo)
+    {
+        //todo
+    }
 }

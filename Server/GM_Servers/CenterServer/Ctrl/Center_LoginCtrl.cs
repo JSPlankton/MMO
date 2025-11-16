@@ -50,6 +50,9 @@ public class Center_LoginCtrl : IContainer
             case NetDefine.CMD_CreateRoleCode:
                 OnCreateRoleHandle(serverBase, basePackage);
                 break;
+            case NetDefine.CMD_StartGameCode:
+                OnStartGameHandle(serverBase, basePackage);
+                break;
 
         }
     }
@@ -130,6 +133,22 @@ public class Center_LoginCtrl : IContainer
 
         RegistRet ret = _loginModle.RegistAccount(req);
         LogMsg.Info("OnRegistHandle=>ret::" + ret.ToString());
+
+        serverBase.SendData(basePackage, basePackage.ProtoCode, ret.ToByteString());
+    }
+
+    /// <summary>
+    /// 开始游戏请求
+    /// </summary>
+    /// <param name="serverBase"></param>
+    /// <param name="basePackage"></param>
+    private void OnStartGameHandle(ServerBase serverBase, BasePackage basePackage)
+    {
+        StartGameReq req = StartGameReq.Parser.ParseFrom(basePackage.Data);
+        LogMsg.Info("OnStartGameHandle=>req::" + req.ToString());
+
+        StartGameRet ret = _loginModle.StartGame(req);
+        LogMsg.Info("OnStartGameHandle=>ret::" + ret.ToString());
 
         serverBase.SendData(basePackage, basePackage.ProtoCode, ret.ToByteString());
     }

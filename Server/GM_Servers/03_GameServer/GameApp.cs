@@ -24,7 +24,9 @@ namespace _03_GameServer
             //注册指令集
             server.RegistCommand(NetDefine.CMD_LoginGameServerCode, loginCtrl);
             server.RegistCommand(NetDefine.CMD_CreateRoleCode, loginCtrl);
+            server.RegistCommand(NetDefine.CMD_StartGameCode, loginCtrl);
 
+            client.RegistCommand(NetDefine.CMD_StartGameCode, loginCtrl);
             client.RegistCommand(NetDefine.CMD_LoginGameServerCode, loginCtrl);
             client.RegistCommand(NetDefine.CMD_CreateRoleCode, loginCtrl);
 

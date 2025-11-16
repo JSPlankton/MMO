@@ -25,6 +25,7 @@ public class NetDefine
 
     public const ushort CMD_CreateRoleCode = 11050;//创建角色请求码
 
+    public const ushort CMD_StartGameCode = 11060;//开始游戏请求码
 }
 
 

@@ -251,4 +251,58 @@ public class LoginModle
         }
         return ret;
     }
+
+    /// <summary>
+    /// 开始游戏请求处理
+    /// </summary>
+    /// <param name="req"></param>
+    /// <returns></returns>
+    internal StartGameRet StartGame(StartGameReq req)
+    {
+        StartGameRet ret = new StartGameRet();
+
+        RoleTable roleTable = _db.Queryable<RoleTable>().Where(v => v.Id == req.RoleId).First();
+        if (roleTable != null)
+        {
+            //角色基础信息
+            RoleBaseInfo baseInfo = new RoleBaseInfo() { 
+                RoleId = roleTable.Id,
+                Nickname = roleTable.Nickname,
+                Level = roleTable.Level,
+                MaxHp = roleTable.MaxHP,
+                CurrHp = roleTable.CurrHP,
+                MaxMp = roleTable.MaxMP,
+                CurrMp = roleTable.CurrMP,
+                Atk = roleTable.Atk,
+                Def = roleTable.Def,
+                Crit = roleTable.Crit,
+                Dodge = roleTable.Dodeg,
+                Hit = roleTable.Hit,
+                Penet = roleTable.Penet,
+                Pos = roleTable.Pos,
+                MapId = roleTable.MapId,
+            };
+            //主角信息
+            MainRoleInfo roleInfo = new MainRoleInfo() { 
+                BaseInfo = baseInfo,
+                AccountId = roleTable.AccountID,
+                Money = roleTable.Money,
+                JobId = roleTable.JobID,
+                Exp = roleTable.Exp,
+                SkillUpPoint = roleTable.SkillUpPoint,
+                CamOffset = roleTable.CameraOffset,
+                ServerId = roleTable.ServerId,
+            };
+
+            ret.MainRoleInfo = roleInfo;
+
+        }
+        else
+        {
+            ret.CmdCode = CmdCode.RoleNotExist;//角色不存在
+        }
+
+
+        return ret;
+    }
 }

@@ -28,6 +28,7 @@ public class MainRoleCtrl : RoleCtrlBase
         _inputCtrl = GetComponent<PlayerInputCtrl>();
         _ghostEffect = GetComponent<GhostEffect>();
 
+        UIRoot.Instance.RegisterMainUIKeyEvent();
         _inputCtrl.ShiftKeyIsPressEvent += ShiftKeyIsPress;
         _inputCtrl.Jumping += Jumping;
         _inputCtrl.SkillKeyEvent += SkillKey;

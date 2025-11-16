@@ -34,6 +34,9 @@ public class CameraMgr : MonoBehaviour
     {
 
         _mainRole = mainRole;
+        _cinemachine.Follow = mainRole.transform;
+        _cinemachine.LookAt = mainRole._lookAt;
+        
         SetOrbites(12);
     }
 

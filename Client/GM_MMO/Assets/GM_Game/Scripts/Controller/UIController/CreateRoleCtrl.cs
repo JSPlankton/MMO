@@ -25,9 +25,10 @@ public class CreateRoleCtrl : CtrlBase
     public void RegistCommand()
     {
         SocketDispatcher.Instance.AddEventHandler(NetDefine.CMD_CreateRoleCode, OnCreateRoleHandle);
-
+        SocketDispatcher.Instance.AddEventHandler(NetDefine.CMD_StartGameCode, OnStartGameHandle);
 
         _createRoleView.RegistCreateRoleBtnClicked(OnCreateRoleBtnClicked);
+        _createRoleView.RegistStartGameBtnClicked(OnStartGameBtnClicked);
     }
 
     private void OnCreateRoleBtnClicked(string nickname)
@@ -41,6 +42,21 @@ public class CreateRoleCtrl : CtrlBase
         };
 
         NetSocketMgr.Client.SendData(NetDefine.CMD_CreateRoleCode, req.ToByteString());
+    }
+    
+    /// <summary>
+    /// 开始游戏请求
+    /// </summary>
+    /// <param name="obj"></param>
+    /// <exception cref="NotImplementedException"></exception>
+    private void OnStartGameBtnClicked(int roleId)
+    {
+        Debug.Log("开始游戏请求 roleId :" + roleId.ToString());
+        StartGameReq req = new StartGameReq()
+        {
+            RoleId = roleId
+        };
+        NetSocketMgr.Client.SendData(NetDefine.CMD_StartGameCode, req.ToByteString());
     }
 
     /// <summary>
@@ -58,7 +74,34 @@ public class CreateRoleCtrl : CtrlBase
             TipsMgr.Instance.ShowSystemTips("创建角色成功..");
 
             ShowWindow(WindowType.SelectRoleWindow, ret);
+        }
+    }
+    
+    /// <summary>
+    /// 开始游戏 返回数据
+    /// </summary>
+    /// <param name="data"></param>
+    /// <exception cref="NotImplementedException"></exception>
+    private void OnStartGameHandle(ByteString data)
+    {
+        StartGameRet ret = StartGameRet.Parser.ParseFrom(data);
+        if (ret != null)
+        {
+            Debug.Log("OnStartGameHandle:" + ret.ToString());
+            
+            // 缓存主角信息
+            Global.Instance.MRInfo = ret.MainRoleInfo;
 
+            // 加载主城场景
+            SceneMgr.Instance.LoadScene(SceneType.Scene_MianCity, () =>
+            {
+                UIRoot.Instance.CreateRoleViewCtrl.ShowView(false);
+                UIRoot.Instance.InitMainCtrl();
+            });
+
+            // 隐藏创建角色相关view
+
+            //初始化主城先关的ui控制器
         }
     }
 }

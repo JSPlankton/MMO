@@ -25,6 +25,9 @@ internal class Game_LoginCtrl : IContainer
             case NetDefine.CMD_CreateRoleCode:
                 OnCreateRoleResultHandle(session, basePackage);
                 break;
+            case NetDefine.CMD_StartGameCode:
+                OnStartGameResultHandle(session, basePackage);
+                break;
         }
 
     }
@@ -48,6 +51,9 @@ internal class Game_LoginCtrl : IContainer
                 break;
             case NetDefine.CMD_CreateRoleCode:
                 OnCreateRoleHandle(serverBase, basePackage);
+                break;
+            case NetDefine.CMD_StartGameCode:
+                OnStartGameHandle(serverBase, basePackage);
                 break;
         }
     }
@@ -88,7 +94,19 @@ internal class Game_LoginCtrl : IContainer
     private void OnCreateRoleResultHandle(Session session, BasePackage basePackage)
     {
         CreateRoleRet ret = CreateRoleRet.Parser.ParseFrom(basePackage.Data);
-        //把数据发送到中心服务器端。
+        //把数据发送到网关服务器端。
+        session.SendData(basePackage);
+    }
+
+    /// <summary>
+    /// 请求开始游戏 返回数据
+    /// </summary>
+    /// <param name="session"></param>
+    /// <param name="basePackage"></param>
+    private void OnStartGameResultHandle(Session session, BasePackage basePackage)
+    {
+        StartGameRet ret = StartGameRet.Parser.ParseFrom(basePackage.Data);
+        //把数据发送到网关服务器端。
         session.SendData(basePackage);
     }
 
@@ -104,5 +122,18 @@ internal class Game_LoginCtrl : IContainer
         //就要把收到的数据发送给中心服务器
         serverBase._client.SendData(basePackage);
         LogMsg.Info("OnCreateRoleHandle::" + req.ToString());
+    }
+
+    /// <summary>
+    /// 请求开始游戏
+    /// </summary>
+    /// <param name="serverBase"></param>
+    /// <param name="basePackage"></param>
+    private void OnStartGameHandle(ServerBase serverBase, BasePackage basePackage)
+    {
+        StartGameReq req = StartGameReq.Parser.ParseFrom(basePackage.Data);
+        //就要把收到的数据发送给中心服务器
+        serverBase._client.SendData(basePackage);
+        LogMsg.Info("OnStartGameHandle::" + req.ToString());
     }
 }
