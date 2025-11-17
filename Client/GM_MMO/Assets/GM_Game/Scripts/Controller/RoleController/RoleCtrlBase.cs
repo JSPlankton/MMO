@@ -33,6 +33,8 @@ public class RoleCtrlBase : MonoBehaviour
 
     protected HighlightManager _highlightManager;
 
+    protected RoleBaseInfo _roleBaseInfo;
+
     public Transform _lookAt;
 
     private void Awake()
@@ -48,8 +50,14 @@ public class RoleCtrlBase : MonoBehaviour
 
     private void Start()
     {
-
         OnStart();
+    }
+    
+    public void InitCtrl(RoleType roleType, RoleBaseInfo baseInfo)
+    {
+        //todo
+        _roleType = roleType;
+        _roleBaseInfo = baseInfo;
     }
 
     private void OnAnimatorMove()
@@ -170,9 +178,5 @@ public class RoleCtrlBase : MonoBehaviour
     protected virtual void OnStart() { }
 
     protected virtual void OnUpdate() { }
-
-    public void InitCtrl(RoleType roleType, RoleBaseInfo baseInfo)
-    {
-        //todo
-    }
+    
 }

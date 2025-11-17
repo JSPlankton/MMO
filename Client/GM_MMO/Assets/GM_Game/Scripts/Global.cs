@@ -20,6 +20,8 @@ public class Global : MonoBehaviour
     
     //Ö÷½ÇÐÅÏ¢
     public MainRoleInfo MRInfo { get; set; }
+    
+    public MainRoleCtrl MRCtrl { get; set; }
 
     private void Awake()
     {

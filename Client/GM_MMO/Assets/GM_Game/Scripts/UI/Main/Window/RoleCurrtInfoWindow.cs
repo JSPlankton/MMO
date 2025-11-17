@@ -17,7 +17,9 @@ public class RoleCurrtInfoWindow : WindowBase
     [SerializeField, Header("角色职业等级信息")] private TMP_Text _texJobLevel;
 
     [SerializeField, Header("角色血量信息")] private Slider _sliderHP;
+    [SerializeField, Header("HP")] private TMP_Text _texHP;
     [SerializeField, Header("角色法力值信息")] private Slider _sliderMP;
+    [SerializeField, Header("MP")] private TMP_Text _texMP;
 
 
     [SerializeField, Header("技能槽父组件")] private Transform _skillSlotParent;
@@ -27,6 +29,7 @@ public class RoleCurrtInfoWindow : WindowBase
 
     public override void InitWindow()
     {
+        RefreshUI(null);
         //加载Prefab资源   SkillSlotWidget
         Global.Instance.YooPackage.LoadAssetAsync($"{ConstDefine.PrefabPath}UIPrefabs/SkillSlotWidget")
             .Completed += (AssetOperationHandle handle) =>
@@ -61,7 +64,35 @@ public class RoleCurrtInfoWindow : WindowBase
     {
 
         //TODO  服务端返回角色相关的数据后， 才可以更新UI
+        MainRoleInfo mrInfo = Global.Instance.MRInfo;
+        if (mrInfo != null)
+        {
+            string headPath = "";
+            string jobStr = "";
+            if (mrInfo.JobId == 1)
+            {
+                headPath = "Icon/head_jianxiu";
+                jobStr = "剑修";
+            }
+            ResourceMgr.Instance.LoadSpriteAsync(headPath, (sprite =>
+            {
+                if (sprite == null)
+                {
+                    return;
+                }
+                _imgHead.sprite = sprite;
+            }));
+            _texNickname.SetText(mrInfo.BaseInfo.Nickname);
+            _texJobLevel.SetText($"Lv.{mrInfo.BaseInfo.Level}{jobStr}");
 
+            float hp = mrInfo.BaseInfo.CurrHp / mrInfo.BaseInfo.MaxHp;
+            _sliderHP.value = hp;
+            _texHP.SetText($"{mrInfo.BaseInfo.CurrHp}/{mrInfo.BaseInfo.MaxHp}  {(int)(hp * 100)}%");
+            
+            float mp = mrInfo.BaseInfo.CurrMp / mrInfo.BaseInfo.MaxMp;
+            _sliderMP.value = mp;
+            _texMP.SetText($"{mrInfo.BaseInfo.CurrMp}/{mrInfo.BaseInfo.MaxMp}  {(int)(mp * 100)}%");
+        }
 
     }
 

@@ -22,6 +22,7 @@ public class MainRoleCtrl : RoleCtrlBase
 
     protected override void OnAwake()
     {
+        Global.Instance.MRCtrl = this;
         //当进入主城后，服务端返回角色数据后， 拿到了摄像机的参数，
         CameraMgr.Intance.InitCamera(this);
 

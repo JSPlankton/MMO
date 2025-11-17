@@ -23,10 +23,9 @@ public class MiniMapWindow : WindowBase
     private void Start()
     {
         _mapHelper = MiniMapHelper.Instance;
+        _mainRole = Global.Instance.MRCtrl;
     }
-
-
-
+    
     private void Update()
     {
 
@@ -40,7 +39,10 @@ public class MiniMapWindow : WindowBase
 
             //实时的更新箭头如片的旋转信息， 根据角色的旋转
             _imgArrow.transform.localEulerAngles = new Vector3(0, 0, 360 - _mainRole.transform.localEulerAngles.y + 90);
-
+        }
+        else
+        {
+            _mainRole = Global.Instance.MRCtrl;
         }
 
         //Render texture   性能消耗非常的高
