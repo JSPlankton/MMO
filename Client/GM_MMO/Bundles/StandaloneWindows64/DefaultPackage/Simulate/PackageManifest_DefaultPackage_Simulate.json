@@ -7697,22 +7697,6 @@
         },
         {
             "Address": "",
-            "AssetPath": "Assets/GM_Game/UISprites/Icon/Skill/Skill_186.png",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 126,
-            "DependIDs": []
-        },
-        {
-            "Address": "",
-            "AssetPath": "Assets/GM_Game/UISprites/Icon/Skill/Skill_1813_2.png",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 126,
-            "DependIDs": []
-        },
-        {
-            "Address": "",
             "AssetPath": "Assets/GM_Game/UISprites/Icon/Skill/Skill_330100.png",
             "AssetGUID": "",
             "AssetTags": [],
@@ -7745,7 +7729,23 @@
         },
         {
             "Address": "",
-            "AssetPath": "Assets/GM_Game/UISprites/Icon/Skill/Skill_500003.png",
+            "AssetPath": "Assets/GM_Game/UISprites/Icon/Skill/Skill_330500.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 126,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/Icon/Skill/Skill_330600.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 126,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GM_Game/UISprites/Icon/Skill/Skill_330700.png",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 126,

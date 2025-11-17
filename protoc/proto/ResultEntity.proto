@@ -1,80 +1,85 @@
-syntax = "proto3"; //Ö¸¶¨protoÊ¹ÓÃproto3Óï·¨£¬²»Ö¸¶¨Ä¬ÈÏÊÇÊ¹ÓÃproto2
+syntax = "proto3"; //æŒ‡å®šprotoä½¿ç”¨proto3è¯­æ³•ï¼Œä¸æŒ‡å®šé»˜è®¤æ˜¯ä½¿ç”¨proto2
 
 
 enum CmdCode{
-	Succeed = 0;//ÇëÇó³É¹¦
-	AcctExist = 1;//ÕËºÅÒÑ´æÔÚ
-	ServerError=2;//·şÎñ¶Ë´íÎó
-	AcctNotExist = 3;//ÕËºÅ²»´æÔÚ
-	PasswordError= 4;//ÃÜÂë´íÎó
-	AcctDisable = 5;//ÕËºÅ½ûÓÃ
-	ReqParamError= 6;//ÇëÇó²ÎÊı´íÎó
-	NicknameExist = 7;//êÇ³ÆÒÑ´æÔÚ
-	UserNameIllegal = 8;//ÓÃ»§Ãû²»ºÏ·¨
-	PhoneNumIllegal= 9 ;//ÊÖ»úºÅ²»ºÏ·¨
-	PasswordIllegal=10;//ÃÜÂë²»ºÏ·¨
-	UserOftenLogin=11;//ÓÃ»§Æµ·±µÇÂ¼
-	RoleNotExist=12;//½ÇÉ«²»´æÔÚ
+	Succeed = 0;//è¯·æ±‚æˆåŠŸ
+	AcctExist = 1;//è´¦å·å·²å­˜åœ¨
+	ServerError=2;//æœåŠ¡ç«¯é”™è¯¯
+	AcctNotExist = 3;//è´¦å·ä¸å­˜åœ¨
+	PasswordError= 4;//å¯†ç é”™è¯¯
+	AcctDisable = 5;//è´¦å·ç¦ç”¨
+	ReqParamError= 6;//è¯·æ±‚å‚æ•°é”™è¯¯
+	NicknameExist = 7;//æ˜µç§°å·²å­˜åœ¨
+	UserNameIllegal = 8;//ç”¨æˆ·åä¸åˆæ³•
+	PhoneNumIllegal= 9 ;//æ‰‹æœºå·ç ä¸åˆæ³•
+	PasswordIllegal=10;//å¯†ç ä¸åˆæ³•
+	UserOftenLogin=11;//ç”¨æˆ·é¢‘ç¹ç™»å½•
+	RoleNotExist = 12;//è§’è‰²ä¸å­˜åœ¨
+	MoneyDeficit = 13;//æ¸¸æˆå¸ä¸è¶³
+	KnapsackFull = 14;//èƒŒåŒ…å·²æ»¡
+	AcctHasLogin = 15;//è´¦å·å·²ç™»å½•
 }
 
 
 message ErrMsg{
-	CmdCode cmd_code = 1;//´íÎóÂë
+	CmdCode cmd_code = 1;//é”™è¯¯ç 
 }
 
 message RegistRet{
-	CmdCode cmd_code = 1;//±íÊ¾×¢²áÊÇ·ñ³É¹¦
+	CmdCode cmd_code = 1;//è¡¨ç¤ºæ³¨å†Œæ˜¯å¦æˆåŠŸ
 }
 
 message LoginRet{
-	CmdCode cmd_code = 1;//±íÊ¾µÇÂ¼ÊÇ·ñ³É¹¦
-	GameServer game_server=2;//±íÊ¾×îºóµÇÂ¼µÄ·şÎñÆ÷
-	int32 account_id = 3;//ÓÃ»§id
+	CmdCode cmd_code = 1;//è¡¨ç¤ºç™»å½•æ˜¯å¦æˆåŠŸ
+	GameServer game_server=2;//è¡¨ç¤ºæœ€åç™»å½•çš„æœåŠ¡å™¨
+	int32 account_id = 3;//ç”¨æˆ·id
 }
 
 message GameServer{
-	int32 server_id = 1;//·şÎñÆ÷id£¬
-	string server_name=2;//Ãû³Æ
-	int32 run_state = 3;//ÔËĞĞ×´Ì¬
-	int32 is_new = 4;//ÊÇ·ñÊÇĞÂ·ş
+	int32 server_id = 1;//æœåŠ¡å™¨idï¼Œ
+	string server_name=2;//åç§°
+	int32 run_state = 3;//è¿è¡ŒçŠ¶æ€
+	int32 is_new = 4;//æ˜¯å¦æ˜¯æ–°æœ
 	string ip_host=5;//ip
-	int32 prot = 6;//¶Ë¿Ú
+	int32 prot = 6;//ç«¯å£
 }
 
 message GetServerListRet{
-	CmdCode cmd_code = 1;//±íÊ¾ÇëÇóÊÇ·ñ³É¹¦
-	repeated GameServer game_servers=2;//·şÎñÆ÷ÁĞ±í
+	CmdCode cmd_code = 1;//è¡¨ç¤ºè¯·æ±‚æ˜¯å¦æˆåŠŸ
+	repeated GameServer game_servers=2;//æœåŠ¡å™¨åˆ—è¡¨
 }
 
 message LoginGameServerRet{
-	CmdCode cmd_code = 1;//±íÊ¾ÇëÇóÊÇ·ñ³É¹¦
-	CreateRoleRet create_role_info = 2;//ÒÑ´´½¨µÄ½ÇÉ«
+	CmdCode cmd_code = 1;//è¡¨ç¤ºè¯·æ±‚æ˜¯å¦æˆåŠŸ
+	CreateRoleRet create_role_info = 2;//å·²åˆ›å»ºçš„è§’è‰²
 }
 
 message CreateRoleRet{
-	CmdCode cmd_code = 1;//±íÊ¾´´½¨½ÇÉ«ÊÇ·ñ³É¹¦
-	int32 role_id= 2;//½ÇÉ«ID
-	string nickname= 3;//êÇ³Æ
+	CmdCode cmd_code = 1;//è¡¨ç¤ºåˆ›å»ºè§’è‰²æ˜¯å¦æˆåŠŸ
+	int32 role_id= 2;//è§’è‰²ID
+	string nickname= 3;//æ˜µç§°
 	int32 job_id = 4;
 	int32 level = 5;
 }
 
 message StartGameRet{
-	CmdCode cmd_code = 1;//±íÊ¾ÇëÇóÊÇ·ñ³É¹¦
-	//½ÇÉ«ÊôĞÔĞÅÏ¢
+	CmdCode cmd_code = 1;//è¡¨ç¤ºè¯·æ±‚æ˜¯å¦æˆåŠŸ
+	//è§’è‰²çš„æ‰€æœ‰å±æ€§ä¿¡æ¯ï¼Œè§’è‰²æœ‰å¾ˆå¤šç±»ä¸‹ï¼Œä¸»è§’ï¼Œå…¶ä»–ç©å®¶ï¼ŒNPCï¼Œæ€ªå…½ç­‰ç­‰ã€‚
 	MainRoleInfo main_role_info = 2;
 }
 
-//½ÇÉ«»ù´¡ĞÅÏ¢
+//è§’è‰²åŸºç¡€ä¿¡æ¯
 message RoleBaseInfo{
-	int32 role_id= 1;//½ÇÉ«ID
-	string nickname= 2;//êÇ³Æ
+	int32 role_id = 1;
+	int32 account_id = 17;
+	string nickname = 2;
 	int32 level = 3;
-	int32 max_hp =4;
+	int32 job_id = 16;
+	int32 max_hp = 4;
 	int32 curr_hp = 5;
-	int32 max_mp = 6;
+	int32 max_mp= 6;
 	int32 curr_mp = 7;
-	int32 atk = 8;
+	int32 akt = 8;
 	int32 def = 9;
 	int32 crit = 10;
 	int32 dodge = 11;
@@ -84,14 +89,93 @@ message RoleBaseInfo{
 	int32 map_id = 15;
 }
 
-//Ö÷½ÇĞÅÏ¢
+//ä¸»è§’ä¿¡æ¯
 message MainRoleInfo{
 	RoleBaseInfo base_info = 1;
-	int32 account_id = 2;
-	int32 money = 3;
-	int32 job_id = 4;
+	int32 money=3;
 	int32 exp = 5;
-	int32 skill_up_point = 6;
-	string cam_offset = 7;
+	int32 skill_up_point= 6;
+	string camera_offset = 7;
 	int32 server_id = 8;
+}
+
+//è¿”å›çš„è§’è‰²æ‰€æœ‰æŠ€èƒ½ä¿¡æ¯æ•°æ®
+message RoleSkillInfoRet{
+	CmdCode cmd_code = 1;//è¡¨ç¤ºè¯·æ±‚æ˜¯å¦æˆåŠŸ
+	int32 role_id = 3;
+	repeated RoleSkillInfo role_skill_info_lst = 2;
+}
+
+//è§’è‰²çš„æŠ€èƒ½ä¿¡æ¯
+message RoleSkillInfo{
+	int32 skill_id = 1;
+	int32 level = 2;
+	string bind_key = 3;
+}
+
+//è§’è‰²çš„èƒŒåŒ…æ•°æ®
+message RoleKnapsackInfoRet{
+	CmdCode cmd_code = 1;//è¡¨ç¤ºè¯·æ±‚æ˜¯å¦æˆåŠŸ
+	int32 role_id = 3;
+	repeated RoleKnapsackSlot role_knapsack_slot_lst = 2;
+}
+
+//æ¯ä¸ªèƒŒåŒ…æ ¼å­æ•°æ®
+message RoleKnapsackSlot{
+	int32 slot_no = 1;//èƒŒåŒ…æ ¼å­ç¼–å·
+	int32 item_id= 2;//ç‰©å“id
+	int32 count = 3;
+}
+
+//è§’è‰²ç©¿æˆ´çš„è£…å¤‡ä¿¡æ¯åˆ—è¡¨æ•°æ®
+message RoleWearEquipInfoRet{
+	CmdCode cmd_code = 1;//è¡¨ç¤ºè¯·æ±‚æ˜¯å¦æˆåŠŸ
+	int32 role_id = 3;
+	repeated RoleWearEquipSlot role_wear_equip_lst = 2;
+}
+
+//æ¯ä¸ªç©¿æˆ´çš„è£…å¤‡æ ¼å­æ•°æ®
+message RoleWearEquipSlot{
+	int32 slot_no = 1;//è£…å¤‡æ ¼å­ç¼–å·
+	int32 item_id= 2;//ç‰©å“id
+	int32 type = 3;
+}
+
+//è§’è‰²è´­ä¹°å•†å“è¿”å›æ•°æ®
+message RoleBuyItemRet{
+	CmdCode cmd_code = 1;//è¡¨ç¤ºè¯·æ±‚æ˜¯å¦æˆåŠŸ
+	int32 money = 2;
+	RoleKnapsackSlot knapsack_slot = 3;
+}
+
+message PutOnEquipRet{
+	CmdCode cmd_code = 1;//è¡¨ç¤ºè¯·æ±‚æ˜¯å¦æˆåŠŸ
+	RoleWearEquipSlot wear_equip_slot = 2;
+	RoleKnapsackSlot knapsack_slot = 3;
+	RoleBaseInfo base_info = 4;
+}
+
+message UnloadEquipRet{
+	CmdCode cmd_code = 1;//è¡¨ç¤ºè¯·æ±‚æ˜¯å¦æˆåŠŸ
+	RoleWearEquipSlot wear_equip_slot = 2;
+	RoleKnapsackSlot knapsack_slot = 3;
+	RoleBaseInfo base_info = 4;
+}
+
+message OtherRoleMoveRet{
+	int32 role_id = 1;//è§’è‰²id
+	float pos_x = 2;
+	float pos_y =3;
+	float pos_z = 4;
+	float rotate_y = 5;
+	int64 server_time = 6;//é¢„ç•™å­—æ®µï¼Œ åœ¨è¿›è¡Œè§’è‰²åŒæ­¥çš„æ—¶å€™ï¼Œ å»¶è¿Ÿè¡¥å¿
+}
+
+message OtherRoleChangeStateRet{
+	int32 role_id = 1;//è§’è‰²id
+	int32 state = 2;
+}
+
+message OtherRoleExitGameRet{
+	int32 role_id = 1;//è§’è‰²id
 }

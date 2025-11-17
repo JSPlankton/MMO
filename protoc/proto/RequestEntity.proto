@@ -1,45 +1,106 @@
-syntax = "proto3"; //Ö¸¶¨protoÊ¹ÓÃproto3Óï·¨£¬²»Ö¸¶¨Ä¬ÈÏÊÇÊ¹ÓÃproto2
+syntax = "proto3"; //æŒ‡å®šprotoä½¿ç”¨proto3è¯­æ³•ï¼Œä¸æŒ‡å®šé»˜è®¤æ˜¯ä½¿ç”¨proto2
 
 message BasePackage{
-	int32 proto_code = 1;//Ğ­ÒéÂë
-	int32 unity_session_id=2;//unity¶ËµÄsessionID
-	int32 gate_session_id=3;//Íø¹Ø·şÎñÆ÷ÓëÓÎÏ··şÎñÆ÷Á¬½ÓµÄsessionID
-	bytes data = 10;//Êı¾İ
+	int32 proto_code = 1;//åè®®ç 
+	int32 unity_session_id=2;//unityç«¯çš„sessionID.
+	int32 gate_session_id=3;//ç½‘å…³æœåŠ¡å™¨ä¸æ¸¸æˆæœåŠ¡å™¨è¿æ¥çš„sessionID
+	bytes data = 10;//æ•°æ®
 }
 
 
 message RegistReq{
-	string user_name =1;//ÓÃ»§Ãû
-	string phone_num=2;//ÊÖ»úºÅ
-	string password = 3;//ÃÜÂë£»
+	string user_name =1;//ç”¨æˆ·å
+	string phone_num=2;//æ‰‹æœºå·
+	string password = 3;//å¯†ç ï¼›
 }
 
-//µÇÂ¼
+//ç™»å½•
 message LoginReq{
-	string user_name=1;//ÓÃ»§Ãû
-	string password= 2;//ÃÜÂë
+	string user_name=1;//ç”¨æˆ·å
+	string password= 2;//å¯†ç 
 }
 
-//»ñÈ¡·şÎñÆ÷ÁĞ±í
+//è·å–æœåŠ¡å™¨åˆ—è¡¨
 message GetServerListReq{
 	int32 server_id=1;//
 }
 
-//µÇÂ¼ÓÎÏ··şÎñÆ÷
+//ç™»å½•æ¸¸æˆæœåŠ¡å™¨
 message LoginGameServerReq{
 	int32 account_id = 1;//
 	int32 game_server_id=2;//
 }
 
-//´´½¨½ÇÉ«ÇëÇóÊı¾İ
+//åˆ›å»ºè§’è‰²è¯·æ±‚æ•°æ®
 message CreateRoleReq{
 	int32 account_id = 1;//
-	int32 game_server_id=2;//ËùÊôµÄ·şÎñÆ÷
-	string nickname =3;//êÇ³Æ
-	int32 job_id=4;//Ö°Òµ
+	int32 game_server_id=2;//æ‰€å±çš„æœåŠ¡å™¨
+	string nickname =3;//æ˜µç§°
+	int32 job_id=4;//èŒä¸š
 }
 
-//¿ªÊ¼ÓÎÏ·ÇëÇóÊı¾İ
 message StartGameReq{
-	int32 role_id = 1;//½ÇÉ«id
+	int32 role_id = 1;//è§’è‰²id
+}
+
+message EnterWroldReq{
+	int32 role_id = 1;//è§’è‰²id
+}
+
+//è§’è‰²è´­ä¹°å•†å“è¯·æ±‚å‚æ•°
+message RoleBuyItemReq{
+	int32 role_id = 1;//è§’è‰²id
+	int32 item_id = 2;
+	int32 count = 3;
+}
+
+//è§’è‰²é€€å‡ºæ¸¸æˆè¯·æ±‚å‚æ•°
+message RoleExitGameReq{
+	int32 role_id = 1;//è§’è‰²id
+}
+
+//è§’è‰²è¯·æ±‚ç§»åŠ¨èƒŒåŒ…æ ¼å­å‚æ•°
+message KnapsackSlotMoveReq{
+	int32 role_id = 1;//è§’è‰²id
+	int32 drag_slot_no = 2;
+	int32 target_slot_no = 3;
+}
+
+message KnapsackItemSplitReq{
+	int32 role_id = 1;//è§’è‰²id
+	int32 slot_no = 2;//
+}
+
+//æ•´ç†èƒŒåŒ…è¯·æ±‚å‚æ•°
+message KnapsackClearUpReq{
+	int32 role_id = 1;//è§’è‰²id
+}
+
+//ç©¿æˆ´è£…å¤‡è¯·æ±‚å‚æ•°
+message PutOnEquipReq{
+	int32 role_id = 1;//è§’è‰²id
+	int32 wear_equip_slot_no = 2;
+	int32 knapsack_slot_no = 3;
+}
+
+//å¸è½½è£…å¤‡è¯·æ±‚å‚æ•°
+message UnloadEquipReq{
+	int32 role_id = 1;//è§’è‰²id
+	int32 wear_equip_slot_no = 2;
+	int32 knapsack_slot_no = 3;
+}
+
+//è§’è‰²ç§»åŠ¨è¯·æ±‚å‚æ•°
+message RoleMoveReq{
+	int32 role_id = 1;//è§’è‰²id
+	float pos_x = 2;
+	float pos_y =3;
+	float pos_z = 4;
+	float rotate_y = 5;
+	int64 server_time = 6;//é¢„ç•™å­—æ®µï¼Œ åœ¨è¿›è¡Œè§’è‰²åŒæ­¥çš„æ—¶å€™ï¼Œ å»¶è¿Ÿè¡¥å¿
+}
+
+message RoleChangeStateReq{
+	int32 role_id = 1;//è§’è‰²id
+	int32 state = 2;
 }

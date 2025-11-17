@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -34,6 +35,11 @@ public class UIBase : MonoBehaviour
         return windowDic[windowType];
     }
 
+    public virtual void RefreshWindow(WindowType windowType, object obj)
+    {
+        windowDic[windowType].RefreshUI(obj);
+    }
+
     /// <summary>
     /// ¸ù¾ÝWindowTypeÏÔÊ¾Window
     /// </summary>
@@ -66,12 +72,9 @@ public class UIBase : MonoBehaviour
             }
             else
             {
-                windowDic[windowType].Show();
+                windowDic[windowType].Show(true, obj);
             }
         }
 
     }
-
-
-
 }

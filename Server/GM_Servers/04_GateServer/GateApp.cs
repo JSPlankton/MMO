@@ -21,6 +21,7 @@ namespace _04_GateServer
             server.StartServer(NetDefine.IPHost, NetDefine.GateServerPort);
 
             Gate_LoginCtrl loginCtrl = new Gate_LoginCtrl();
+            Gate_RoleCtrl roleCtrl = new Gate_RoleCtrl();
             //注册指令集
             server.RegistCommand(NetDefine.CMD_LoginGameServerCode, loginCtrl);
             server.RegistCommand(NetDefine.CMD_CreateRoleCode, loginCtrl);
@@ -28,7 +29,11 @@ namespace _04_GateServer
 
             client.RegistCommand(NetDefine.CMD_StartGameCode, loginCtrl);
             client.RegistCommand(NetDefine.CMD_LoginGameServerCode, loginCtrl);
-            client.RegistCommand(NetDefine.CMD_CreateRoleCode, loginCtrl); 
+            client.RegistCommand(NetDefine.CMD_CreateRoleCode, loginCtrl);
+
+            //角色相关的指令集注册
+            server.RegistCommand(NetDefine.CMD_EnterWroldCode, roleCtrl);
+            client.RegistCommand(NetDefine.CMD_RoleSkillInfoCode, roleCtrl);
 
             while (true)
             {

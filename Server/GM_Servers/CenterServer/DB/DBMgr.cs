@@ -25,7 +25,7 @@ internal class DBMgr : Singleton<DBMgr>
         db.DbMaintenance.CreateDatabase();//达梦和Oracle不支持建库
 
         //建表（看文档迁移）
-        db.CodeFirst.InitTables(typeof(AccountTable), typeof(GameServerTable), typeof(RoleTable)); //所有库都支持
+        db.CodeFirst.InitTables(typeof(AccountTable), typeof(GameServerTable), typeof(RoleTable), typeof(RoleSkillTable)); //所有库都支持
 
         //for (int i = 0; i < 20; i++)
         //{

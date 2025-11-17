@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Google.Protobuf;
 using UnityEngine;
 
 public class MainCityMgr : MonoSingleton<MainCityMgr>
@@ -21,7 +23,17 @@ public class MainCityMgr : MonoSingleton<MainCityMgr>
         //创建主角
         CreateRole(RoleType.MainRole, _mrInfo.BaseInfo, "Role/Role_JX");
 
-        //向服务端发送 主角已经进入游戏世界
+        //2.向服务端发送  主角已经进入游戏世界，  把自己的数据发送给附近的其他玩家， 其他玩家的数据发送给自己，
+        //再把角色的技能相关的数据返回回来
+        //再把角色的背包相关的数据返回回来
+        //再把角色穿戴的装备信息返回回来
+        //
+
+        EnterWroldReq req = new EnterWroldReq()
+        {
+            RoleId = _mrInfo.BaseInfo.RoleId,
+        };
+        NetSocketMgr.Client.SendData(NetDefine.CMD_EnterWroldCode, req.ToByteString());
     }
 
     /// <summary>

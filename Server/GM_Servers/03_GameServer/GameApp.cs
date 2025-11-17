@@ -21,6 +21,7 @@ namespace _03_GameServer
             server.StartServer(NetDefine.IPHost, NetDefine.GameServerPort);
 
             Game_LoginCtrl loginCtrl = new Game_LoginCtrl();
+            Game_RoleCtrl roleCtrl = new Game_RoleCtrl();
             //注册指令集
             server.RegistCommand(NetDefine.CMD_LoginGameServerCode, loginCtrl);
             server.RegistCommand(NetDefine.CMD_CreateRoleCode, loginCtrl);
@@ -29,6 +30,9 @@ namespace _03_GameServer
             client.RegistCommand(NetDefine.CMD_StartGameCode, loginCtrl);
             client.RegistCommand(NetDefine.CMD_LoginGameServerCode, loginCtrl);
             client.RegistCommand(NetDefine.CMD_CreateRoleCode, loginCtrl);
+
+            server.RegistCommand(NetDefine.CMD_EnterWroldCode, roleCtrl);
+            client.RegistCommand(NetDefine.CMD_RoleSkillInfoCode, roleCtrl);
 
             while (true)
             {

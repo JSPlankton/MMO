@@ -32,7 +32,7 @@ public class Global : MonoBehaviour
 
 
         NetSocketMgr.Instance.Init();
-
+        LubanMgr.Instance.Init();
     }
 
     private void OnApplicationQuit()

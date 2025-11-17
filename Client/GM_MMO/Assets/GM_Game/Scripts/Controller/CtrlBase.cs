@@ -1,3 +1,4 @@
+using Google.Protobuf.Collections;
 using System;
 using UnityEngine;
 
@@ -38,7 +39,10 @@ public class CtrlBase : IDisposable
         _view.ShowWindow(windowType, obj);
     }
 
-
+    public virtual void RefreshWindow(WindowType windowType, object obj = null)
+    {
+        _view.RefreshWindow(windowType, obj);
+    }
 
     /// <summary>
     /// œ‘ æWindow

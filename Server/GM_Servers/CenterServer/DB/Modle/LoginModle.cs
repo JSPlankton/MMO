@@ -1,6 +1,7 @@
 ﻿using SqlSugar;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -60,9 +61,12 @@ public class LoginModle
                 UpdateDate = DateTime.Now,
             };
 
-            if (_db.Insertable(role).ExecuteCommand() > 0)
+            int id = _db.Insertable(role).ExecuteReturnIdentity();
+            if (id > 0)
             {
-                ret.RoleId = role.Id;
+                //为角色创建技能信息
+                CreateRoleSKillInfo(id, role.JobID);
+                ret.RoleId = id;
                 ret.Nickname = role.Nickname;
                 ret.JobId = role.JobID;
                 ret.Level = role.Level;
@@ -76,6 +80,48 @@ public class LoginModle
 
 
         return ret;
+    }
+
+    /// <summary>
+    /// 为角色创建技能信息
+    /// </summary>
+    /// <param name="roleId"></param>
+    /// <exception cref="NotImplementedException"></exception>
+    private void CreateRoleSKillInfo(int roleId, int jobId)
+    {
+        //删除技能表的数据
+        var roleSkillTables = _db.Queryable<RoleSkillTable>().Where(v => v.RoleId == roleId).ToList();
+        if (roleSkillTables != null && roleSkillTables.Count > 0)
+        {
+            _db.Deleteable(roleSkillTables).ExecuteCommand();
+            roleSkillTables.Clear();
+        }
+        else
+        {
+            roleSkillTables = new List<RoleSkillTable>();
+        }
+
+        //为角色添加技能数据
+        var skillInfoDic = LubanMgr.Instance.GetSkillInfosByJobId(jobId);
+        foreach (var item in skillInfoDic) {
+            RoleSkillTable roleSkillTable = new RoleSkillTable() {
+                RoleId = roleId,
+                SkillId = item.Value.Id,
+                Level = 0,
+                BindKey = "",
+                CreateDate = DateTime.Now,
+                UpdateDate = DateTime.Now,
+            };
+
+            //添加默认普通技能
+            if (roleSkillTable.SkillId == 10010)
+            {
+                roleSkillTable.Level = 1;
+                roleSkillTable.BindKey = "Q";
+            }
+            roleSkillTables.Add(roleSkillTable);
+        }
+        _db.Insertable(roleSkillTables).ExecuteCommand();
     }
 
     /// <summary>
@@ -261,41 +307,45 @@ public class LoginModle
     {
         StartGameRet ret = new StartGameRet();
 
-        RoleTable roleTable = _db.Queryable<RoleTable>().Where(v => v.Id == req.RoleId).First();
-        if (roleTable != null)
+        RoleTable role = _db.Queryable<RoleTable>().Where(v => v.Id == req.RoleId).First();
+        if (role != null)
         {
             //角色基础信息
-            RoleBaseInfo baseInfo = new RoleBaseInfo() { 
-                RoleId = roleTable.Id,
-                Nickname = roleTable.Nickname,
-                Level = roleTable.Level,
-                MaxHp = roleTable.MaxHP,
-                CurrHp = roleTable.CurrHP,
-                MaxMp = roleTable.MaxMP,
-                CurrMp = roleTable.CurrMP,
-                Atk = roleTable.Atk,
-                Def = roleTable.Def,
-                Crit = roleTable.Crit,
-                Dodge = roleTable.Dodeg,
-                Hit = roleTable.Hit,
-                Penet = roleTable.Penet,
-                Pos = roleTable.Pos,
-                MapId = roleTable.MapId,
+            RoleBaseInfo baseInfo = new RoleBaseInfo()
+            {
+                RoleId = role.Id,
+                AccountId = role.AccountID,
+                Nickname = role.Nickname,
+                Level = role.Level,
+                JobId = role.JobID,
+                MaxHp = role.MaxHP,
+                CurrHp = role.CurrHP,
+                MaxMp = role.MaxMP,
+                CurrMp = role.CurrMP,
+                Akt = role.Atk,
+                Def = role.Def,
+                Crit = role.Crit,
+                Dodge = role.Dodeg,
+                Hit = role.Hit,
+                Penet = role.Penet,
+                Pos = role.Pos,
+                MapId = role.MapId,
             };
+
             //主角信息
-            MainRoleInfo roleInfo = new MainRoleInfo() { 
+            MainRoleInfo mainRoleInfo = new MainRoleInfo()
+            {
                 BaseInfo = baseInfo,
-                AccountId = roleTable.AccountID,
-                Money = roleTable.Money,
-                JobId = roleTable.JobID,
-                Exp = roleTable.Exp,
-                SkillUpPoint = roleTable.SkillUpPoint,
-                CamOffset = roleTable.CameraOffset,
-                ServerId = roleTable.ServerId,
+                Money = role.Money,
+                Exp = role.Exp,
+                SkillUpPoint = role.SkillUpPoint,
+                CameraOffset = role.CameraOffset,
+                ServerId = role.ServerId,
             };
 
-            ret.MainRoleInfo = roleInfo;
-
+            ret.MainRoleInfo = mainRoleInfo;
+            //存储当开始游戏的角色信息数据
+            //Center_Global.Instance.AddRole(role.Id, mainRoleInfo);
         }
         else
         {

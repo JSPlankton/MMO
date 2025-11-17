@@ -69,7 +69,7 @@ public class RoleCurrtInfoWindow : WindowBase
         {
             string headPath = "";
             string jobStr = "";
-            if (mrInfo.JobId == 1)
+            if (mrInfo.BaseInfo.JobId == 1)
             {
                 headPath = "Icon/head_jianxiu";
                 jobStr = "½£ÐÞ";
